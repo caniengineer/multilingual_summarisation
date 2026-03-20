@@ -1,6 +1,19 @@
+import json
+from unittest.mock import AsyncMock, MagicMock, patch
+
 import pytest
 from app.providers.base import SummarizationProvider, SumResult
 from app.models import SummarizeConfig, EvaluationScores
+from app.providers.anthropic import AnthropicProvider
+
+
+def _mock_anthropic_response(content_text: str, input_tokens: int = 100, output_tokens: int = 50):
+    """Create a mock Anthropic API response."""
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text=content_text)]
+    mock_resp.usage.input_tokens = input_tokens
+    mock_resp.usage.output_tokens = output_tokens
+    return mock_resp
 
 
 def test_sum_result_creation():
@@ -30,3 +43,83 @@ def test_protocol_is_runtime_checkable():
         def max_context_tokens(self): return 1000
 
     assert isinstance(FakeProvider(), SummarizationProvider)
+
+
+@pytest.mark.asyncio
+async def test_anthropic_summarize():
+    mock_response = _mock_anthropic_response(
+        json.dumps({
+            "summary": "This is a test summary.",
+            "detected_language": "en",
+            "code_switching_detected": False,
+        })
+    )
+
+    provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
+
+    with patch.object(provider._client.messages, "create", new_callable=AsyncMock, return_value=mock_response):
+        config = SummarizeConfig(target_language="en", summary_type="brief", max_length=100)
+        result = await provider.summarize("Test document text.", config)
+
+    assert result.summary == "This is a test summary."
+    assert result.detected_language == "en"
+    assert result.code_switching_detected is False
+    assert result.model_used == "claude-sonnet-4-20250514"
+    assert result.input_tokens == 100
+    assert result.output_tokens == 50
+
+
+@pytest.mark.asyncio
+async def test_anthropic_summarize_auto_language():
+    mock_response = _mock_anthropic_response(
+        json.dumps({
+            "summary": "Ringkasan dokumen ini.",
+            "detected_language": "ms",
+            "code_switching_detected": True,
+        })
+    )
+
+    provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
+
+    with patch.object(provider._client.messages, "create", new_callable=AsyncMock, return_value=mock_response):
+        config = SummarizeConfig(target_language="auto", summary_type="brief", max_length=100)
+        result = await provider.summarize("Dokumen campuran with English.", config)
+
+    assert result.detected_language == "ms"
+    assert result.code_switching_detected is True
+
+
+@pytest.mark.asyncio
+async def test_anthropic_evaluate():
+    mock_response = _mock_anthropic_response(
+        json.dumps({
+            "faithfulness": 4.5,
+            "coherence": 4.0,
+            "coverage": 3.8,
+            "language_quality": 4.2,
+            "conciseness": 4.0,
+            "justification": "Good summary with minor gaps.",
+        })
+    )
+
+    provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
+
+    with patch.object(provider._client.messages, "create", new_callable=AsyncMock, return_value=mock_response):
+        result = await provider.evaluate(
+            source="Original document text here.",
+            summary="A brief summary.",
+            target_language="en",
+        )
+
+    assert result.faithfulness == 4.5
+    assert result.justification == "Good summary with minor gaps."
+
+
+def test_anthropic_provider_name():
+    provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
+    assert provider.name == "claude-sonnet-4-20250514"
+
+
+def test_anthropic_provider_max_tokens():
+    provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
+    assert provider.max_context_tokens == 200_000
