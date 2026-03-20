@@ -1,7 +1,6 @@
 # tests/test_main.py
-import json
 import pytest
-from unittest.mock import AsyncMock, patch, MagicMock
+from unittest.mock import AsyncMock
 from httpx import AsyncClient, ASGITransport
 from app.main import create_app
 from app.providers.base import SumResult

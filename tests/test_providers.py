@@ -3,7 +3,7 @@ from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
 from app.providers.base import SummarizationProvider, SumResult
-from app.models import SummarizeConfig, EvaluationScores
+from app.models import SummarizeConfig
 from app.providers.anthropic import AnthropicProvider
 
 

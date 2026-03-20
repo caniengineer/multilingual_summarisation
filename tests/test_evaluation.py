@@ -1,9 +1,7 @@
 # tests/test_evaluation.py
-import json
 import pytest
-from unittest.mock import AsyncMock, MagicMock, patch
+from unittest.mock import AsyncMock
 from app.evaluation import evaluate_summary
-from app.providers.anthropic import AnthropicProvider
 from app.models import EvaluationScores
 
 
