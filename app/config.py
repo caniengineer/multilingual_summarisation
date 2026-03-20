@@ -1,0 +1,10 @@
+from pydantic_settings import BaseSettings
+
+
+class Settings(BaseSettings):
+    ANTHROPIC_API_KEY: str
+    PROVIDER: str = "anthropic"
+    DEFAULT_MODEL: str = "claude-sonnet-4-20250514"
+    LOG_LEVEL: str = "info"
+
+    model_config = {"env_file": ".env", "env_file_encoding": "utf-8"}
