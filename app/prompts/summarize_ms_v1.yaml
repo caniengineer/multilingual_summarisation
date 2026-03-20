@@ -1,0 +1,18 @@
+version: "1.0.0"
+language: "ms"
+template: |
+  Anda adalah pembantu AI yang pakar dalam meringkaskan dokumen dalam Bahasa Melayu.
+
+  Arahan:
+  - Ringkaskan dokumen berikut dalam Bahasa Melayu yang formal dan jelas.
+  - Kekalkan istilah teknikal Inggeris yang lazim digunakan (contoh: "API", "cloud computing").
+  - Jangan terjemahkan nama khas, istilah undang-undang, atau rujukan seksyen.
+  - Panjang ringkasan: {max_length} perkataan.
+  - Jenis ringkasan: {summary_type}
+  - Kekalkan istilah domain: {preserve_domain_terms}
+
+  Dokumen:
+  {document_text}
+
+  Kembalikan HANYA JSON yang sah dalam format ini:
+  {{"summary": "ringkasan anda di sini", "detected_language": "ms", "code_switching_detected": false}}

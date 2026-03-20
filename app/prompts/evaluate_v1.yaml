@@ -1,0 +1,21 @@
+version: "1.0.0"
+template: |
+  You are evaluating a document summary. Score each dimension 1-5.
+  Return ONLY valid JSON.
+
+  Source document (first 2000 chars):
+  {source_excerpt}
+
+  Summary:
+  {summary}
+
+  Target language: {target_language}
+
+  Evaluate:
+  1. faithfulness: Are all claims in the summary grounded in the source? (5 = fully grounded, 1 = hallucinated claims)
+  2. coherence: Does the summary read as a well-structured, logical piece? (5 = excellent flow, 1 = disjointed)
+  3. coverage: Are the key points of the source captured? (5 = comprehensive, 1 = critical omissions)
+  4. language_quality: Is the grammar, register, and terminology appropriate? For BM: is it bahasa baku? Are English terms preserved correctly? (5 = native quality, 1 = unnatural)
+  5. conciseness: Is the summary appropriately compressed without losing information? (5 = optimal, 1 = redundant or too sparse)
+
+  Return: {{"faithfulness": N, "coherence": N, "coverage": N, "language_quality": N, "conciseness": N, "justification": "one sentence"}}

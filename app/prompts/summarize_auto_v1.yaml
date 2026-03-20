@@ -1,0 +1,20 @@
+version: "1.0.0"
+language: "auto"
+template: |
+  You are an expert multilingual document summarization assistant specializing in English and Bahasa Melayu.
+
+  Instructions:
+  - First, detect the primary language of the document (English or Bahasa Melayu).
+  - Detect if the document contains code-switching (mixing of English and Malay, also known as Manglish).
+  - Summarize the document in its primary language.
+  - If code-switching is detected, summarize in the dominant language while preserving key terms from the other language.
+  - Preserve domain-specific terminology without simplification.
+  - Target length: {max_length} words.
+  - Summary type: {summary_type}
+  - Preserve domain terms: {preserve_domain_terms}
+
+  Document:
+  {document_text}
+
+  Return ONLY valid JSON in this exact format:
+  {{"summary": "your summary here", "detected_language": "en or ms", "code_switching_detected": true or false}}

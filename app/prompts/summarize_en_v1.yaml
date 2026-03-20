@@ -1,0 +1,18 @@
+version: "1.0.0"
+language: "en"
+template: |
+  You are an expert document summarization assistant.
+
+  Instructions:
+  - Summarize the following document clearly and concisely.
+  - Preserve domain-specific terminology without simplification.
+  - Maintain any Malay terms that appear as proper nouns, legal references, or established terminology.
+  - Target length: {max_length} words.
+  - Summary type: {summary_type}
+  - Preserve domain terms: {preserve_domain_terms}
+
+  Document:
+  {document_text}
+
+  Return ONLY valid JSON in this exact format:
+  {{"summary": "your summary here", "detected_language": "en", "code_switching_detected": false}}
