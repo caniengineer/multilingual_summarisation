@@ -1,23 +1,8 @@
-import json
-import re
-
 import anthropic
 
 from app.models import SummarizeConfig, EvaluationScores
 from app.prompt_loader import PromptLoader
-from app.providers.base import SumResult
-
-
-def _parse_llm_json(text: str) -> dict:
-    """Parse JSON from LLM response, stripping markdown fences if present."""
-    cleaned = re.sub(r"^```(?:json)?\s*\n?", "", text.strip())
-    cleaned = re.sub(r"\n?```\s*$", "", cleaned)
-    try:
-        return json.loads(cleaned)
-    except json.JSONDecodeError as e:
-        raise ValueError(
-            f"LLM returned malformed JSON: {e}. Response was: {text[:200]}"
-        ) from e
+from app.providers.base import SumResult, parse_llm_json
 
 
 class AnthropicProvider:
@@ -49,7 +34,7 @@ class AnthropicProvider:
             messages=[{"role": "user", "content": rendered}],
         )
 
-        result = _parse_llm_json(response.content[0].text)
+        result = parse_llm_json(response.content[0].text)
 
         return SumResult(
             summary=result["summary"],
@@ -74,5 +59,5 @@ class AnthropicProvider:
             messages=[{"role": "user", "content": rendered}],
         )
 
-        result = _parse_llm_json(response.content[0].text)
+        result = parse_llm_json(response.content[0].text)
         return EvaluationScores(**result)

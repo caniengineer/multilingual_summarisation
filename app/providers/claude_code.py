@@ -1,22 +1,9 @@
 import asyncio
 import json
-import re
 
 from app.models import SummarizeConfig, EvaluationScores
 from app.prompt_loader import PromptLoader
-from app.providers.base import SumResult
-
-
-def _parse_llm_json(text: str) -> dict:
-    """Parse JSON from LLM response, stripping markdown fences if present."""
-    cleaned = re.sub(r"^```(?:json)?\s*\n?", "", text.strip())
-    cleaned = re.sub(r"\n?```\s*$", "", cleaned)
-    try:
-        return json.loads(cleaned)
-    except json.JSONDecodeError as e:
-        raise ValueError(
-            f"LLM returned malformed JSON: {e}. Response was: {text[:200]}"
-        ) from e
+from app.providers.base import SumResult, parse_llm_json
 
 
 class ClaudeCodeProvider:
@@ -73,7 +60,7 @@ class ClaudeCodeProvider:
         })
 
         response = await self._call_claude(rendered)
-        result = _parse_llm_json(response["result"])
+        result = parse_llm_json(response["result"])
 
         return SumResult(
             summary=result["summary"],
@@ -93,6 +80,6 @@ class ClaudeCodeProvider:
         })
 
         response = await self._call_claude(rendered)
-        result = _parse_llm_json(response["result"])
+        result = parse_llm_json(response["result"])
 
         return EvaluationScores(**result)

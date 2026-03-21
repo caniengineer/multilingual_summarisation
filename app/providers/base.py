@@ -1,7 +1,21 @@
+import json
+import re
 from dataclasses import dataclass
 from typing import Protocol, runtime_checkable
 
 from app.models import SummarizeConfig, EvaluationScores
+
+
+def parse_llm_json(text: str) -> dict:
+    """Parse JSON from LLM response, stripping markdown fences if present."""
+    cleaned = re.sub(r"^```(?:json)?\s*\n?", "", text.strip())
+    cleaned = re.sub(r"\n?```\s*$", "", cleaned)
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError as e:
+        raise ValueError(
+            f"LLM returned malformed JSON: {e}. Response was: {text[:200]}"
+        ) from e
 
 
 @dataclass
