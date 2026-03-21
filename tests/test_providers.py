@@ -5,6 +5,7 @@ import pytest
 from app.providers.base import SummarizationProvider, SumResult
 from app.models import SummarizeConfig
 from app.providers.anthropic import AnthropicProvider
+from app.providers.claude_code import ClaudeCodeProvider
 
 
 def _mock_anthropic_response(content_text: str, input_tokens: int = 100, output_tokens: int = 50):
@@ -122,4 +123,19 @@ def test_anthropic_provider_name():
 
 def test_anthropic_provider_max_tokens():
     provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
+    assert provider.max_context_tokens == 200_000
+
+
+def test_claude_code_provider_satisfies_protocol():
+    provider = ClaudeCodeProvider(model="claude-sonnet-4-20250514")
+    assert isinstance(provider, SummarizationProvider)
+
+
+def test_claude_code_provider_name():
+    provider = ClaudeCodeProvider(model="claude-sonnet-4-20250514")
+    assert provider.name == "claude-code/claude-sonnet-4-20250514"
+
+
+def test_claude_code_provider_max_tokens():
+    provider = ClaudeCodeProvider(model="claude-sonnet-4-20250514")
     assert provider.max_context_tokens == 200_000
