@@ -25,4 +25,6 @@ class PromptLoader:
         rendered = template
         for key, value in variables.items():
             rendered = rendered.replace(f"{{{key}}}", str(value))
+        # Unescape doubled braces used to protect literal braces from substitution
+        rendered = rendered.replace("{{", "{").replace("}}", "}")
         return rendered
