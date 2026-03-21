@@ -1,0 +1,14 @@
+{
+  "id": "xlsum_en_005",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "text": "Just a fifth said they were optimistic about the way the country was going, according to the survey commissioned by the British Council. One thousand young people in both Northern Ireland and the Republic of Ireland were surveyed. Questions focussed on issues such as education, social issues and politics. About 20% of respondents from Northern Ireland felt optimistic about their country's future, compared to 53% in the Republic. The Next Generation Ireland-Northern Ireland report was carried out by the Institute for Conflict Research (ICR) involving face-to-face meetings with 1,000 young people aged 18 to 30 from across the island, with an even split between Northern Ireland and the Republic. There were also 16 accompanying focus groups, which were geographically distributed across the island. Jobs Jobs were of significant concern for those surveyed on both sides of the border, but concerns were particularly \"profound\" in Northern Ireland where 90% said they were worried about \"a lack of jobs\" to \"a great extent\" or \"to some extent\". That was compared with 65% in the Republic. The survey also reported a lack of faith in political institutions: The survey comes as the second anniversary of the collapse of the Northern Ireland Executive nears. A similar number of people on both sides of the border had concerns about Brexit, with 52% of respondents in the Republic and 55% in Northern Ireland concerned to a \"great extent\" or to \"some extent\". In Northern Ireland, 50% of respondents suggested that their education prepared them to either a \"great extent\" or \"some extent\" to live independently, compared to 62% in Ireland. A perceived lack of affordable housing was also an issue, with 88% expressing concerns in the Republic and 79% in Northern Ireland.",
+  "reference_summary": "Nine out of 10 young people in Northern Ireland questioned for a survey said they were worried about their job prospects.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "xlsum_en_004",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "text": "David Ewart had plunged head first into deep snow seconds after setting off on a ski run in Austria that had been closed because of an avalanche risk. Mr Ewart, 48, of Hade Edge, near Huddersfield, West Yorkshire, had let out a \"whoop and a smile\" as he set off, Bradford Coroner's Court heard. Mr Ewart had believed the slope was open, the hearing was told. He died during a trip to St Anton am Arlberg on 8 March. Mr Ewart had been on the trip with seven old university friends, two of whom made desperate attempts to dig him out, the inquest heard. Kathryn, his wife and mother of their two daughters, said in a statement to the inquest: \"David was a very happy man and loved his family. I will miss him every day.\" At the time Mr Ewart was with Jamie Lord and Shaun Cannon, when they decided to go on one last run. Mr Lord told the hearing: \"David gave out a little whoop of delight, a smile on his face. The next thing I could not see him.\" Mr Ewart had gone over a ridge and landed in a crevasse. \"Throughout David was making muffled noises and moved his legs,\" Mr Lord said in a statement. It took six people to finally pull him out after rescuers arrived, but a doctor pronounced Mr Ewart dead at the scene. A post-mortem examination in Austria revealed the cause of death as suffocation. Coroner Martin Fleming, concluded: \"I find it more likely than not he died as a result of misadventure.\"",
+  "reference_summary": "A man suffocated in a snowboarding accident when he fell into a crevasse, an inquest has heard.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  }
+}

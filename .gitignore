@@ -59,3 +59,9 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# Evaluation results
+results/
+
+# Sensitive files
+ali.md

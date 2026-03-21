@@ -1,6 +1,6 @@
 # Evaluation & Testing Implementation Plan
 
-> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
+> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development to implement this plan task-by-task.
 
 **Goal:** Build a runnable evaluation script that tests the multilingual summarization API against ~25 curated samples from XL-Sum and code-switching sources, computing chrF++ and optional LLM-as-Judge scores.
 
