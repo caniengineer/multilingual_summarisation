@@ -1,5 +1,8 @@
 import json
+import os
 from unittest.mock import AsyncMock, MagicMock, patch
+
+from app.config import Settings
 
 import pytest
 from app.providers.base import SummarizationProvider, SumResult
@@ -239,3 +242,19 @@ async def test_claude_code_is_error_flag():
         config = SummarizeConfig(target_language="en", summary_type="brief", max_length=100)
         with pytest.raises(RuntimeError, match="claude returned an error"):
             await provider.summarize("Test.", config)
+
+
+def test_settings_claude_code_no_api_key_required(monkeypatch):
+    """ANTHROPIC_API_KEY should be optional when PROVIDER is claude-code."""
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.setenv("PROVIDER", "claude-code")
+    settings = Settings()
+    assert settings.PROVIDER == "claude-code"
+    assert settings.ANTHROPIC_API_KEY is None
+
+
+def test_settings_claude_code_model_default(monkeypatch):
+    monkeypatch.setenv("PROVIDER", "claude-code")
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    settings = Settings()
+    assert settings.CLAUDE_CODE_MODEL == "claude-sonnet-4-20250514"
