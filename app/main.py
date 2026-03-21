@@ -13,6 +13,7 @@ from app.models import (
 )
 from app.processor import DocumentProcessor
 from app.providers.anthropic import AnthropicProvider
+from app.providers.claude_code import ClaudeCodeProvider
 from app.config import Settings
 
 
@@ -28,10 +29,19 @@ def create_app(provider=None) -> FastAPI:
 
     if provider is None:
         settings = Settings()
-        provider = AnthropicProvider(
-            api_key=settings.ANTHROPIC_API_KEY,
-            model=settings.DEFAULT_MODEL,
-        )
+        if settings.PROVIDER == "anthropic":
+            if not settings.ANTHROPIC_API_KEY:
+                raise ValueError("ANTHROPIC_API_KEY is required when PROVIDER=anthropic")
+            provider = AnthropicProvider(
+                api_key=settings.ANTHROPIC_API_KEY,
+                model=settings.DEFAULT_MODEL,
+            )
+        elif settings.PROVIDER == "claude-code":
+            provider = ClaudeCodeProvider(
+                model=settings.CLAUDE_CODE_MODEL,
+            )
+        else:
+            raise ValueError(f"Unknown provider: {settings.PROVIDER}")
 
     @app.get("/v1/health", response_model=HealthResponse)
     async def health():

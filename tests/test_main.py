@@ -105,3 +105,20 @@ async def test_summarize_default_config(app, mock_provider):
     assert resp.status_code == 200
     data = resp.json()
     assert data["metadata"]["evaluation"] is None
+
+
+def test_create_app_with_claude_code_provider(monkeypatch):
+    monkeypatch.setenv("PROVIDER", "claude-code")
+    monkeypatch.setenv("CLAUDE_CODE_MODEL", "claude-sonnet-4-20250514")
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+
+    app = create_app()
+    assert app is not None
+
+
+def test_create_app_with_unknown_provider(monkeypatch):
+    monkeypatch.setenv("PROVIDER", "unknown")
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "sk-test")
+
+    with pytest.raises(ValueError, match="Unknown provider"):
+        create_app()
