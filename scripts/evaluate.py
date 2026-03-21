@@ -34,6 +34,10 @@ RESULTS_DIR = Path(__file__).parent.parent / "results"
 
 def load_manifest() -> dict:
     manifest_path = DATA_DIR / "manifest.json"
+    if not manifest_path.exists():
+        print(f"Manifest not found: {manifest_path}")
+        print("Run scripts/prepare_data.py first.")
+        sys.exit(1)
     with open(manifest_path) as f:
         return json.load(f)
 
@@ -86,14 +90,23 @@ async def run_evaluation(samples: list[dict], use_judge: bool) -> list[dict]:
                 config["evaluate"] = True
 
             start = time.time()
-            resp = await client.post(
-                "/v1/summarize",
-                json={
-                    "document": sample["text"],
-                    "document_type": "txt",
-                    "config": config,
-                },
-            )
+            try:
+                resp = await client.post(
+                    "/v1/summarize",
+                    json={
+                        "document": sample["text"],
+                        "document_type": "txt",
+                        "config": config,
+                    },
+                )
+            except httpx.HTTPError as e:
+                print(f"ERROR ({e})")
+                results.append({
+                    "id": sample_id,
+                    "category": sample["category"],
+                    "error": str(e),
+                })
+                continue
             elapsed_ms = int((time.time() - start) * 1000)
 
             if resp.status_code != 200:
@@ -124,8 +137,8 @@ async def run_evaluation(samples: list[dict], use_judge: bool) -> list[dict]:
                 ),
             }
 
-            # chrF++ only if reference exists
-            if sample.get("has_reference") and sample.get("reference_summary"):
+            # chrF++ only if reference summary exists
+            if sample.get("has_reference", False) and sample.get("reference_summary"):
                 result["chrf"] = compute_chrf(
                     data["summary"], sample["reference_summary"]
                 )
@@ -188,7 +201,7 @@ def aggregate_results(results: list[dict]) -> dict:
             agg["chrf_max"] = max(chrf_scores)
 
         agg["compression_avg"] = sum(compressions) / len(compressions) if compressions else 0
-        agg["latency_avg_ms"] = sum(latencies) // len(latencies) if latencies else 0
+        agg["latency_avg_ms"] = round(sum(latencies) / len(latencies)) if latencies else 0
         agg["language_match"] = f"{len(lang_matches)}/{len(cat_results)}"
 
         # Code-switching detection rate (only for codeswitching category)
