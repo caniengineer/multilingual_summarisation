@@ -50,7 +50,10 @@ def create_app(provider=None) -> FastAPI:
         except ValueError as e:
             raise HTTPException(status_code=400, detail=str(e))
 
-        result = await provider.summarize(doc.text, request.config)
+        try:
+            result = await provider.summarize(doc.text, request.config)
+        except ValueError as e:
+            raise HTTPException(status_code=502, detail=str(e))
 
         latency_ms = int((time.time() - start) * 1000)
 

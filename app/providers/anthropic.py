@@ -1,10 +1,23 @@
 import json
+import re
 
 import anthropic
 
 from app.models import SummarizeConfig, EvaluationScores
 from app.prompt_loader import PromptLoader
 from app.providers.base import SumResult
+
+
+def _parse_llm_json(text: str) -> dict:
+    """Parse JSON from LLM response, stripping markdown fences if present."""
+    cleaned = re.sub(r"^```(?:json)?\s*\n?", "", text.strip())
+    cleaned = re.sub(r"\n?```\s*$", "", cleaned)
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError as e:
+        raise ValueError(
+            f"LLM returned malformed JSON: {e}. Response was: {text[:200]}"
+        ) from e
 
 
 class AnthropicProvider:
@@ -36,7 +49,7 @@ class AnthropicProvider:
             messages=[{"role": "user", "content": rendered}],
         )
 
-        result = json.loads(response.content[0].text)
+        result = _parse_llm_json(response.content[0].text)
 
         return SumResult(
             summary=result["summary"],
@@ -50,7 +63,7 @@ class AnthropicProvider:
     async def evaluate(self, source: str, summary: str, target_language: str) -> EvaluationScores:
         prompt_data = self._prompt_loader.load("evaluate")
         rendered = self._prompt_loader.render(prompt_data["template"], {
-            "source_excerpt": source[:2000],
+            "source_excerpt": source,
             "summary": summary,
             "target_language": target_language,
         })
@@ -61,5 +74,5 @@ class AnthropicProvider:
             messages=[{"role": "user", "content": rendered}],
         )
 
-        result = json.loads(response.content[0].text)
+        result = _parse_llm_json(response.content[0].text)
         return EvaluationScores(**result)

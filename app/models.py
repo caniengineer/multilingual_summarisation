@@ -1,5 +1,5 @@
 from typing import Literal, Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class SummarizeConfig(BaseModel):
@@ -11,17 +11,17 @@ class SummarizeConfig(BaseModel):
 
 
 class SummarizeRequest(BaseModel):
-    document: str
+    document: str = Field(max_length=500_000)
     document_type: Literal["txt"] = "txt"
     config: SummarizeConfig = SummarizeConfig()
 
 
 class EvaluationScores(BaseModel):
-    faithfulness: float
-    coherence: float
-    coverage: float
-    language_quality: float
-    conciseness: float
+    faithfulness: float = Field(ge=1.0, le=5.0)
+    coherence: float = Field(ge=1.0, le=5.0)
+    coverage: float = Field(ge=1.0, le=5.0)
+    language_quality: float = Field(ge=1.0, le=5.0)
+    conciseness: float = Field(ge=1.0, le=5.0)
     justification: str
 
 
