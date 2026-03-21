@@ -1,0 +1,14 @@
+{
+  "id": "cs_002",
+  "source": "manual",
+  "language": "ms_en",
+  "category": "codeswitching",
+  "has_reference": true,
+  "text": "Meeting tadi discuss pasal system migration dari on-premise ke cloud. Team lead suggest kita guna AWS sebab pricing dia more competitive. Tapi ada concern pasal data sovereignty — undang-undang Malaysia require certain data kena store locally. CTO kata kita boleh consider hybrid approach, keep sensitive data on local servers tapi leverage cloud untuk processing. Timeline dia agak tight, kena siap before Q3.",
+  "reference_summary": "Mesyuarat membincangkan migrasi sistem ke cloud dengan AWS sebagai pilihan, tetapi terdapat kebimbangan mengenai kedaulatan data. CTO mencadangkan pendekatan hibrid dengan data sensitif kekal di pelayan tempatan. Projek perlu siap sebelum Q3.",
+  "config": {
+    "target_language": "auto",
+    "summary_type": "brief",
+    "max_length": 100
+  }
+}

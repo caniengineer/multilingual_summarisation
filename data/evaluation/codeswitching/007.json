@@ -1,0 +1,14 @@
+{
+  "id": "cs_007",
+  "source": "manual",
+  "language": "ms_en",
+  "category": "codeswitching",
+  "has_reference": false,
+  "text": "Projek highway baru dari KL ke Seremban dah 60% complete. Contractor kata akan siap ahead of schedule kalau weather permits. Total cost dia approximately RM2.3 billion, funded through public-private partnership. Environmental groups ada raise concern pasal deforestation tapi EIA report dah approved last month. Once completed, travel time will reduce from 1.5 hours to roughly 45 minutes during peak hours.",
+  "reference_summary": null,
+  "config": {
+    "target_language": "auto",
+    "summary_type": "brief",
+    "max_length": 80
+  }
+}

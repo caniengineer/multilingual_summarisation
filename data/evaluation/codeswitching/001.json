@@ -1,0 +1,14 @@
+{
+  "id": "cs_001",
+  "source": "manual",
+  "language": "ms_en",
+  "category": "codeswitching",
+  "has_reference": true,
+  "text": "Kerajaan Malaysia telah announce new digital economy blueprint semalam. Menteri kata investment dalam AI dan cloud computing akan create lebih banyak job opportunities untuk rakyat. \"We need to upskill our workforce,\" beliau tambah. Banyak company dah start implement automation, tapi masih lack of talent dalam data science dan machine learning. Government akan allocate RM500 juta untuk training programmes tahun depan.",
+  "reference_summary": "Kerajaan Malaysia mengumumkan pelan ekonomi digital baharu dengan pelaburan dalam AI dan cloud computing untuk mewujudkan peluang pekerjaan, dengan peruntukan RM500 juta untuk program latihan kemahiran.",
+  "config": {
+    "target_language": "auto",
+    "summary_type": "brief",
+    "max_length": 100
+  }
+}
