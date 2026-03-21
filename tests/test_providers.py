@@ -1,5 +1,4 @@
 import json
-import os
 from unittest.mock import AsyncMock, MagicMock, patch
 
 from app.config import Settings

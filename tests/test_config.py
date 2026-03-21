@@ -1,5 +1,4 @@
 import os
-import pytest
 from app.config import Settings
 
 
@@ -10,11 +9,11 @@ def test_settings_defaults():
     assert settings.LOG_LEVEL == "info"
 
 
-def test_settings_requires_api_key():
-    # Clear env var if set
+def test_settings_api_key_optional():
+    # ANTHROPIC_API_KEY is optional at config level (validated at provider creation)
     os.environ.pop("ANTHROPIC_API_KEY", None)
-    with pytest.raises(Exception):
-        Settings()
+    settings = Settings()
+    assert settings.ANTHROPIC_API_KEY is None
 
 
 def test_settings_provider_validation():
