@@ -46,6 +46,9 @@ ENV/
 htmlcov/
 .tox/
 
+# Linting
+.ruff_cache/
+
 # Type checking
 .mypy_cache/
 .pytype/
