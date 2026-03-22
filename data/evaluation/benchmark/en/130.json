@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_130",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Maternity wards would remain open for women at higher risk of complications but midwife-led \"community hubs\" would take a leading role. Health Secretary Shona Robison said the new system would offer better choice and personalised care for expectant mothers. It will be piloted in five health board areas across Scotland from next year. The pilots follow an expert review of maternity and neonatal services in Scotland, published in January, which said the majority of care should take place in a community setting. The Best Start review recommended improved continuity of care, with women having a primary midwife working as part of a multi-disciplinary team based at community hubs. Fewer hospital births Ms Robison said: \"It's really about giving women more choice over their maternity services. It's about giving them the choice to have their birth at home or in a local community midwife unit - or if needed in a hospital obstetric unit. \"It's also about continuity of care. Having the same midwife throughout their maternity service, having someone they can ask all the questions they need to ask during their maternity journey. It's also about having services closer to home.\" Community hubs will not have operating theatres and Ms Robison acknowledged that some women would need to be transferred to hospital units if complications arise. She added: \"That happens at the moment, but by having that continuity care we can make sure the plans are in place so that the woman is getting to the right place. \"At the moment too many women end up in hospital with obstetric-led births and that is not what they need. And often not what they want - they want to give birth closer to home and sometimes at home.\" The new system will be piloted in NHS Forth Valley, Highland, Lanarkshire, Lothian and Greater Glasgow and Clyde.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "More women could give birth at home or without a doctor present as part of a major shake-up of maternity care."
+}

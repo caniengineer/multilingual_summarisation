@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_100",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "David McGreavy was jailed for life in 1973 for the murders of four-year-old Paul Ralph, two-year-old Dawn and nine-month-old Samantha. Their mutilated bodies were found on garden railings at their home in Gillam Street, Worcester. The Parole Board rejected his application for release. A board spokesman said McGreavy - who became known as the Monster of Worcester following the attack - would next be eligible to apply for parole in two years. More on this and other stories from Hereford and Worcester Dorothy Ralph, the mother of the murdered children, previously said McGreavy should never be freed.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A man who killed three children and impaled their bodies on garden railings has had his application for release from prison turned down."
+}

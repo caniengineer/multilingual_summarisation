@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_133",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Aq ade sorang membe laki ni . dia nak pnjm duit kat aq sebab dye kata dia xdek duit nk makan dan aq tau yg dia xambil ptptn .\nKorang rasa la kan patut Kew aq bg pinjam dekat dia atau dia just nak ambil kesempatan ? Knp dia x pinjam duit kat membe lelaki dia sniri ?",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Seorang kawan meminta saya wang, mendakwa dia tidak mempunyai wang untuk makan dan saya tahu dia telah mengambil pinjaman daripada orang lain. Patutkah saya meminjamkan wang kepadanya atau dia hanya cuba mengambil kesempatan ke atas saya? Kenapa dia tidak meminjam wang daripada rakan-rakannya yang lain?\n\nDalam situasi ini, adalah penting untuk mempertimbangkan beberapa perkara sebelum membuat keputusan. Adakah anda pernah meminjamkan wang kepadanya sebelum ini dan adakah dia membayar balik kepada anda? Adakah dia secara konsisten meminta wang kepada anda? Adakah anda mempunyai cara kewangan untuk meminjamkan wang kepadanya tanpa meletakkan diri anda dalam situasi yang sukar?\n\nAda kemungkinan dia benar-benar memerlukan dan tiada tempat lain untuk berpaling. Walau bagaimanapun, ada kemungkinan dia juga mengambil kesempatan daripada kebaikan anda. Sebelum meminjamkan wang, eloklah berbual dengannya untuk lebih memahami keadaan dan niatnya.\n\nAkhirnya, terpulang kepada anda untuk memutuskan sama ada mahu meminjamkan wang atau tidak. Hanya pastikan anda mengutamakan kesejahteraan kewangan anda sendiri dan berhati-hati terhadap mereka yang mungkin cuba mengambil kesempatan daripada kemurahan hati anda."
+}

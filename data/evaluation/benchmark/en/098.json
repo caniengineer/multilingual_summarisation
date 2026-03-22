@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_098",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Carwyn Jones has announced an extra £10m to help the 7,000 under-25s who seek help with homelessness every year. The Welsh Government will work with councils, housing associations, agencies and charities to help young people find stable accommodation. Last year, ministers dropped plans to end child poverty by 2020, saying they did not have the necessary powers. 'Personal passion' The extra funding for homelessness announced on Sunday is for the 2019-20 financial year and is in addition to the extra £20m announced in the Welsh Government's draft budget in October. On a visit to the Cardiff-based homelessness charity Llamau, Mr Jones told BBC's Sunday Politics Wales programme ending youth homelessness was a \"personal passion\". \"It's often said that children are our future,\" he said. \"No civilised society can tolerate a situation where we have young people who are homeless and nothing is being done to help them. \"Fantastic work is being done here in this organisation but I want to make sure the money's there and the support is there from us as a Welsh Government to end youth homelessness in Wales. \"For me that would be a fantastic achievement over the next decade. \"The ambition has to be there to halve it in five years and, in 10 years, to get rid of it.\" Mr Jones added: \"Wales must lead the way on tackling homelessness. \"I want us to be bold - to take new approaches, focus on interventions that make a real difference and work with partners to help young people avoid crisis situations and support them into stable accommodation.\" Llamau chief executive Frances Beecher said having the first minister taking a personal interest was a huge benefit. \"The leadership is the game-changer,\" she said. \"The leadership is saying 'this is Wales' priority'. \"For too long young people have been neglected, for too long we haven't co-ordinated and we haven't looked at vulnerable young people as a whole. \"We haven't looked at the disadvantage that they face and how we can change that.\" Sunday Politics Wales is on BBC One Wales on Sunday 17 December at 11:00 GMT",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Youth homelessness will be wiped out in Wales within a decade under plans launched by the first minister."
+}

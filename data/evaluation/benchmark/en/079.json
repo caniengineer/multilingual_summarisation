@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_079",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Smith joined the BBC in 1995 as a reporter on BBC Radio Kent and moved to BBC South East Today when it launched in 2001. Rob said that working on the programme was a \"joy\", and had \"always been so much more than a job.\" He is due to sign off on 3 November, when co-presenter Natalie Graham will continue as lead presenter. Smith said: \"This is a huge decision for me - I joined BBC Radio Kent back in 1995 when we still edited on quarter inch tape with a razorblade and a chinagraph pencil. \"So much has changed. 25 years of making friendships, and building my life. I met my wife Gemma at Radio Kent, and our home and our family is here in Kent.\" 'So much fun' Smith has covered thousands of stories for BBC South East Today, including the Shoreham Airshow disaster and investigations into sexual abuse in Church of England in Sussex, as well as interviewing a man who kept a 6ft lizard in his bath. \"Making live TV news is a team sport. There has been so much fun and laughter as well - alongside Polly Evans for many years, and then Natalie Graham more recently,\" Smith said. He made headlines in 2008 when he sailed 2,000 miles around Britain in his yacht, raising £15,000 for charity, and again in 2018 when he canoed the Medway for Sport Relief. Jason Horton, Head of the BBC in the South and South East, said: \"Rob has been a fixture on our televisions and radios for more than two decades. \"His reassuring presence and outstanding skill as a journalist have won him plaudits across the region - and rightly so.\"",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Rob Smith, presenter of BBC South East Today, has announced he is leaving the broadcaster after 25 years."
+}

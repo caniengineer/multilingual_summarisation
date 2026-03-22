@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_062",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "hidup bukan sekadar hidup.hidup itu perlu bermakna.hidup juga bukan untuk dunia semata dan juga bukan hanya untuk gembira.aku lupa hakikat hidup yg sementara. kebelakangan ni teringat  kat arwah mak..that empty spot ad ke boleh isi balik?mak dah pergi lama..lama sangat.time tu darjah 6 sekarng dah 20 lebih dah..sepanjang tempoh ketiadaan mak aku ni..aku cume ada kawan.kawan yg dtg dan pergi.rasa kosong tu selalu hadir.macam xde sape la kat sisi aku..yela xkan la aku nak nangis2 nak sedih2 kat kawan kan,nak bercerita lagi la aku x reti. diorang ade life  dorang jugak dari nak fikir hal aku..so  aku hidup macam tu jela..ad poblem aku gelak..aku ni depan org lain ceria gila.mmg xleh nak cakap ah ade poblem.tapi tu ah rasa kosong tu makin lame makin terasa.peh.harini aku meroyan ketawa kuat2. kawan aku pun takut. oi kawan! kejap lg aku baiklah..dah la aku nak tido.doakan arwah mak aku gembira .",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Hidup bukan hanya tentang hidup, tetapi mempunyai makna. Hidup bukan hanya untuk dunia ini atau hanya untuk kebahagiaan. Saya lupa sifat kehidupan yang sekejap. Teringat kata-kata arwah ibu. Bolehkah tempat kosong itu diisi semula? Sudah begitu lama dia meninggal dunia, saya sudah berusia dua puluhan. Sepanjang ketiadaannya, saya hanya ada kawan yang datang dan pergi. Perasaan kosong sentiasa hadir, seakan tiada sesiapa di sisi. Saya tidak mahu membebankan orang lain dengan masalah saya, mereka ada kehidupan mereka sendiri. Jadi saya hidup seperti ini, menyembunyikan masalah saya. Orang melihat saya sentiasa ceria. Tetapi perasaan kekosongan itu semakin kuat dari semasa ke semasa. Hari ini saya ketawa dengan kuat, malah kawan-kawan saya takut. Oh kawan, saya akan baik-baik saja, saya hanya perlu berehat. Mohon doakan kebahagiaan arwah ibu saya."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_005",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "The 2017 Audi R8 LMS Cup kicked off its first round at the newly resurfaced Sepang International F1 Circuit and saw reigning champion, Alex Yoong and Alessio Picariello scored one victory each.\nThis year, five rounds will be contested across Asia, with each leg comprising two sprint races. The \npush-to-pass\n feature makes a return, giving a temporary 50 hp boost for drivers. Notice the red-illuminated numbers on the side of the R8s? That’s the percentage of boost remaining for each driver. \nLast year’s young talents, Martin Rump and Alessio Picariello fought tooth and nail, with the latter narrowly losing the title to Alex by a single point. Joining this year is Mitch Gilbert, the Malaysian-based Australian who just won the opening race of this year’s Blancpain GT Asia series. Together with other young guns such as Shaun Thong of Hong Kong and our very own Akash Nandy, Alex Yoong’s quest for the fourth consecutive title could be his biggest challenge yet.\nDuring the first race, Picariello drew first blood by becoming the first to reach the chequered flag. Rump finished behind with Thong following really closely behind the Estonian. Meanwhile, Alex Yoong went out of bounds mid-race and eventually settled for eighth. Mechanical difficulties forced Gilbert to retire, robbing his podium finish at the same time.   In race two, Yoong got the better advantage than Picariello by overtaking his younger rival right after the start. Yoong did not lose the lead and eventually completed the race in first place, much to the delight of the local crowd. Picariello finished just behind Yoong and clocked the fastest lap time of the weekend; an amazing feat considering the Belgian carried the maximum weight ballast of 50 kg for winning the earlier race. Gilbert overcame his disappointing last race by taking the final podium spot.\nAs it stands, Picariello is the man to beat as he tops the championship standings. The 2017 Audi R8 LMS cup will resume in a month’s time, and that will take place in Suzuka, Japan.\nIMAGE GALLERY   Images by Travis & Wah Jian",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Piala LMS Audi R8 2017 memulakan pusingan pertama di Litar F1 Antarabangsa Sepang, dengan penyandang juara Alex Yoong dan Alessio Picariello masing-masing memenangi perlumbaan. Lima pusingan akan diadakan di seluruh Asia, dengan setiap pusingan terdiri daripada dua perlumbaan pecut dan ciri tolak hantar. Pemandu termasuk Picariello, Martin Rump, Mitch Gilbert, Shaun Thong, dan Akash Nandy. Dalam perlumbaan pertama, Picariello masuk pertama, diikuti oleh Rump dan Thong, manakala Yoong menduduki tempat kelapan kerana keluar dari sempadan. Kesukaran mekanikal memaksa Gilbert bersara. Dalam perlumbaan kedua, Yoong memintas Picariello dan menang, dengan Picariello menduduki tempat kedua dan Gilbert menduduki tempat podium terakhir. Picariello kini mendahului kedudukan kejuaraan."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_002",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "By Richard MorganBBC News NI business reporter There were 1,240 redundancies recorded by the Northern Ireland Statistics and Research Agency (Nisra) - the second highest monthly total on record. A further 1,530 have been proposed between the start of October and 6 November. Proposed redundancies are when an employer tells the government it will be making 20 or more people redundant. These have more than doubled over the year. However, the figure doesn't include firms making fewer than 20 staff redundant, so is likely to be an underestimate. From 1 November 2019 to 31 October 2020, 9,600 redundancies were proposed - the highest annual total since records began. The number of people on the claimant count decreased by 400 to 60,200. That figure is more than double the number recorded in March. The claimant count includes people claiming benefits, principally for the reason of being unemployed. Northern Ireland's unemployment rate increased over the quarter and the year to 3.6% in July to September. The rate is below the UK rate of 4.8%.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "October has seen the highest number of confirmed redundancies this year, according to official statistics."
+}

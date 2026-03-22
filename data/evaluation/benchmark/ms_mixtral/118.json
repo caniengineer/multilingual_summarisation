@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_118",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Vivo to partner with Tencent Games and PUBG Corporation for PUBG MOBILE Club Open 2019\n\n\nVivo is partnering with PUBG Mobile by Tencent Games and PUBG Corporation as the title sponsor of the upcoming PUBG MOBILE Club Open 2019! Vivo will be providing their smartphones for the event, where top players from 10 regions around the world will battle their way through the Spring & Fall Splits for the total prize pool of 2 million USD.   We are proud to announce our global partnership with PUBG MOBILE and role as the official title sponsor of PUBG MOBILE Club Open 2019.#Vivo #PUBG #VivoPUBG #PUBGClubOpen2019\nPosted by Vivo on Monday, March 25, 2019\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\n\nIf you are new, PUBG MOBILE Club Open 2019 is one of the biggest mobile gaming tournaments in the world and the qualifying round has already begun on March 22. The Spring Split Global Finals will be hosted in July this year, while the Fall Split Global Finals will be held in December.\n\nFor more information about the event, you can check out their official website. You can also visit Vivo’s Facebook page for future updates about Vivo’s devices.\n\nCheck This Out Next\n\n\nTags: AndroidMobilePUBG CorporationPUBG MOBILE Club Open 2019PUBG: MobileTencent GamesVivo",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Vivo telah bekerjasama dengan Tencent Games dan PUBG Corporation untuk menjadi penaja utama PUBG MOBILE Club Open 2019, kejohanan permainan mudah alih utama dengan kumpulan hadiah $2 juta. Pusingan kelayakan untuk Spring Split bermula pada 22 Mac, dan Spring Split Global Finals akan berlangsung pada bulan Julai. Pusingan Akhir Global Fall Split akan diadakan pada bulan Disember. Vivo akan menyediakan telefon pintar untuk acara tersebut. Untuk maklumat lanjut, layari laman web rasmi kejohanan dan halaman Facebook Vivo."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_133",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Sellafield Ltd admitted health and safety breaches at the Cumbrian nuclear processing plant in February 2017. Carlisle Crown Court heard worker Jonathan Greggain had to have a section of skin removed from his hand and spent six months off work. The company was fined £380,000 and told to pay costs of £96,573. The court was told an investigation by the Office for Nuclear Regulation (ONR) found Mr Greggain was contaminated after a corroded probe he was cleaning punctured his hand through a protective glove. A small area of Mr Greggain's skin was affected and had to be removed. Further tests showed he had sustained an internal dose of radiation. Nigel Lawrence QC told the court plutonium entering the bloodstream via a wound was \"by far the most dangerous pathway to individuals\" with deposits remaining in body tissues for the lifetime of the person affected. In his victim statement, Mr Greggain said he had been diagnosed with depression and the legal proceedings had made him \"depressed, frustrated, angry and disappointed\". Judge James Adkin said Sellafield had not taken \"all reasonably practicable steps\" to ensure the safety of its employees. A spokesman for Sellafield said: \"Safety and security are our highest priority and we are extremely disappointed that our robust and thorough safety arrangements were unable to prevent the incident. \"We apologise for the adverse effects this has had on the welfare of our employee. This is a matter we take extremely seriously as reflected by our guilty plea. \"This was an isolated incident that did not cause wider risk to workers beyond this task, nor any broader safety concerns.\" Risks and hazards The spokesman added they tried to ensure \"employees are trained to the highest standard\" and that there had been a review of the so-called glove boxes, which Mr Greggain had been using at the time. The Office for Nuclear Regulation (ONR) said it was satisfied the case did not point to any \"broader concern\" about the control of risks and hazards across the Sellafield site. However, a spokesman added: \"This was a case where Sellafield Ltd failed to properly assess the risk to workers arising from sharp objects when working in a glove box. \"The accident could have been avoided had the corroded probe been routinely replaced.\"",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Sellafield has been ordered to pay almost £500,000 after a worker was exposed to eight times the annual limit of plutonium."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_117",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Air Berlin, which is still flying after a 150m euro (£130m) rescue loan from Germany's government, said a deal could help 80% of its staff. Talks will continue with the two airlines until 12 October to sell parts of the business, Air Berlin said. The final deal would need to be approved by European Union regulators. Earlier, British Airways' parent company IAG confirmed it was putting in a bid for part of Air Berlin, but said it expected the airline would go mainly to Lufthansa. IAG chief executive Willie Walsh said at an industry conference that it would not \"come as any surprise\" if Lufthansa was the main winner. 'Good prospects' Air Berlin, which has about 140 aircraft, filed for insolvency in August after its main shareholder, Gulf carrier Etihad, withdrew financial support. Thomas Winkelmann, chief executive of Air Berlin, said: \"We are on the way to achieving good job prospects for around 80% of our colleagues with our bidders. However, we will not be able to breathe a sigh of relief until the EU Commission has finally authorised the transactions.\" Earlier this month, the European Commission approved the 150m euro loan from the German government, saying it would help to protect the interests of air passengers. Air Berlin was recently forced to cancel about 100 flights after a large number of its pilots called in sick. It prompted the airline to accuse them of sabotaging rescue talks with potential investors.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Insolvent airline Air Berlin, Germany's second-largest carrier, is pushing ahead with talks with EasyJet and Lufthansa about a possible sale."
+}

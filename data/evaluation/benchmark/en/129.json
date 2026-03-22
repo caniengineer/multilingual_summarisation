@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_129",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Legal action was brought by campaigners trying to save operations at Leeds General Infirmary. NHS England said the changes must be delivered as quickly as possible on behalf of children and their families. Campaigner Sharon Cheng said the move was \"a disgraceful waste of time and taxpayer's money\". The High Court ruled in March that a consultation over changes to children's heart surgery in England and Wales was flawed. The Save our Surgery group (SOS) campaigning to keep child heart surgery in Leeds won that legal challenge. Larger specialist centres It did not mean the NHS would have to begin the whole consultation process again, as the judge stressed she was only quashing \"one part\" of the decision. NHS England said: \"There is broad consensus - among both clinicians and patient groups - that the NHS needs to concentrate the care of children needing these services into fewer, larger specialist centres, as an integral part of children's heart networks. \"We now have an opportunity to take stock and assess the best way of achieving our objective in the fastest possible time.\" Stuart Andrew, Conservative MP for Pudsey, said he was very disappointed at news of the appeal. He said the High Court judgement had found that the Safe and Sustainable Review had \"acted in an unlawful way in closing the Leeds children's heart surgery unit\". In July, the Joint Committee of Primary Care Trusts said children's heart surgery would end at Leeds General Infirmary, Glenfield Hospital in Leicester and London's Royal Brompton, and treatment would instead be concentrated at seven specialist centres. Those centres would be: NHS England inherited responsibility for the Safe and Sustainable Review from the Joint Committee of Primary Care Trusts in April. The review, launched in 2008, was set up to transform children's heart services to provide better care to patients and improve outcomes. The unit in Leeds treats children from across Yorkshire and the Humber region. If the plan went ahead, children would instead have to travel to Newcastle or Liverpool for operations.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "NHS England is to seek leave to appeal against a High Court ruling over changes to children's heart surgery in England and Wales."
+}

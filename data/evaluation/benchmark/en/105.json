@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_105",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "She made the comments to the Communication Workers Union's annual conference, which she is the first Royal Mail chief executive to address. TNT has launched a trial delivery service in West London, having previously run a trial in Liverpool. The Royal Mail boss also defended next week's stamp price rises. First-class stamps will go up from 46p to 60p, while second-class stamps will rise from 36p to 50p on Monday. Royal Mail makes a loss on delivering letters and Ofcom, which regulates stamp prices, allowed the price rises because it said the future of the UK's universal, six-day-a-week postal service was \"at severe risk\" without it. Service standards \"I am fearful that competition, if it does not have conditions imposed, will soon begin a spiral of decline in Royal Mail that will be very difficult to staunch,\" she warned. TNT Post UK is piloting an end-to-end service, offering collection and delivery from big customers to some addresses in West London. TNT Post said in a statement: \"We want to be part of a UK postal industry that is world-class and people can be proud of.\" \"There is independent research that has concluded, where competition takes place in end-to-end delivery it has improved the overall performance of the universal service provider.\" But Royal Mail has warned that allowing competitors to cherry-pick profitable areas of the business will challenge the sustainability of the universal service. \"It's clear that the more delivery work which is done by private companies, the less there will be for Royal Mail, and core services could suffer with higher prices and lower service standards,\" said CWU deputy general secretary Dave Ward.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Royal Mail faces a \"spiral of decline\" unless conditions are placed on companies competing with it, its chief executive Moya Greene has warned."
+}

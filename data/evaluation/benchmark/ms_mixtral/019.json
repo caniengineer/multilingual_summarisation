@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_019",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Lexus Malaysia has just added a new variant to the \nLexus RX SUV line up\n. The new RX300 Special Edition is the seventh variant of the RX offered by the company and is built upon the specifications of the RX300 Luxury variant.\nPriced at RM434,000 (OTR without insurance), the RX300 Special Edition gains additional functional bits to the exterior and interior. Its appearance is enhanced by a new underbody panel that protects the underbody from debris, side steps for better ingress and egress, sun visors and rear step guard to protect the rear bumpers when loading and unloading items to the boot.   Inside, you’ll find a built-in Touch n’ Go reader and Digital Video Recorder (DVR) or better known as a dash cam, that has been integrated neatly into the cabin. A pair of Lexus puddle lamps completes the equipment list on the RX300 Special Edition.\nAs per the brand’s global direction, the RX300 is essentially an RX200T with a new badge. Under the hood, you’ll find the same 8AR-FTS 2.0-litre turbocharged four-cylinder petrol engine paired to a six-speed automatic transmission to deliver \n235 hp\n and \n350 Nm\n of torque. All-wheel drive is standard fitment.\nAll new Lexus models purchased through Lexus Malaysia are covered with a 5-Year Unlimited Mileage Warranty.\nIMAGE GALLERY\nLexus RX300 Special Edition",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Lexus Malaysia telah memperkenalkan varian baharu kepada rangkaian SUV RX, Edisi Khas RX300. Berharga RM434,000 (OTR tanpa insurans), ia berasaskan varian RX300 Luxury dan menampilkan elemen luaran dan dalaman yang berfungsi tambahan. Ini termasuk panel bawah badan, tangga sisi, pelindung matahari, pelindung langkah belakang, pembaca Touch n' Go, Perakam Video Digital (DVR) dan lampu lopak Lexus. Edisi Khas RX300 dikuasakan oleh enjin petrol empat silinder pengecas turbo 2.0 liter yang menghasilkan 235 hp dan tork 350 Nm, dipadankan dengan transmisi automatik enam kelajuan dan pacuan semua roda. Semua model Lexus baharu didatangkan dengan Waranti Perbatuan Tanpa Had 5 Tahun."
+}

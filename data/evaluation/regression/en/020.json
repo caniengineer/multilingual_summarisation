@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_020",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Lin Zuluan was arrested on Saturday, later appearing on state television saying he had accepted bribes. But locals in Wukan, in Guangdong province, marched to express support, saying the confession was forced. Mr Lin was elected head of Wukan in rare open polls after a battle against illegal land grabs. His detention came days after he called for renewed mass protests over the land seizures which residents say remain unresolved. In the video, he says he took money in exchange for government contracts, calling it his \"biggest criminal activity\". Amid a heavy police presence, thousands marched around the village calling for him to be freed. Some held a banner bearing their signatures, others waved Chinese flags. \"When the video was spread around there wasn't a single villager who believed it. Every voice said, 'this can't be possible, I don't believe it,'\" one villager told Associated Press news agency. Others suggested Mr Lin may have confessed to protect his grandson, who was detained the previous day. Chinese authorities often release videos on state television of suspects admitting to crimes, in what rights activists say are forced confessions. Wukan became a symbol of democracy after villagers banded together in 2011 to protest against what they said were corrupt officials selling their land to developers and failing to compensate them properly. After months of unrest the central government agreed to allow democratic elections in Wukan to end the protests, leading to Mr Lin's appointment.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Residents of a village in southern China that staged a revolt in 2011 over corruption have rallied demanding the release of the village chief."
+}

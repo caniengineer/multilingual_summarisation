@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_005",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "According to the Nicaraguan Centre for Human Rights (Cenidh), 38 people were killed during clashes in three areas. Cenidh says 31 were anti-government protesters, four police officers and three members of pro-government groups. Clashes between the security forces and anti-government protesters have been intensifying with deadly results. 'Blood and death' Cenidh President Vilma Núñez told BBC Mundo that 35 people had been killed in the towns of Diriamba and Jinotepe and three more in the northern province of Matagalpa. She said most of them had been killed in clashes between anti-government protesters manning roadblocks and police and pro-government groups attempting to clear the barricades. Previously the human rights group had given the number of those killed as 14, but had warned that it would probably go up as they received further reports. The Catholic Church, which has been acting as a mediator in stalled talks between the government and the protesters, has denounced the violence. The bishop of the city of Matagalpa, Rolando Álvarez, said the operation to remove the road blocks had been conducted \"at the price of blood and death\". More than 300 people are reported to have been killed since the wave of protests against the government was triggered by changes to the social security system announced on 18 April. The protests widened and quickly turned into demands that President Daniel Ortega step down. The government accuses the protesters of plotting a coup d'etat against the president, who was re-elected to a third consecutive term in office in 2016. It also accuses the protesters of holding the country hostage by blocking roads and hampering trade and normal business. Pro-government gangs moved into Diriamba and Jinotepe on Sunday and broke into two churches where protesters had taken refuge. In Diriamba, a Catholic Church delegation including Apostolic Nuncio Stanislaw Waldemar Sommertag, Cardinal Leopoldo Brenes and Bishop Silvio Báez was surrounded by government supporters as they tried to enter the San Sebastián basilica. Bishop Báez posted a tweet showing photos of a cut on his arm and saying that he had been insulted by \"an angry mob\" which had hit him in the stomach and insulted him. Following the attacks on the two churches, Nicaragua's Bishops' Conference suspended the working groups set up to mediate in the crisis. Anti-government groups have called for another protest march on Wednesday and a strike on Thursday.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Sunday was the deadliest day in Nicaragua since a wave of anti-government protests started in April, a local human rights group says."
+}

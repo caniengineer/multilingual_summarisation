@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_123",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The annual ceremony recognises films, television programmes and video games for their use of special effects. Steven Spielberg's Tintin has six nominations across four categories, including outstanding visual effects in a feature motion picture. Other films to be nominated include Thor, Harry Potter and Transformers: Dark Of The Moon. In 2011, Inception won four awards at the ceremony for its portrayal of dream landscapes. This year, Source Code, War Horse and Sherlock Holmes: A Game Of Shadows are all nominated for outstanding supporting visual effects. This category is for movies which, although not considered special effects films, featured characters or environments created digitally. TV shows to receive nominations include Pan Am, Breaking Bad and Boardwalk Empire - a television series set in the 1920s. 'Critically important' In a statement on their official website, the Visual Effects Society said special effects films have become \"critically important to the entertainment industry\". They added: \"Visual effects make contemporary movies box office hits in the same way that big name actors ensured the success of films in the past.\" There are specific categories at the ceremony for characters and environments created by special effects. Hogwarts school in Harry Potter and Heimdall's Observatory in Thor are both recognised as outstanding created environments this year. Animated characters to receive nominations include Tintin, Ceaser from Rise of the Planet of the Apes and Paul from the Simon Pegg film of the same name. Arthur Christmas, Puss In Boots and Kung Fu Panda 2 are nominated for outstanding visual effects in an animated feature. A number of the films on the awards shortlist were shot in 3D, a format which has caused much debate within the film industry. Earlier this week, Steven Spielberg told Newsbeat that Tintin was \"the right film for 3D\", but that he wouldn't want to shoot every film in the format. Mission Impossible: Ghost Protocol is nominated for outstanding models, despite director Brad Bird saying he is \"not convinced\" that 3D is the future of cinema last month.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Boardwalk Empire and The Adventures Of Tintin are among the nominees for the 2012 Visual Effects Society awards."
+}

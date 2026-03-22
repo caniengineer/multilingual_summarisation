@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_149",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "By Dan WhitworthMoney Box reporter Outfox the Market admitted the mistake inflated annual bill forecasts by 25%. CEO Keith Bastian said; \"It is regrettable that incorrect information was given to our valued customers and for that we are sorry.\" But the accidental increase came at the same time it introduced a winter/summer payment split, which sharply increased direct debit payments over winter. Many customers have taken to social media to complain, including Anna and Rob Kemm who share their semi-detached house just outside Chatham, Kent with their three sons. \"We were paying £116 per month and then I got an email that the direct debit payment was changing to a higher winter payment and a lower summer payment. \"The winter payment has now gone up to £202 per month and we're £217.90 in credit. \"Obviously I'm not happy with that, like most families you want to budget for a 12 month period and that's a lot of money to jump six weeks before Christmas.\" That jump in monthly payments does include the 25% accidental surcharge which Outfox the Market has already apologised for and won't be charging customers. But its winter/summer direct debit divide works on a 70/30 split. Which would mean customers who pay £100 per month on average - would be expected to pay £140 for each of the six months of winter and £60 for each of the six months of summer. That represents a significant jump in payments regardless of Outfox the Market correcting its original mistake. Mr Bastian said: \"Introducing a winter uplift means customers' payments simply reflect their consumption. \"Payments will drop significantly throughout the summer months to reflect lower usage and overall, we remain one of the best priced suppliers in the country. This all comes at a difficult time for small energy suppliers. Earlier this week Extra Energy (108,000 customers) went bust and just yesterday Spark Energy, which supplies nearly 300,000 customers and employs 300 people in Selkirk ceased trading. Also this week Ofgem unveiled stricter guidelines for companies wanting to enter the energy supply market. Mark Todd, the co-founder of switching site energyhelpline says: \"The energy industry is in crisis. Two suppliers have gone bust this week and seven this year. \"Suppliers are getting monumentally squeezed by rising wholesale prices, cold weather and the looming price cap, so it's no surprise that yet another one has gone bust. \"We expect more casualties this winter.\" You can hear more on BBC Radio 4's Money Box programme on Saturday at 12:00 BST or listen again here. Follow Money Box and Dan on twitter.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "An energy supplier has apologised to all 100,000 of its customers after it sent out bills that were too high."
+}

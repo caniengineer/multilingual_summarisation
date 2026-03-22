@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_007",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "An elderly couple and two parents with a child had to be rescued - as well as a dog and wedding dress - when their vehicles were engulfed off Holy Island. Northumberland County Council, which maintains the signs, said it was a \"deliberate act of mindless vandalism\". It is looking into safeguards to prevent further damage. Electronic signs on either side of the link road warn people to pay attention to tides, but the local authority confirmed they had been damaged \"at some point over the past few days, which had reset the display showing safe crossing times\". The security padlock had been damaged and the electronics tampered with, which in turn had caused an issue with the electrics inside, it explained. 'Lives put at risk' Councillor Glen Sanderson, cabinet member for local services, said: \"I'm extremely angry about this deliberate act of mindless vandalism which has caused these very unfortunate incidents and I hope that those responsible for the damage think about the lives they put at risk due to their stupidity. \"The dangers of attempting to cross Holy Island causeway when the tide is coming in are obvious and we urge all drivers to check tide tables online for safe crossing times when planning their visit and to make sure they observe these safe times when crossing the causeway.\" The sign was switched off by an engineer and is due to be back on on Monday, the council added. The RNLI lifeboat from Seahouses was launched at about 12:30 GMT to rescue the trapped people. Ian Clayton, Seahouses Lifeboat operations manager, said people could have died. Related Internet Links Northumberland County Council Seahouses RNLI",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Signs advising drivers of safe crossing times on a Northumberland causeway had been vandalised before five people were trapped by a rising tide on Sunday."
+}

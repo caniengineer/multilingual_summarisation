@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_040",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Woburn & Wavendon Football Club initially felt \"disappointed\" when they were booted off their Bedfordshire sports ground to make way for the Mission: Impossible 7 film crew. But smiles were soon restored when Hollywood legend Cruise signed a clutch of the club's shirts. They will now be used as part of the team's £12,000 crowdfunding campaign. Money raised from the shirts will be put towards the club's community initiatives Chairman Robert Hill said it was frustrating to be unable to use the pitches due to filming as they were \"desperate to get back on and play some football\" after lockdown restrictions eased. But he said the club rang the production company to say staff would \"do whatever we could\" to help, and while on the phone asked if some shirts could be signed. \"They said they would do their best and we crossed our fingers,\" he said. Club committee member Wes Williams, who set up the crowd-funder, said it was an \"amazing surprise\" when Top Gun star Cruise granted their wish. He said the club needed to raise money as it had lost about £30,000 when some of its tournaments were cancelled. Mr Williams said the money raised would support their community initiatives. Cruise, who plays Ethan Hunt in the action film franchise, has been seen arriving in the village in a helicopter. Mission: Impossible 7's release date has been delayed from November until May 2022. Find BBC News: East of England on Facebook, Instagram and Twitter. If you have a story suggestion email eastofenglandnews@bbc.co.uk Related Internet Links Heath and Reach Parish Council Woburn & Wavendon Football Club",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Tom Cruise has come to the aid of a grassroots football club left out of pocket by the coronavirus pandemic."
+}

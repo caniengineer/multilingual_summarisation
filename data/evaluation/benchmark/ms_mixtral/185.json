@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_185",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "PUBG Mobile is getting a Godzilla collab\n\n\nIn conjunction with the upcoming movie, Godzilla: King of the Monsters, PUBG Mobile will be getting a Godzilla collab!   Another collaboration is here! We are thrilled to announce the crossover between PUBG MOBILE and Godzilla: King of the Monsters! Parachute in to find clues of Godzilla's imminent arrival. See Godzilla: King of the Monsters in theaters May 31st! #PUBGMxGodzilla #GodzillaMovie pic.twitter.com/3PoGZb5rlV\n\n\n\n— PUBG MOBILE (@PUBGMOBILE) May 16, 2019\n\nThe last time PUGB Mobile got a collab, it was zombie-themed. This time around, you are supposed to be able to find hints of Godzilla’s arrival in the game. But specifics of what this collab will entail has not been revealed. Maybe there will be a mini Godzilla pet? It’s also possible that there will be bonus rewards when logging in daily.\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\nWe will post updates once we have more details on the collab. You can also follow PUBG: Mobile’s Twitter or Facebook page to get all the latest news on the game.\n\nCheck This Out Next\n\n\nTags: AndroidiOSMobilePUBGPUBG: MobileTencent",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "PUBG Mobile telah mengumumkan kerjasama dengan filem akan datang, Godzilla: King of the Monsters. Bermula tidak lama lagi, pemain akan dapat mencari petunjuk ketibaan Godzilla dalam permainan. Walaupun butiran kerjasama itu belum didedahkan, ada kemungkinan akan ada haiwan peliharaan Godzilla mini atau ganjaran log masuk harian. Ikuti PUBG: Halaman Twitter atau Facebook Mudah Alih untuk mendapatkan kemas kini terkini mengenai kerjasama itu."
+}

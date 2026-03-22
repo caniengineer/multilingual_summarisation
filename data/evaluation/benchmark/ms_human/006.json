@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_006",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "KUALA LUMPUR: Proses pengundian bagi Pilihan Raya Umum Ke-15 (PRU15) Parlimen Padang Serai di Kedah dan Dewan Undangan Negeri (DUN) Tioman di Pahang bermula secara rasmi pada 8 pagi ini, melibatkan sejumlah 161,063 pengundi. Daripada jumlah itu, 132,955 orang mengundi bagi Parlimen Padang Serai manakala 28,108 orang pengundi bagi DUN Tioman. Bagi pengundian Parlimen Padang Serai, sebanyak 46 pusat mengundi dibuka melibatkan 230 saluran bermula 8 pagi hingga 6 petang. Bagi DUN Tioman, 17 pusat mengundi dibuka melibatkan 52 saluran bermula 8 pagi hingga 6 petang. PRU15 di kedua-dua kawasan berkenaan ditangguhkan berikutan kematian calon yang telah disahkan bertanding iaitu M. Karupaiya dari Pakatan Harapan (PH) bagi Parlimen Padang Serai dan Md Yunus Ramli mewakili Perikatan Nasional (PN) di DUN Tioman. PRU15 Parlimen Padang Serai menyaksikan pertembungan enam penjuru dengan saingan melibatkan calon PH, Barisan Nasional (BN), PN, Pejuang, Warisan dan Bebas. Bagaimanapun, BN bersetuju memberi laluan kepada PH di kerusi Parlimen itu pada 2 Dis lepas. DUN Tioman pula menyaksikan pertandingan lima penjuru antara calon BN, PN, PH, Pejuang dan seorang Bebas tetapi PH sudah menyatakan menarik diri daripada PRU berkenaan bagi tanda kesepakatan Kerajaan Perpaduan di peringkat negeri dan nasional. -- BERNAMA",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Pilihan raya umum diadakan di Kedah dan Tioman di Pahang pada hari Ahad, 8 pagi. Pengundian bermula pada pukul 8 pagi dan berakhir pada pukul 6 petang. Pilihan raya ini menyaksikan pertembungan enam penjuru dengan saingan yang melibatkan calon BN, Barisan Nasional, PN, Pejuang, Warisan dan Bebas."
+}

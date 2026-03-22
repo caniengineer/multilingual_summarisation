@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_112",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Spectators will line the resort's famous promenade for the free event between the Central and South piers. The show will feature fly-pasts from World War II planes including the Spitfire and Dakota. The Breitling Wing Walkers, who perform acrobatics while strapped to the wings of bi-planes, will also take part. The Aerostars aerobatic display team were due to close the show at about 17:00 BST. Blackpool hosted its first air show in 1909, the same year Frenchman Louis Bleriot became the first person to fly across the English Channel.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "About 60,000 people were expected for the annual Blackpool Air Show, organisers have said."
+}

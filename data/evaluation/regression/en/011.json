@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_011",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The team has been based at RAF Scampton since 2000, but will move to RAF Waddington in 2022, the Ministry of Defence (MoD) has confirmed. The famous Dambusters squadron flew from RAF Scampton during the Second World War. Many mourned the base's sale because of its strong aviation tradition. However, the announcement of the move to nearby Waddington has somewhat brightened the mood, particularly as there had been talk of the team possibly going to North Yorkshire or Cambridgeshire. Brian Cross, from North Hykeham, near Lincoln, said it was brilliant news. \"It's fantastic - every time they are out practising we get a free show,\" he said. Local resident Maxine Grundy said: \"They are staying where they should be.\" A fan for more than 30 years, she said she had previously seen the team flying across the sky when she lived in Aylesbury and in Sheffield. \"They've always been a part of where I lived, and now I live in Lincolnshire it's even better,\" she added. The Bridge family, from Dorset, are such fans of the team they staged a DIY \"airshow\" in their back garden while in lockdown. They said they were \"over the moon\" at the news, because they normally take holidays twice a year in Lincolnshire, in order to see the Reds. Martin Hill, leader of Lincolnshire County Council, said he was glad the MoD recognised \"how well-loved\" the Red Arrows were by local residents and visitors. History of the Red Arrows",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Red Arrows fans are \"over the moon\" at the news the team will stay in Lincolnshire following the sale of their current home."
+}

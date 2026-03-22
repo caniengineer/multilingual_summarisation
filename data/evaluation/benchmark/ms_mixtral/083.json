@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_083",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Bandai Spirits took over toy company Banpresto\n\n\nBanpresto, the company who developed the Super Robot Wars series is now officially gone. Bandai Namco’s toy and hobby subsidiary, Bandai Spirits has completely taken over all rights and duties from the company as revealed on an announcement published on Kanpō.   Banpresto is a genuinely well-known developer company among Asia and Japan players. Other than the famous Super Robot Wars series, the company also brought us plenty of hit titles including Ar tonelico (PS2) and Ultraman Fighting Evolution. The company became a subsidiary of Bandai Namco since 2006. A few years passed by, and now it has fully dissolved with Bandai Namco.\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\n\nThank you and farewell, Banpresto! Have the company’s games been a part of your younger days’ memories? Do share your experiences and thoughts below!\nSource: AnimeNewsNetwork\n\nCheck This Out Next\n\n\nTags: Ar tonelicoBandai NancoBandai SpiritsBanprestoSuper Robot WarsUltraman Fighting Evolution",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Bandai Spirits, anak syarikat Bandai Namco, telah mengambil alih semua hak dan kewajipan daripada syarikat mainan Banpresto. Banpresto, terkenal kerana membangunkan siri dan permainan Super Robot Wars seperti Ar tonelico dan Ultraman Fighting Evolution, menjadi anak syarikat Bandai Namco pada tahun 2006 dan kini telah dibubarkan sepenuhnya. Ramai pemain di Asia dan Jepun mempunyai kenangan indah tentang permainan Banpresto.\n\nSumber: AnimeNewsNetwork\nTag: Ar tonelico, Bandai Namco, Bandai Spirits, Banpresto, Super Robot Wars, Ultraman Fighting Evolution."
+}

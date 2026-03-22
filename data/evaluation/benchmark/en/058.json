@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_058",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Mr Dunn, 19, died after his motorbike crashed with a car near RAF Croughton, Northamptonshire, in August 2019. The Independent Office for Police Conduct (IOPC) will review emails sent by Northamptonshire Police's Nick Adderley to the Home Office. The family's spokesman, Radd Seiger, said there must be \"repercussions\". Shortly after the crash, suspect Anne Sacoolas, 43, left for the United States on diplomatic immunity grounds. The Crown Prosecution Service (CPS) charged her with causing Mr Dunn's death by dangerous driving in December 2019 but an extradition request submitted by the Home Office was rejected by the US State Department. 'Appalling treatment' In emails obtained through a subject access request, Mr Adderley warned the Home Office \"that the issue is with the family's spokesperson, who would disclose any engagement to the media and may not do so accurately\". The Northamptonshire force also made its views clear to the Foreign Office on the Interpol notice issued for the suspect - which emails have suggested was a diffusion notice - a less formal request - and not a red notice which would demand the location and arrest of Ms Sacoolas ahead of prosecution. In May, communications from the Home Office suggested Northamptonshire Police should \"be more open\" with the Dunn family about the Interpol notice \"as we don't want them to feel abandoned\". But Mr Adderley said he did not intend to write to the family or Mr Seiger in consideration of a judicial review into Ms Sacoolas's right to claim immunity. The Dunn family submitted a complaint to Northamptonshire police, fire and crime commissioner (PCC) Stephen Mold on Sunday. Speaking to BBC Radio Northampton, Mr Seiger said: \"We respect the work Mr Adderley does for local policing, but we think in this case we need to see repercussions.\" Issuing a statement in response to the IOPC referral, Mr Adderley said the practice was \"standard policy\" in response to a complaint against a Chief Constable and \"happens frequently\". He said: \"It is vital that all officers are held to account for their decisions... and I very much welcome the opportunity to discuss these with the relevant authority in due course.\" The IOPC referral against Mr Adderley comes less than a week after the Foreign Office apologised for \"unprofessional and unacceptable language\" used by officials in internal emails about the Dunn family. Mr Adderley previously faced calls to resign after stating that the family's legal battle was \"sad but how predictable\". Find BBC News: East of England on Facebook, Instagram and Twitter. If you have a story suggestion email eastofenglandnews@bbc.co.uk",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A chief constable who described the spokesman of Harry Dunn's family as an \"issue\" has been referred to a police watchdog following a complaint."
+}

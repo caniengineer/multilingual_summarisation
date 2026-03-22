@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_055",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Northampton Borough Council sold the Sekhemka limestone statue for nearly £16m at auction to help fund an extension to the town's museum. Arts Council England ruled the sale breached the accredited standards for how museums manage their collections. The council is now ineligible for a range of arts grants and funding. Scott Furlong, from the Arts Council, said: \"It is always hugely regrettable when we have to exclude a museum from the Accreditation Scheme. \"However, it is equally important that we are robust in upholding the standards and principles which underpin the scheme and are shared by the vast majority of museums.\" Northampton Museum and Art Gallery, which is set to benefit from the sale of the statue, and the council-run Abington Park Museum have been removed from the Accreditation Scheme with immediate effect and excluded from future participation until at least August 2019. The scheme sets nationally agreed standards for museums in the UK, demonstrating their commitment to managing collections effectively for the enjoyment and benefit of users. It also has strict criteria for the disposal of cultural objects. David Mackintosh, leader of Northampton Borough Council, said the news was \"disappointing\" and \"puzzling\" as it is one of the only local authorities in the country with multi-million pound investment plans in the museum service. The statue of Sekhemka, court official and priest, was sold at Christie's of London during an auction in July amid protests from the Save Sekhemka Action Group, who said it was the \"darkest cultural day in [Northampton's] history\". Egyptian Ambassador Ahsraf Elkholy condemned the sale as an \"an abuse to the Egyptian archaeology\". Mr Furlong added: \"I am confident that the museums sector and wider community will share our dismay at the way this sale has been conducted and support the decision to remove Northampton Museums Service from the scheme. \"It is of great importance that the public retain their trust in museums to look after the collections held in their name. \"There is a very real risk that this trust, and particularly that of potential donors and funders, will be seriously undermined if disposals from public collections are seen to be driven by financial considerations and in breach of our professional standards and ethical code.\" The borough council is considering appealing the decision.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Two museums have lost their accreditation status after the controversial sale of a 4,000-year-old Egyptian statue to a private collector."
+}

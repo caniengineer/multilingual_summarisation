@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_064",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Black Desert SEA lets you play your cards in “Yar!”\n\n\nBlack Desert SEA Adventurers can partake in some card games with the addition of the “Yar!” minigame. Bring along your fellow Black Desert players to Yar with you, as you try to score the highest total points possible when you commit 5 cards per turn to various hands. With some strategic thinking and a healthy dose of luck, you could stand to boast a win streak.\n\n\n\nYou could try going against various NPCs too, such as the General Goods Vendor Eileen, Fish Vendor Crio, and Innkeeper Islin Bartali, before you brush up against other players. The cards themselves also feature art of well-known NPCs within the Black Desert universe. Get special titles depending on how many victories you manage to accrue.\n\n\n\nRelated Posts   Pokemon Sleep Now Available In Malaysia   GamerBraves Newsletter Vol. 103 – The Glory of The Barbie/Oppenheimer Double Feature   That’s not all, as there’s more yet to come.\n\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\nThe annual CalpheON Ball community event returns once again for 2021, to unite all Adventurers with exciting announcements and programs to look forward to. The event ill be on 11 December 2021, with both PC and console players able to participate together. Besides the entertainment and community activities in store, don’t miss out on the previews of future content to come. You can catch the livestream of the event via Twitch and Youtube.\n\nCheck This Out Next\n\n\nTags: Black DesertBlack Desert OnlineBlack Desert SEAPearl Abyss",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Black Desert SEA telah memperkenalkan permainan mini baharu yang dipanggil \"Yar!\", di mana pemain boleh mengambil bahagian dalam permainan kad dengan pemain lain atau NPC. Setiap pemain memilih lima kad setiap giliran untuk membentuk pelbagai tangan, dengan matlamat untuk mencapai jumlah mata tertinggi. Kad itu menampilkan seni NPC terkenal dari alam semesta Black Desert. Pemain boleh memperoleh gelaran istimewa berdasarkan jumlah kemenangan yang mereka capai. Acara komuniti tahunan CalpheON Ball juga akan diadakan pada 11 Disember 2021, untuk pemain PC dan konsol, yang menampilkan hiburan, aktiviti komuniti dan pratonton kandungan masa hadapan."
+}

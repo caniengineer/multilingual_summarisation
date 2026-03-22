@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_112",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Nissan has unveiled a 100% electric emergency response vehicle concept, designed to provide mobile power supply to areas affected by natural disasters or extreme weather. Based on the \nNissan LEAF\n, The ‘RE’ in the cute wordplay name, RE-LEAF, represents the three elements of disaster preparedness: response, recovery, and resilience.\nSome modifications were made specifically to allow RE-LEAF to drive directly into critical areas through the debris-covered roads, such as the chunky off-road wheels, and weatherproof plug sockets mounted directly to the exterior of the vehicle – which can supply 110- and 230-volt power from the car’s high-capacity lithium-ion battery.\nThe rear seats have been removed and the floor levelled to provide storage for essential equipment, while a custom bulkhead cage separates the front seats from the cargo area. A bespoke pull-out desk extends from the trunk – fitted with a 32-inch LED screen and dedicated power supply – designed to create an operational hub to run communications from and manage the recovery process.\nNissan Europe, Head of Electric Passenger Cars and Infrastructure, Helen Perry said “We’re constantly exploring ways that electric vehicles can enrich our lives, beyond just zero-emission transportation.\n“Concepts like the RE-LEAF show the possible application of EVs in disaster management and demonstrate that smarter, cleaner technology can help save lives and provide greater resilience,” she added.\nNissan says the RE-LEAF is a demonstration of the potential of electric vehicles in disaster recovery. Although it’s a working concept, the technology is already being used in real-world applications.\nNissan previously utilised the LEAF to provide emergency power and transportation following \nnatural disasters in Japan since 2011\n, and the company has also formed partnerships with more than 60 local governments to support disaster relief efforts.\nGALLERY",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Nissan telah memperkenalkan RE-LEAF, konsep kenderaan tindak balas kecemasan elektrik 100% berasaskan Nissan LEAF. RE-LEAF direka untuk membekalkan kuasa ke kawasan yang terjejas oleh bencana alam atau cuaca melampau, dengan pengubahsuaian termasuk roda luar jalan, soket palam kalis cuaca dan kawasan kargo yang diratakan untuk penyimpanan peralatan. Sangkar sekat tersuai dan meja tarik keluar dengan skrin LED mencipta hab operasi. Nissan telah menggunakan LEAF untuk kuasa kecemasan dan pengangkutan dalam bencana alam sejak 2011 dan bekerjasama dengan kerajaan tempatan untuk bantuan bencana. RE-LEAF mempamerkan potensi EV dalam pemulihan bencana."
+}

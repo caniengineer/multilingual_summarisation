@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_027",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "The Wandering Village Crushes Kickstarter Goal\n\n\nCity builder The Wandering VIllage has surpassed its Kickstarter goal, hitting their target within 24 hours of the campaign’s launch.\n\n\n\n\nThe game is a city-builder, where you control a village of settlers trying to make it through a post-apocalyptic world. The catch? Your village rests atop the back of a large creature. The game’s developers, Stray Fawn Studios, haven’t quite explained how the colossus will affect gameplay, but it certainly makes for some unique visuals.\n\n\n\nRelated Posts   Pokemon Sleep Now Available In Malaysia   GamerBraves Newsletter Vol. 103 – The Glory of The Barbie/Oppenheimer Double Feature   In a world where mysterious plants are spreading all over the earth, emitting toxic spores as they grow, a group of people seeks shelter on the back of a giant, wandering creature. Becoming their leader, players build both their settlement and a symbiotic relationship with the gentle beast to survive together in this hostile, yet beautiful post-apocalyptic world that now surrounds them.\n-Stray Fawn Studios\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\nThe game’s expected to hit Early Access late 2021, but that doesn’t mean you have to wait to support the game. In its first week since debuting on Kickstarter, the game is sitting at 260% of its funding goals. The campaign’s far from over though, running until November 13th.\n\nThe developers also mentioned some of the things you’ll be doing in the game. These include sending villagers out to forage, your standard farming, as well as forming a “symbiotic bond” with the large creature, Onbu.\nThis is far from Stray Fawn Studio’s first game, however. The Swiss developers previously made two other games, Nimbatus, and Niche. According to the developers, The Wandering Village was developed as a side-project during the development of Nimbatus.\nThe Wandering Village will release on Steam Early Access, with no word on possible console releases.   Check This Out Next\n\n\nTags: Stray Fawn StudiosThe Wandering VIllage",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The Wandering Village, permainan membina bandar di mana pemain membina penempatan di belakang makhluk gergasi, telah melebihi matlamat Kickstarternya, meningkatkan 260% daripada sasaran pembiayaannya pada minggu pertamanya. Permainan yang dibangunkan oleh Stray Fawn Studios ini menampilkan penduduk kampung mencari makan, bertani dan membentuk ikatan simbiotik dengan makhluk itu, Onbu. The Wandering Village dijangka akan dilancarkan pada Steam Early Access pada penghujung 2021. Stray Fawn Studios sebelum ini membangunkan Nimbatus dan Niche."
+}

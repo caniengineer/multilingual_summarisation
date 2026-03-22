@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_033",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Mr Osborne tweeted that they should feel the benefit not only in pump prices but utility bills, heating oil and airline tickets. Ministers said they would watch the industry \"like a hawk\" as Treasury officials study whether companies are passing on the fall in oil prices. Industry body Energy UK said price cuts were already being passed on. The price of Brent Crude oil fell more than a dollar to $49.92 a barrel in early trading on Wednesday before edging back above the $50 mark. It was the first time it had gone below $50 a barrel since May 2009. Supermarket cuts Mr Osborne raised the issue at Cabinet, and the Treasury said it was examining whether any action was needed. All four big UK supermarkets have announced further fuel price cuts, bringing petrol ever closer to £1 a litre. Tesco, Morrisons, Sainsbury's and Asda have reduced prices by 2p a litre on both petrol and diesel. Mr Osborne's tweet noted that the price of oil was at its lowest in five years and added: \"Vital this is passed on to families at petrol pumps, through utility bills and air fares.\" Energy UK chief executive Lawrence Slade insisted cuts in the wholesale price of gas were being passed on to consumers. \"When people shop around they can easily find deals that are over £100 cheaper than this time last year and in line with cuts in wholesale energy prices,\" he said. BBC political correspondent Ross Hawkins said politicians were keen to be seen fighting for lower prices. Last year, Liberal Democrat Chief Secretary to the Treasury Danny Alexander wrote to all the main fuel suppliers and distributors, calling on them to pass on the benefit of falling prices as soon as possible. Mr Alexander told ITV News that falling oil prices are a \"benefit to most of the UK economy\" provided that the savings are passed on \"at the pumps, in the cost of holidays and in the cost of heating homes\". He also said more support was needed for the North Sea oil and gas sector which, as the biggest industrial investor in the UK, is \"adversely affected\" by falling prices. \"So, that is why we are also putting in place a more beneficial tax environment,\" he added. Labour shadow energy secretary Caroline Flint said the Conservatives had done \"absolutely nothing\" to address firms' failures to pass on reductions in wholesale costs. \"We need action, not another inquiry,\" Ms Flint said, and repeated calls for the regulator to have the power to force energy companies to pass on savings.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Chancellor George Osborne has warned it is \"vital\" for the fall in oil prices to be passed to consumers."
+}

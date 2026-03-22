@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_135",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The party announced earlier this year it would elect leaders for the first time to replace its previous co-convener position. Mr Harvie had held the co-convenership alongside Maggie Chapman, who lost out in the leadership election contest. The newly-elected Ms Slater is a former European and City of Edinburgh Council election candidate. Mr Harvie was the only one of the party's six MSPs to stand in the leadership contest, with party rules stating that at least one of the two winners had to be a woman. He said he was \"absolutely delighted\" to be elected alongside Ms Slater, adding: \"Green voices have never been more important as we face up to the climate emergency. \"The science is clear - we have just over a decade to transform our economy for the better and avert an existential crisis, but the other parties are happy to carry on with business as usual.\" Meanwhile, Ms Slater said her goal was for the party to win more seats than ever before at the Holyrood election in 2021, and in particular to get more women and non-binary people elected. She added: \"I look forward to contributing my expertise in marine renewable energy and manufacturing in Scotland to our proposal for a Scottish Green New Deal, ensuring that we take advantage of all the social and economic opportunities that come along with tackling the climate emergency\". Ms Slater said during the month-long election campaign that she would share her co-leader speaking slot at the party conference every year with another Scottish Greens woman \"to help her build her visibility\". Mr Harvie and fellow MSP Alison Johnstone will remain the party's co-leaders in the Scottish Parliament.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Patrick Harvie and Lorna Slater have been elected as the new co-leaders of the Scottish Green Party."
+}

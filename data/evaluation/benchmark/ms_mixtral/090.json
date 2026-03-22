@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_090",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KUALA LUMPUR: Pemberian tol percuma bersempena sambutan Deepavali, kepada pengguna lebuh raya bermula Sabtu hingga Ahad.\nMenteri Kerja Raya Datuk Seri Alexander Nanta Linggi berkata, pelaksanaan pemberian tol percuma itu bermula pada Sabtu 11 Nov 2023 jam 12.01 tengah malam sehingga Ahad 12 Nov 2023 jam 11.59 malam.\nBagaimanapun pengecualian tol akan diberikan kepada semua jenis kelas kenderaan di semua plaza tol kecuali di plaza tol di sempadan negara iaitu Plaza Tol Bangunan Sultan Iskandar (BSI) dan Plaza Tol Tanjung Kupang, Johor.\n“Inisiatif ini dilaksanakan bagi meraikan kesemua rakyat Malaysia terutamanya masyarakat kaum India beragama Hindu yang menyambut perayaan Deepavali.\n“Ini juga selari dengan hasrat Kerajaan Perpaduan dalam membantu meringankan beban rakyat yang merentasi kepelbagaian agama, kaum dan kepercayaan,” katanya dalam satu kenyataan hari ini.\nAlexander berkata, pemilihan tarikh itu bertujuan bagi mengelakkan penumpuan trafik pada hari perjalanan pulang ke kampung dan kembali semula ke bandar serta dapat mengoptimumkan pengoperasian dan penyelarasan logistik tambahan seperti pengurusan kawalan trafik, sumber air tambahan, penyediaan tandas serta keperluan logistik lain yang melibatkan pihak ketiga di kawasan hentian sebelah (Lay By) dan kawasan Rehat & Rawat (R&R) di sepanjang lebuh raya.\n“Anggaran jumlah trafik dalam masa duahari tersebut adalah sebanyak 11.8 juta kenderaan. Dengan pelaksanaan tol percuma ini, diharapkan agar pengguna lebuh raya dapat memanfaatkan peluang ini selain merancang perjalanan dengan sebaiknya.\n“Pengguna lebuh raya juga dinasihatkan untuk mematuhi cadangan jadual waktu perjalanan atau travel time advisory (TTA) yang disyorkan. Aspek keselamatan serta pemanduan selamat perlulah dipatuhi supaya semua pengguna lebuh raya dapat tiba ke destinasi dengan selamat dan sambutan perayaan Deepavali ini akan menjadi lebih bermakna bersama keluarga tercinta,” katanya.–AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Kerajaan Malaysia telah mengumumkan bahawa tol akan diketepikan untuk semua jenis kenderaan, kecuali di dua pusat pemeriksaan sempadan, mulai Sabtu, 11 November 2023, jam 12:01 pagi hingga Ahad, 12 November 2023, jam 11:59 malam, di sambutan Deepavali. Inisiatif ini bertujuan untuk meraikan semua rakyat Malaysia, khususnya masyarakat India Hindu, dan selaras dengan matlamat Kerajaan Perpaduan untuk meringankan beban rakyat yang berbeza agama, bangsa dan kepercayaan. Pengecualian itu dijangka memanfaatkan 11.8 juta kenderaan, dan pemandu dinasihatkan mematuhi nasihat masa perjalanan dan garis panduan keselamatan. Keputusan untuk memilih tarikh ini adalah untuk mengelakkan lalu lintas sesak semasa musim cuti, mengoptimumkan pengurusan logistik, dan memastikan kelancaran operasi plaza tol, tempat letak kenderaan dan kawasan R&R."
+}

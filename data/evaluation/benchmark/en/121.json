@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_121",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Islanders will be asked to give their views on how to reform Jersey's government. The referendum ballot paper will have three options covering the number of politicians and size of constituency. The Greffier of the States, Michael de la Haye, said it was important to get a good turn out. The choices include two options for change and one to maintain the status quo. Option A will see 42 deputies elected from six large voting districts. Option B will have 30 deputies elected from six districts and 12 parish constables. Option C will maintain the status quo of eight senators elected island wide, 29 deputies in a range of constituency sizes and 12 parish constables. 'Significant reforms' The closing date to register to vote is 3 April, and the referendum will be held on Wednesday 24 April. Residents, whatever their nationality, must be at least 16 years old on 3 April and must have lived in Jersey for the last two years. Or if they have recently returned to Jersey, they must have lived there for the last six months and for a total of five years at some point in their life. Mr de la Haye said: \"The changes to the composition of the States Assembly... would represent the most significant reforms for over 60 years. \"It is therefore important there is a good turnout on referendum day.\"",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "People who are eligible to vote in Jersey are being urged to check they are on the electoral register before a referendum next month."
+}

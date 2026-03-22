@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_139",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "There is a reason why we put up this story at this hour; because if posted it after lunch, offices or living rooms (if you’re working from home) would likely be redecorated with whatever you had for lunch. The Guinness World Records archive is made up of the strangest things. Just look at their \nlist of records\n and you’d understand how interesting human beings are.\nIt’ll also make you realise that it doesn’t take a superhero to break or set a new Guinness World Record – it just requires some creativity and tenacity. Creativity to find a niche record and the tenacity to see it through – that’s all there is.\n \nThis Guinness World Record set by British stunt driver, Terry Grant, was one of them. Come on, who would’ve thought of setting a new record for the \nfastest wheel change on a spinning car\n??\nInformation has been scarce but we do know that it was set 10 years ago in Rome, Italy on an Italian TV show. The time required? A mere 3 minutes and 10 seconds.\nFrankly, it sounds impossible to perform a tyre change in such a short time even if the car wasn’t moving!",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Kisah ini menyerlahkan rekod luar biasa dan menarik yang terdapat dalam arkib Rekod Dunia Guinness. Satu rekod sedemikian ialah penukaran roda terpantas pada kereta berputar, yang dibuat oleh pemandu lagak ngeri British, Terry Grant, di Rom, Itali, dalam rancangan TV Itali. Tugas itu selesai dalam masa 3 minit dan 10 saat sahaja, satu pencapaian yang kelihatan hampir mustahil walaupun untuk kereta yang tidak bergerak. Ini berfungsi sebagai peringatan bahawa menetapkan rekod baharu hanya memerlukan kreativiti dan kecekalan, dan ia tidak semestinya memerlukan wira-wira untuk mencapainya."
+}

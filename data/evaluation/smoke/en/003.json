@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_003",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Some of the dead animals had suffocated as they had been stitched inside cloth dolls, a statement from Cologne Bonn airport customs said. The endangered horned lizards, alligator lizards and box turtles were destined for private buyers in Germany. They are among many species that the global Cites accord seeks to protect. German officials are now trying to trace the origin of the reptiles, using DNA samples. It is not yet clear if they came from the wild or from captive breeding programmes. They were in two packages seized on 30 October and 8 November. The customs service is collaborating with Mexican authorities and with zoologists at the Alexander Koenig Research Museum (ZFMK) in Bonn. The smugglers could be fined, if the police can identify them. The 16 surviving reptiles might be returned to their Mexican habitat. ZFMK's work with customs mostly focuses on illegal goods made from poached endangered species, such as snakeskin handbags or furs. The 1973 Convention on International Trade in Endangered Species (Cites) has been signed by 182 states and the EU, and covers about 6,000 animal species and 30,000 plant types. Read more on this topic:",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "German airport customs officers have found 26 rare reptiles - 10 of them dead - smuggled inside parcels of toys and sweets from Mexico."
+}

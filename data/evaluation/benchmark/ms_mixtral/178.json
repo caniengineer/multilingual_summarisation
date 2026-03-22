@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_178",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KAHERAH: Presiden Mesir Abdel Fattah al-Sisi mengeluarkan perintah untuk memanjangkan tempoh darurat kecemasan selama tiga bulan lagi bermula semalam, demikian menurut laporan warta rasmi Mesir Sabtu lalu.\nAgensi berita Xinhua melaporkan, menurut perintah itu tentera bersenjata dan pihak polis akan mengambil langkah-langkah yang diperlukan untuk menghadapi ancaman  keganasan, menjaga keselamatan di seluruh negara, melindungi harta benda awam dan swasta dan memelihara kehidupan rakyat.\nDi bawah Perlembagaan Mesir, keputusan Presiden dalam memperbaharui tempoh darurat itu memerlukan kelulusan Parlimen.\nPresiden al-Sisi pertama kali mengisytiharkan perintah darurat itu pada April 2017 berikutan pengeboman di dua gereja di wilayah utara Gharbiya dan Alexandria yang mengorbankan sekurang-kurangnya 47 mangsa dan mencederakan lebih 120 orang.\nMesir menghadapi gelombang keganasan yang mengorbankan beratus anggota polis, askar dan orang awam sejak Presiden Mohamed Morsi dijatuhkan oleh pihak tentera pada 2013 serta tindakan keras terhadap pengikutnya yang kebanyakannya daripada kumpulan Ikhwan Muslimin.\nWilayat Sinai iaitu sebuah kumpulan yang ada kaitan dengan militan Daesh mengakui bertanggungjawab atas serangan terbabit. — Terjemahan AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Presiden Mesir Abdel Fattah al-Sisi telah melanjutkan tempoh darurat selama tiga bulan lagi mulai semalam, menurut kenyataan rasmi oleh Mesir pada hari Sabtu. Tentera dan polis diberi kuasa untuk mengambil langkah yang perlu untuk menghadapi ancaman keganasan, mengekalkan keselamatan di seluruh negara, melindungi harta awam dan persendirian, dan memelihara nyawa rakyat. Di bawah Perlembagaan Mesir, keputusan Presiden untuk melanjutkan darurat memerlukan kelulusan Parlimen. Presiden al-Sisi pertama kali mengisytiharkan darurat pada April 2017 berikutan pengeboman di dua gereja di utara Gharbiya dan Iskandariah yang mengorbankan sekurang-kurangnya 47 orang dan mencederakan lebih 120. Mesir telah menghadapi gelombang keganasan yang telah membunuh ratusan polis, tentera, dan orang awam sejak Presiden Mohamed Morsi digulingkan oleh tentera pada 2013, serta tindakan keras terhadap pengikutnya, terutamanya daripada Ikhwanul Muslimin. Wilayah Sinai, sebuah kumpulan yang dikaitkan dengan ISIS, mengaku bertanggungjawab atas serangan tersebut. -AlHijrah Terjemahan dalam talian."
+}

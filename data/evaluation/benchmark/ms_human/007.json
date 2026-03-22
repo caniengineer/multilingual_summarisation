@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_007",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "SHAH ALAM: Dakwaan Pengerusi Perikatan Nasional (PN), Tan Sri Muhyiddin Yassin terhadap Perdana Menteri, Datuk Seri Anwar Ibrahim menerima RM15 juta semasa menjadi Penasihat Ekonomi Selangor dianggap sekadar pengulangan fitnah dan hanya mengaburi fikiran rakyat. Setiausaha Politik Menteri Besar Selangor, Juwairiya Zulkifli berkata, perkara itu dinafikan berulang kali termasuk dalam jawapan rasmi Menteri Besar ketika itu Allahyarham Tan Sri Khalid Ibrahim dalam sidang Dewan Undangan Negeri (DUN) Selangor. Menurutnya, semasa tempoh Anwar menjadi Penasihat Ekonomi Selangor, beliau hanya diberikan gaji simbolik RM1 setahun. &quot;Gaji tersebut tidak dibayar kepada beliau sejak tarikh lantikan, malah beliau tidak menerima sebarang bayaran elaun atau keistimewaan selain gaji RM1 tersebut,&quot; katanya dalam satu kenyataan pada Rabu. Juwairiya membuat kenyataan itu susulan Muhyiddin mendakwa Anwar menerima RM15 juta ketika menjadi Penasihat Ekonomi Selangor dalam kempen ceramah di Parlimen Padang Serai, baru-baru ini. Juwairiya yang juga Ahli Dewan Undangan Negeri (ADUN) Bukit Melawati memberitahu perkara itu jelas tertera dalam &#39;Hansard&#39; (penyata rasmi) DUN Selangor menerusi jawapan kepada soalan oleh ADUN. &quot;Dengan mengitar semula rekaan yang tidak berasas ini menunjukkan keterdesakan dan kemuflisan modal politik PN dalam usaha kempen mereka setelah gagal membentuk kerajaan Persekutuan. &quot;Tindakan menabur fitnah serta dakwaan palsu bagi mengaburi fikiran rakyat ini sangat tidak bertanggungjawab dan jelas terkeluar dari nadi politik Melayu-Islam yang selalu mereka dendangkan,&quot; ujar beliau. Sehubungan itu, katanya, pengundi Parlimen Padang Serai wajar menolak PN dalam pilihan raya kerana masih mahu menagih undi dengan fitnah dan rekaan. &quot;Saya percaya di pihak Perdana Menteri wajar mengambil tindakan selanjutnya bagi menghalang pengulangan fitnah ini terus dijaja,&quot; jelas beliau. - Sinar Harian",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Setiausaha Politik Menteri Besar Selangor Juwairiya Zulkifli mengatakan perkara itu dinafikan berulang kali termasuk dalam jawapan rasmi Menteri Besar ketika itu Tan Sri Khalid Ibrahim. Dia mengatakan Anwar hanya diberi gaji simbolik RM1 setahun. Juwairiya mengatakan perkara itu jelas tertera dalam 'Hansard' (penyata rasmi) DUN Selangor melalui jawapan kepada soalan oleh ADUN."
+}

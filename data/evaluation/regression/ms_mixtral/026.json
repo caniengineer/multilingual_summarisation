@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_026",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Muallim ungguli Sukan SRITI Perak Ke-2. KAMPAR: Sekolah Rendah Integrasi Teras Islam (SRITI) Muallim muncul Johan Keseluruhan pada Sukan SRITI Negeri Perak yang berlangsung di padang Sekolah Menengah Kebangsaan Sentosa, di sini kelmarin. Kejohanan bagi tahun kedua institusi ini menyaksikan penguasaan SRITI Muallim dan SRITI Lenggong dalam hampir semua acara dipertandingkan iaitu bola sepak, bola jaring, memanah, lari individu dan bergantian. Menurut Timbalan Ketua Pemuda PAS Perak, Ustaz Hafez Sabri, penganjuran tersebut menunjukkan SRITI bukan sahaja berfokus kepada pendidikan ilmu agama dan akademik, tetapi juga sukan. Sementara itu, Pesuruhjaya PAS Perak, Razman Zakaria dalam perasmiannya mahu masyarakat melihat kemampuan institusi pendidikan Islam itu melahirkan individu berjaya dalam pelbagai bidang. SRITI yang menjadi kesinambungan PASTI katanya, perlu terus diberi sokongan oleh para ibu bapa agar didikan kepada generasi masa depan dapat menerima ilmu duniawi dan ukhrawi secara seimbang. Hadir sama Pengarah SRITI Perak, Ustaz Zulfadli Zainal, manakala penutup dan penyampaian hadiah disempurnakan Ketua Pemuda PAS Perak, Ustaz Ahmad Faisal Mohd Puait. – HARAKAHDAILY 30/4/2019",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "SRITI Muallim memenangi gelaran Johan Keseluruhan pada Sukan SRITI Perak untuk tahun kedua berturut-turut, bertempat di SMK Sentosa, Kampar. Sekolah-sekolah mendominasi hampir semua acara sukan termasuk bola sepak, bola jaring, olahraga dan sepak takraw. Acara itu menunjukkan SRITI bukan sahaja memberi tumpuan kepada pendidikan agama dan akademik tetapi juga kepada bidang sukan, menurut Timbalan Ketua Pemuda PAS Perak, Ustaz Hafez Sabri. Pesuruhjaya PAS Perak, Razman Zakaria dalam ucapan perasmiannya berharap orang ramai mengiktiraf keupayaan institusi pendidikan Islam melahirkan individu berjaya dalam pelbagai bidang. SRITI yang merupakan kesinambungan PASTI memerlukan sokongan berterusan ibu bapa bagi memastikan pendidikan duniawi dan agama yang seimbang untuk generasi akan datang, kata Ketua Pemuda PAS Perak, Ustaz Ahmad Faisal Mohd Puait."
+}

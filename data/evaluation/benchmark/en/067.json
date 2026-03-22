@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_067",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The Securities and Exchange Commission said it would \"review the unusual trading activity\" and \"take appropriate steps to protect investors\". There are rumours the drop may have been caused by an erroneous \"fat finger\" trade at a Wall Street bank. The term refers to when a trader enters data incorrectly. There was speculation that a Citigroup employee had been responsible for an erroneous trade - however, the bank said there was no evidence of this. \"We, along with the rest of the financial industry, are investigating to find the source of today's market volatility,\" Citigroup spokesman Stephen Cohen said in a statement. \"At this point, we have no evidence that Citi was involved in any erroneous transaction.\" US President Barack Obama said the authorities were evaluating the unusual activity and hoped to prevent it from happening again. \"They will make findings of their review public along with recommendations for appropriate action,\" he told reporters on Friday. Algorithms Among those affected were 3M, whose shares fell 25% at one point, and Procter & Gamble, which saw its stocks fall by 37%. There have been reports that a \"fat finger\" incident involved trade in Procter & Gamble shares, when a trader entered a \"b\" for billion instead of \"m\" for million. All share trading is processed electronically - with stocks changing hands in fractions of a second. One theory is that algorithms on which systems rely automatically triggered thousands of transactions to be executed after an error was made. The tumultuous session on Wall Street saw the Dow Jones index fall by almost 1,000 points in a matter of minutes. It later recovered, closing down 3.2%, or 347.8 points, at 10,520.32. The Nasdaq exchange also saw sharp drops and said it was also investigating what happened.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The US financial watchdog has said it will look into stock market activity which led to the Dow Jones share index plummeting 9% at one point on Thursday."
+}

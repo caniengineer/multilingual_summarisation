@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_060",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Kawan, dulu awak lain. Dulu saya sendiri segan dengan awak. Awak sekolah agama. Universiti bertaraf agama. Saya berubah antara faktornya ialah awak. Saya senang tengok awak. Cara pemakaian awak. Tudung awak labuh. Pakaian awak menutup aurat. Sejuk mata saya. Alhamdulillah. \n\nSeolah-olah saya tidak berseorangan dalam perubahan diri ini. Sebab saya ada awak. Awak motivate saya untuk berubah. Tapi awak, kenapa awak lain sekarang? Mana pergi awak yang dulu? Kenapa awak lebih banyak kisah benda-benda lagho? Kenapa pakaian awak tak macam dulu? Kenapa tudung awak tak labuh macam dulu? \n\nAwak saya sedih. Bukankah kita sama-sama nak berubah? Ya saya tahu saya tak patut menilai iman seseorang. Siapalah saya? Hamba yang penuh dosa. Tapi awak saya terkilan sangat. Saya cuba tegur awak. Awak terima. Saya bersyukur. Tapi awak, saya harap sangat awak jadi yang dulu. Kita sama-sama berjuang. Boleh kan awak? Kawan? Sister?",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Penceramah itu dahulunya malu-malu dengan rakan yang memakai pakaian agama dan belajar di sekolah agama dan universiti. Rakan itu memberi inspirasi kepada penceramah untuk berubah dan memperbaiki diri. Walau bagaimanapun, rakan itu telah berubah dan kini berpakaian dan berkelakuan berbeza, yang menyedihkan penceramah. Penceramah melahirkan harapan agar rakan itu kembali kepada cara lama mereka, kerana mereka berdua sedang berusaha untuk memperbaiki diri. Penceramah mengakui bahawa mereka tidak sempurna dan tidak sepatutnya menilai orang lain, tetapi mereka tidak dapat menahan rasa kecewa dengan perubahan rakan. Mereka mengakhiri mesej dengan memanggil rakan itu sebagai \"kawan\" dan \"kakak\" dan menyatakan harapan bahawa rakan itu akan menjadi diri lama mereka semula."
+}

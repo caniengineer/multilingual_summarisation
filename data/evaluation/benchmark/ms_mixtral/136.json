@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_136",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "PAS Kemaman simpati mangsa kebakaran. Semua mereka tinggal sehelai sepinggang setelah rumah mereka musnah lebih 85 peratus di Kampung Cabang, Kertih, di sini sekitar jam 7 pagi kelmarin. Ahli Parlimen Kemaman, Ustaz Che Alias Hamid dan Adun Kemasik, Ir Saiful Azmi Suhaili yang bergegas ke lokasi kejadian telah mendapat penerangan daripada pihak bomba.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Pagi semalam, kebakaran berlaku di Cawangan Kampung, Kertih, Kemaman, memusnahkan lebih 85% kediaman sebuah keluarga, meninggalkan mereka hanya berselimut di belakang. Ahli Parlimen tempatan, Ustaz Che Alias Hamid, dan Ahli Dewan Undangan Negeri (ADUN) Kemasik, Ir Saiful Azmi Suhaili bergegas ke lokasi kejadian dan menerima taklimat daripada pihak bomba. Wakil rakyat menyatakan rasa empati mereka terhadap mangsa kebakaran."
+}

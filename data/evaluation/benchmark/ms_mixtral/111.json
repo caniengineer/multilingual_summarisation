@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_111",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "PAS Dun Chukai turun bantu mangsa banjir. KEPALA BATAS: Prihatin terhadap mangsa banjir Pulau Pinang, PAS Dun Chukai telah menggerakkan bantuan di negeri itu setelah tiba dengan konvoi dari Chukai di Bilik Gerakan Operasi Banjir Induk Khidmat Malaysia di Pejabat PAS Pulau Pinang, di sini semalam. Ketibaan kumpulan dipimpin Adun Chukai, Hanafiah Mat itu telah disambut Pesuruhjaya PAS Pulau Pinang, Ustaz Muhammad Fauzi Yusoff dan Ketua Pemuda PAS Pulau Pinang, Ustaz Afnan Hamimi Taib Azamudden. Maklumnya, pihak beliau akan menemui mangsa banjir di Jelutong dan menyerahkan sedikit barang yang telah dibawa dan jika perlu akan bersihkan rumah mereka. Beliau mengucapkan terima kasih kepada semua penderma dan petugas di Dun Chukai yang berjaya mengumpul sumbangan dalam masa singkat. – HARAKAHDAILY 13/11/2017",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "ADUN Chukai PAS, Hanafiah Mat, dan konvoi dari Chukai tiba di Pulau Pinang untuk memberikan bantuan banjir kepada mereka yang terjejas akibat banjir di negeri itu. Rombongan yang diketuai Hanafiah itu disambut Ketua PAS Pulau Pinang, Ustaz Muhammad Fauzi Yusoff dan Ketua Pemuda PAS Pulau Pinang, Ustaz Afnan Hamimi Taib Azamudden, di Pusat Kawalan Operasi Bencana Negeri Pulau Pinang. Mereka bercadang untuk mengagihkan bantuan dan membantu membersihkan kediaman mangsa banjir di Jelutong. Hanafiah mengucapkan terima kasih kepada semua penderma dan kakitangan di Chukai yang membantu mengutip derma dengan cepat."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_104",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Here is a piece of juicy news that we missed out during the 2017 Frankfurt Motor Show, all Chery vehicles will be electrified by 2020 and introduce their first fully-electric vehicle by 2025. The introduction of a purely electrified model range will help Chery Automobile to offer highly-competitive products for their globalisation plan.\nLike the recently unveiled Exeed TX, the Honda CR-V rival SUV features an electrified powertrain – \n147 hp\n 1.5-litre turbocharged petrol engine mated to an 85 kW (114 hp) electric motor. This powertrain combo is mated to a seven-speed hybrid drive transmission and will sprint from 0 to 100 km/h in \n6 seconds flat\n onward to a top speed of 200 km/h. Fuel consumption is rated at \n1.8 litres per 100 km\n.\nChery has hinted that pure electric as well as plug-in hybrid platforms will spearhead its next-generation Chery 3.0 powertrain. The new powertrains will be supported by advanced software systems jointly developed by Chery and Baidu as well as new “platform matrix”. If the Exeed TX is of any indication, we can expect not only efficient but also highly capable vehicles coming our way.\nKnowing full well that the consumers are more tech driven than ever, Chery has also taken the lead in developing new technologies such as gesture control, face identification, eye tracking, AR-HUD (Augmented Reality Head-Up Display) and others.\nGeneral Manager of Chery Automobile, Mr. Chen Anning said during an interview that the company is committed to build Chery into a high-end Chinese brand that commands a strong influence not only in the European market, but everywhere else in the world.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Pada Pameran Motor Frankfurt 2017, Chery Automobile mengumumkan bahawa semua kenderaannya akan dijana elektrik menjelang 2020, dan ia akan memperkenalkan kenderaan elektrik sepenuhnya pertamanya menjelang 2025. Penjana kuasa Chery 3.0 generasi akan datang syarikat itu akan menampilkan hibrid elektrik dan plug-in tulen. platform, disokong oleh sistem perisian canggih yang dibangunkan dengan Baidu. Exeed TX, SUV elektrik, adalah petanda apa yang akan datang, dengan enjin petrol pengecas turbo 147 hp 1.5 liter dan motor elektrik 85 kW (114 hp). Chery juga sedang membangunkan teknologi baharu seperti kawalan gerak isyarat, pengenalan muka, pengesanan mata dan AR-HUD. Pengurus Besar syarikat, Chen Anning, telah menyatakan bahawa Chery komited untuk menjadi jenama Cina mewah dengan pengaruh global yang kuat."
+}

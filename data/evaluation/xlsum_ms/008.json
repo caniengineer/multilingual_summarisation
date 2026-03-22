@@ -10,5 +10,6 @@
     "target_language": "ms",
     "summary_type": "brief",
     "max_length": 150
-  }
+  },
+  "ref_quality": "machine"
 }

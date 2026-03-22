@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_004",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "SHAH ALAM: Tidak masuk akal untuk tauke dan syarikat judi menyumbang dana kepada Perikatan Nasional (PN) terutamanya apabila dalam parti itu terdapat kumpulan yang agresif merobohkan pusat judi. Presiden Pas, Tan Sri Abdul Hadi Awang berkata, saham syarikat judi juga jatuh menjunam setelah mendapat maklumat kemaraan PN dalam Pilihan Raya Umum ke-15 (PRU15) yang lalu. &ldquo;Sahamnya hanya naik semula apabila Pakatan Harapan (PH) mendapat kuasa secara luar biasa daripada amalan demokrasi yang bersih. &ldquo;Adalah tidak masuk akal tauke dan syarikat judi menyumbang kepada kumpulan yang terdapat di dalamnya yang dituduh sebagai Taliban, pihak yang paling agresif merobohkan pusat judi dengan ganas. &ldquo;Hal ini bermakna tauke judi itu sangat bodoh, walaupun pandai menipu dan paling banyak menyumbang rasuah kepada penerima rasuah yang ditarik bergabung dengan bekas banduan kluster mahkamah, sehingga menjadi penyokong kuat Pakatan Harapan (PH) bagi menubuhkan kerajaan,&rdquo; katanya dalam siaran di Facebooknya pada Rabu. Pada Isnin, Anwar membayangkan sebahagian dana pilihan raya PN datang daripada syarikat perjudian yang terlibat dengan cabutan khas. Bercakap ketika sidang media di Pejabat Perdana Menteri di Putrajaya, Anwar berkata dana pilihan raya untuk parti &#39;Melayu&#39; dan parti &#39;Islam&#39; datang dari syarikat perjudian. Nombor Ramalan | Cabutan khas judi dikurangkan kepada 8 kali setahun Dalam pada itu, Abdul Hadi berkata, ketika Pas memerintah Kelantan, beberapa langkah telah diambil bagi menutup tempat perjudian di negeri tersebut, selain turut diadakan sesi perbincangan bersama para pemimpin semua agama. Menurutnya, pemimpin-pemimpin dalam pertemuan itu memaklumkan bahawa judi turut diharamkan oleh semua agama. &ldquo;Selepas itu, kami menghadapi masalah apabila bidang kuasa kerajaan negeri hanya terhad kepada premis perjudian. &ldquo;Adapun lesen kebenaran berjudi adalah tertakluk di bawah bidang kuasa Kementerian Kewangan dan Menteri Kewangan pada masa itu ialah Perdana Menteri sekarang yang dilantik oleh PH, merangkap Menteri Kewangan juga. &ldquo;Apabila kerajaan Pas Negeri Kelantan, Terengganu dan Kedah menutup premis perjudian dan lain-lain di bawah bidang kuasanya, tiba-tiba tindakan itu mendapat protes daripada parti komponen PH, walaupun dalam perkara yang hanya berkait dengan hak umat Islam,&rdquo; ujarnya. -- Sinar Harian",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Presiden Pas Tan Sri Abdul Hadi Awang mengatakan saham syarikat judi juga jatuh. Wang pilihan raya PN datang dari syarikat perjudian yang terlibat dengan cabutan khas. Anwar membayangkan sebahagian dana pilihan raya PN datang dari syarikat perjudian."
+}

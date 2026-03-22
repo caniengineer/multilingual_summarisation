@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_079",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Pesakit di hospital terima sumbangan raya MB. Hari ini Ustaz Datuk Bentara Kanan Ahmad Yakob bersama anggota-anggota Exco mengagihkan sebanyak 172 bungkusan hadiah kepada pesakit di Hospital Universiti Sains Malaysia (HUSM) di Kubang Kerian. “Begitu juga pihak hospital yang bekerja keras menjaga pesakit. Ini adalah pengorbanan yang kita sangat hargai,” katanya selepas menziarahi serta menyampaikan sumbangan kepada pesakit di wad satu selatan dan wad satu mutiara HUSM. Di wad dua selatan pula sumbangan kepada pesakit disampaikan Timbalan Menteri Besar, Datuk Mohd Amar Nik Abdullah dan anggota Exco, Datuk Hanifa Ahmad. Sebelum itu ketika melawat mantan timbalan menteri besar, Datuk Abdul Halim Abdul Rahman di Mutiara 1, Ustaz Ahmad berkata keadaan kesihatannya semakin baik. Di wad sama seorang pelajar Maahd Tahfiz al Hashimi yang terbabit dalam kemalangan di Kampung Telekong baru-baru ini turut mendapat perhatian beliau. Dalam perkembangan berkaitan, Persatuan Isteri-Isteri Wakil Rakyat dan Pegawai Kanan Kerajaan (Purnama) pula menyampaikan sumbangan kepada pesakit di Hospital Raja Perempuan Zainab II.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Hari ini, Ustaz Datuk Bentara Kanan Ahmad Yakob dan anggota Exco mengagihkan 172 bungkusan hadiah kepada pesakit di Hospital Universiti Sains Malaysia (HUSM) Kubang Kerian. Mereka juga melawat dan menyampaikan hadiah kepada pesakit di wad satu selatan, satu berlian, dan dua selatan. Timbalan Menteri Besar, Datuk Mohd Amar Nik Abdullah, dan anggota Exco, Datuk Hanifa Ahmad, turut hadir. Sebelum ini, ketika melawat bekas timbalan menteri besar, Datuk Abdul Halim Abdul Rahman, di Mutiara 1, Ustaz Ahmad menyebut tahap kesihatannya semakin pulih. Persatuan Isteri Ahli Dewan Undangan Negeri dan Pegawai Kanan Kerajaan (Purnama) turut menyampaikan cenderahati kepada pesakit di Hospital Raja Perempuan Zainab II."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_134",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Huawei Mate 20 Pro 8GB + 256GB version is coming to Malaysia\n\n\nGood news for Huawei fans in Malaysia! The upgraded version of the recently released Mate 20 Pro is coming to our country soon! Featuring 8GB RAM and 256GB internal storage, the faster and stronger addition to the Mate 20 series will be available in the iconic Twilight.   As a refresher, Mate 20 Pro comes with amazing specifications including a 6.39-inch curved OLED Full-View display, Leica Triple Rear Camera (40MP+20MP+8MP) and a massive 4200mAh battery. It is powered by the latest Kirin 980 processor too, which makes it a powerful phone for gaming and multitasking.\nMore information will be revealed soon, so stay tuned to their official Facebook for the updates! You can also visit the official site for more details on Huawei’s products.\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\n\nCheck This Out Next\n\n\nTags: 8GB + 256GBAndroidHuaweiMalaysiaMate 20Mate 20 ProMobilesmartphoneTech",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Versi 8GB + 256GB Huawei Mate 20 Pro sedang dilancarkan di Malaysia, menampilkan memori dan storan yang dipertingkatkan, bersama-sama dengan spesifikasi yang sedia mengagumkan seperti paparan OLED 6.39 inci, Leica Triple Rear Camera dan pemproses Kirin 980. Tambahan yang berkuasa dan lebih pantas pada siri Mate 20 ini akan tersedia dalam warna Twilight. Nantikan Facebook rasmi Huawei untuk kemas kini, dan lawati tapak rasmi mereka untuk mendapatkan butiran produk lanjut."
+}

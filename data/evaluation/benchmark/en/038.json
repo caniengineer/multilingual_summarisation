@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_038",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "A consortium of UAE-based businessman Murari Lal Jalan and London's Kalrock Capital won the bid to revive the airline. They expect the airline will operate under the Jet Airways brand, on all of its previous routes. The airline has been grounded since April last year. Jet Airways was struggling with more than $1bn (£790m) of debt at the time it was forced to shut down. Since it was grounded, the airline has faced a lengthy insolvency process, as hundreds of creditors sought to claw back money they were owed. In October, the creditors approved the resolution plan submitted by Kalrock Capital and Murari Lal Jalan to revive and operate the airline. \"As per the resolution plan, Jet Airways intends to operate all of its historic domestic slots in India and restart international operations,\" the consortium said in a statement. The plan still needs to the approval of the regulators and the National Company Law Tribunal. Apart from passenger flights, the new management will also focus on cargo operations to try and improve revenue. When Jet Airways ceased operations, it was India's oldest private airline with 115 planes on nearly 1,000 domestic and international routes. Although Jet had lost its position as the domestic leader to low cost carrier Indigo, it commanded a leading 12% share of the international market. India's airlines were once considered a lucrative growth sector, but seven airlines have shut shop in the last decade. The remaining airlines have struggled under reduced demand due to the covid-19 pandemic. Domestic passenger traffic between May and September 2020 was 11 million, down from more than 70 million for the same period the previous year, according to ratings agency ICRA.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Grounded Indian carrier Jet Airways may take to the skies again as early as summer next year."
+}

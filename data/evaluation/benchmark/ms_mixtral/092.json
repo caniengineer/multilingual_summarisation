@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_092",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "assalamualaikum, just nak cakap trend tudung sekarang makin lama makin pelik, ada yang belit kat leher la (x tutup dada) tapi aku cuma nak ingatkan buat muslimah semua supaya pandai pilih tudung yang menepati syariah, sekarang ni dah banyak tudung bawal, mesir,  instant shawl yang labuh, cuma harganya agak mahal mungkin dalam lingkungan harga rm35 ke atas, nak beli tudung yang murah pun boleh..tapi pakailah labuh2 ea,  ^^ smoga semua muslimah lebih hati2 dalam pemilihan tudung(yang tertutup itu lebih indah dan mahal) akhir sekali,  terima kasih sebab sudi membaca..",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Assalamualaikum, saya ingin membincangkan trend pemakaian tudung (tudung) di kalangan muslimah sekarang. Baru-baru ini, semakin popular untuk memakai tudung bergaya yang hanya menutup leher tetapi tidak menutup dada. Saya ingin mengingatkan umat Islam untuk memilih tudung yang berpegang kepada syariat Islam. Terdapat banyak jenis tudung yang ada sekarang, seperti tudung bawal dan mesir, serta selendang segera. Walaupun ini boleh menjadi lebih mahal (sekitar RM35 dan ke atas), terdapat juga pilihan yang berpatutan. Walau bagaimanapun, saya mengesyorkan memilih mereka yang menutup bahagian dada untuk penampilan yang lebih sederhana. Terima kasih kerana meluangkan masa membaca."
+}

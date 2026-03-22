@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_005",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "KUALA LUMPUR: Seramai 132,955 pemilih bakal mengundi di Parlimen Padang Serai dan 28,108 pengundi di kerusi Dewan Undangan Negeri (DUN) Tioman, hari ini. Sebanyak 46 pusat mengundi, dengan 230 tempat mengundi akan dibuka untuk tujuan pengundian Pilihan Raya Umum ke-15 (PRU15) Padang Serai, yang membabitkan 2,468 petugas. Bagi pengundian DUN&nbsp;Tioman pula, sebanyak 17 pusat mengundi dengan 52 tempat mengundi akan dibuka, membabitkan 506 petugas. Setiausaha Suruhanjaya Pilihan Raya (SPR), Datuk Indera Ikmalrudin Ishak, dalam satu kenyataan berkata, pihaknya sudah menjalankan semakan peralatan mengundi seperti peti undi, dakwat pilihan raya, kertas undi dan petak undi untuk kegunaan bagi proses pengundian di kedua-dua lokasi terbabit. PRU15 di dua kawasan itu ditangguhkan susulan kematian calon yang disahkan bertanding iaitu M. Karupaiya dari Pakatan Harapan (PH) bagi Parlimen Padang Serai dan Md Yunus Ramli mewakili Perikatan Nasional (PN) di DUN Tioman. Karupaiya, 69, meninggal dunia pada 16 November dipercayai akibat serangan jantung dan komplikasi kesihatan, manakala Yunus, 61, disahkan meninggal dunia beberapa jam sebelum proses pengundian PRU15 pada 19 November lepas. Perebutan kerusi Parlimen Padang Serai menyaksikan pertembungan enam penjuru antara calon PH Dr Mohamad Sofee Razak, C. Sivaraajh (BN), Azman Nasrudin (PN), dan Hamzah Abd Rahman (Pejuang). Dua lagi pencabar ialah Mohd Bakhri Hashim (Warisan), dan Sreanandha Rao (Bebas). Sementara itu, DUN Tioman akan menyaksikan pertembungan lima penjuru melibatkan calon PN Nor Idayu Hashim, Mohd Johari Hussain (BN), Osman A Bakar (Pejuang), Sulaiman Bakar (Bebas). Calon lain, Mohd Fadzli Mohd Ramly dari PH, mengumumkan memberi laluan kepada calon BN untuk meningkatkan peluang untuk menang, tetapi namanya (Fadzli) masih tertera di kertas undi. &nbsp;",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Sebanyak 132,955 pemilih akan mengundi di Parlimen Padang Serai dan 28,108 pengundi di kerusi Dewan Undangan Negeri Tioman. Sebanyak 46 pusat mengundi, dengan 230 tempat mengundi akan dibuka untuk tujuan pengundian Pilihan Raya Umum ke-15 (PRU15) Padang Serai. Sebanyak 17 pusat mengundi dengan 52 tempat mengundi akan dibuka, membabitkan 506 petugas."
+}

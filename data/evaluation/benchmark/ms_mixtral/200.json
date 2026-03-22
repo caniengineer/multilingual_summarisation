@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_200",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "ok smlm aku dh citer kan psl prgai trbaru bdk tu xmakan nasik smggu, xpergi kelas 3 minggu.before this jihyo dah buat mukaddimah, then aku proceed.\n\nsemalaman budak tu x tidur mengadap laptop.pagi tadi classmate dia dtg, garang gak bdk tu haha even kami kejut si nokturnal tu lembut2 suruh bangun, dia goyang2 terus tp budak tu xrespon lgsung pejam mata rpt2.\n\nkami suruh dia bangun sbb counselor sendiri contact ckp dia akan dtg hostel n jumpa nokturnal tu face to face memandangkan byk kali dh appointment dia ponteng.\n\naku dan bff aku a.k.a roomate budak tu ada disscusion pg td so, kami terpaksa tinggalkan dia ngn classmate dia kat bilik, n kami dah pesan calssmate dia jgn keluar sbb risau tkut dia lock pintu dri dalam, mmg keadaan dia serabai trus la, duk tekan2 kepala, geleng2.\n\ntahu lah kami kakak dia dah dtg amik dia, dia tangguh satu sem. sbb dia dah kena bar 3 minggu tak dtg kelas.\nkami smua mmg last year nampaknya mmg xjumpa dah la budak tu.\n\nmaybe dia depressed.mgikut apa yg kami rasakan, dia ada masalah family (kena paksa kawin), dan dia sukakan someone yg study kat UK,mcm bertepuk sbelah tgn gitu la. maybe dia jgk ada masalah kewangan sbb yuran ipt xbyr2.\n\nbila aku igt balik minggu ni mmg dia dah teruk sgt, bila kami pujuk dia makan dia geleng2 kpla, smlm dia ada bg soalan cepumas",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Pada malam sebelumnya, pelajar berkenaan telah tidur dengan komputer riba mereka terbuka. Pagi ini, rakan sekelas mereka datang untuk memeriksa mereka, tetapi mereka tidak bertindak balas, walaupun diminta untuk bangun oleh rakan sebilik mereka pada waktu malam. Mereka terpaksa dikejutkan oleh kaunselor, yang mengadakan pertemuan secara bersemuka dengan mereka kerana mereka sering tidak hadir dalam temu janji kelas.\n\nSaya dan kawan baik saya terpaksa meninggalkan pelajar dalam jagaan rakan sekelas mereka di dalam bilik kami, dan kami meminta rakan sekelas itu supaya tidak meninggalkan mereka sendirian, takut mereka akan mengunci diri dan tidak dapat membuka pintu dari dalam. Nampaknya kakak mereka sudah datang untuk membawa mereka pulang, kerana mereka telah tidak hadir selama tiga minggu.\n\nNampaknya pelajar itu mungkin tertekan kerana masalah keluarga, seperti dipaksa berkahwin, dan mempunyai perasaan terhadap seseorang yang belajar di UK. Mereka juga mungkin menghadapi masalah kewangan kerana yuran IPT yang tidak dibayar. Apabila saya balik minggu ini, keadaan pelajar semakin teruk, dan apabila disuruh makan, mereka hanya menggelengkan kepala. Mereka seolah-olah ada sesuatu di fikiran mereka."
+}

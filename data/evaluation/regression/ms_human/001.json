@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_001",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "KUCHING: Tabung Ekonomi Gagasan Anak Sarawak (TEGAS) melakar sejarah apabila buat julung kalinya memenangi Anugerah Brandlaureate bagi Anugerah penjenamaan tahun 2022 kategori (e-Penjenamaan dalam Perusahaan &ndash; Penyelesaian Inovasi Digital) untuk Tegas Digital Village. Menurut Timbalan Menteri Perancang Bandar Pentadbiran Tanah dan Alam Sekitar Kementerian Sumber Asli dan Pembangunan Bandar Sarawak&nbsp; merangkap Pengerusi TEGAS, Datu Len Talif Salleh Anugerah ini sebagai tanda pengiktirafan terhadap usaha dan komitmen organisasi dalam memperkasakan syarikat pemula dan perusahaan sosial di Sarawak melalui TEGAS Digital Village (TDV) dan TEGAS Digital Innovation Hub (TDIH) sejak 2017. &ldquo;Pasukan TEGAS yang diketuai oleh YB Datuk Snowdan Lawan akan terbang ke Kuala Lumpur sejurus selepas acara ini untuk menerima anugerah berprestij di Majlis Makan Malam Gala The BrandLaureate Brand of The Year Award 2022 di The Majestic Hotel KL malam ini,&rdquo; ujarnya. Beliau berkata demikian ketika mengumumkan semasa sesi sidang media selepas menghadiri majlis perasmian Shell Livewire Sarawak 2022 yang dirasmikan oleh Premier Sarawak Tan Sri Abang Johari Tun Openg di Tegas Digital Village hari ini. Anugerah Brandlaureate ialah penganugerahan tahunan yang memberi penghormatan kepada jenama yang terus cemerlang dan berdedikasi dalam penjenamaan mereka termasuk ketika terpaksa berhadapan dengan masa sukar serta penuh cabaran masa kini.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Anugerah Brandlaureate adalah anugerah tahunan yang memberi penghormatan kepada jenama yang terus cemerlang dan berdedikasi dalam penjenamaan mereka. Ia diadakan di The Majestic Hotel KL malam ini."
+}

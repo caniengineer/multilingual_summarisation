@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_019",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Woolf set parts of her 1927 novel, To the Lighthouse, on Skye, with the story's Ramsay family making visits to the isle between 1910 and 1920. Dr Jane Goldman will lead what has been described as the first public discussion on the novelist's decision to use the island as a setting. The academic has written extensively on Woolf. A Reader in English Literature at the University of Glasgow, she wrote The Feminist Aesthetics of Virginia Woolf: Modernism, Post-Impressionism and the Politics of the Visual. As well as her interest in Woolf, Dr Goldman has studied the work of American poet and writer Gertrude Stein, German artist Kurt Schwitters and the songs of Mary Poppins. The landscape of Skye and Kyle of Lochalsh on the mainland is said to have influenced the writing of To the Lighthouse. The lighthouse on Eilean Bàn, a small island between Kyleakin and Kyle of Lochalsh, has been said to be an inspiration for Woolf's novel. However, a Cornish beach and lighthouse have also been held up as the inspiration for her story. As a child, Woolf spent holidays in a St Ives guesthouse from which she could see the lighthouse on Godrevy Island. The Skye Book Festival will run from 26-28 July. It will finish with a performance of a new play telling the story of a former soldier who chose not to talk for 50 years and wove intricate items from grass and leaves. Angus MacPhee, who died in 1997, took ill while garrisoned on the Faroes and was later a psychiatric patient. Lancashire-based Horse and Bamboo Theatre's Angus - Weaver of Grass celebrates his life. Three years in the making, the play draws on stories about the Uist-born soldier and research material.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Author Virginia Woolf's associations with the Isle of Skye will be explored during the island's book festival."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_004",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Lelaki dibunuh dalam pertengkaran, 7 ditahan. MELAKA: Seorang pengurus sebuah syarikat swasta maut ditikam seorang lelaki akibat mengeluarkan perkataan tidak senonoh, dalam kejadian di sebuah gerai makan di tepi Jalan Kenanga di sini semalam. Ketua Polis Daerah Melaka Tengah ACP Christopher Patit berkata dalam kejadian kira-kira 4 pagi itu, mangsa yang merupakan lelaki berumur 35 tahun tidak sedarkan diri sebelum dibawa ke Hospital Melaka untuk rawatan tetapi disahkan telah meninggal dunia. “Siasatan awal mendapati sebelum kejadian berlaku, mangsa bersama beberapa rakannya yang mabuk setelah berhibur datang ke gerai berkenaan untuk makan dan minum namun selesai mereka makan, berlaku pertengkaran mulut antara mangsa dengan dua lagi lelaki. “Sebelum pertengkaran itu, mangsa bercakap dengan rakan-rakannya tentang saiz payudara seorang pelanggan wanita berusia 26 tahun sebelum ditegur dua lelaki masing-masing merupakan pengawal peribadi wanita itu dan seorang lagi ialah teman lelakinya,” katanya dalam satu kenyataan di sini hari ini. Beliau berkata kejadian berkenaan bertukar tegang apabila berlaku insiden tolak-menolak dan tumbuk-menumbuk antara mangsa, pengawal peribadi dan teman lelaki wanita itu. Beliau berkata pihaknya menerima panggilan telefon daripada orang awam yang memaklumkan pergaduhan itu kira-kira 4.15 pagi sebelum bergegas ke tempat kejadian dan mendapati mangsa tidak sedarkan diri sebelum dibawa ke hospital oleh rakannya mengunakan pacuan empat roda. Christopher berkata hasil bedah siasat mendapati mangsa dipercayai meninggal dunia disebabkan luka tikaman ke jantung dan kes disiasat mengikut Seksyen 302 Kanun Keseksaan kerana membunuh. Beliau berkata ekoran kejadian itu, polis menahan tujuh suspek berumur 25 hingga 38 tahun termasuk pengawal peribadi dan pasangan kekasih itu untuk membantu siasatan lanjut.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Seorang lelaki maut dalam kejadian tikaman di sebuah gerai makan di Melaka selepas mengeluarkan kata-kata yang tidak sepatutnya mengenai seorang wanita. Pertengkaran itu berlaku antara mangsa berusia 35 tahun dan dua lelaki yang dilaporkan sebagai pengawal peribadi dan rakan wanita itu. Pertengkaran itu memuncak kepada pergaduhan fizikal, mengakibatkan mangsa ditikam di bahagian jantung. Mangsa telah dibawa ke hospital tetapi disahkan meninggal dunia. Tujuh individu termasuk pengawal peribadi dan rakan wanita itu telah ditahan bagi membantu siasatan mengikut Seksyen 302 Kanun Keseksaan kerana membunuh."
+}

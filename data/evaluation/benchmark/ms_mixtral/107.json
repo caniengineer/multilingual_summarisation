@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_107",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Hina Agong: Ronnie Liu ditahan polis. KUALA LUMPUR: Polis Diraja Malaysia (PDRM) menahan Ahli Dewan Undangan Negeri (ADUN) Sungai Pelek, Ronnie Liu Tian Khiew bagi diambil keterangan berhubung kes menghina Yang di-Pertuan Agong menerusi media sosial.Timbalan Pengarah (Siasatan dan Perundangan) Jabatan Siasatan Jenayah (JSJ) Bukit Aman DCP Mior Faridalathrash Wahid berkata ADUN itu ditahan di Ibu Pejabat Polis Daerah Petaling Jaya pagi tadi.“Ronnie Liu ditahan kira-kira 10:40 pagi tadi untuk memberi keterangan dan disiasat di bawah Seksyen 4(1) Akta Hasutan 1948 dan Seksyen 233 Akta Komunikasi dan Multimedia 1998 berhubung kes memuat naik status di media sosial dilakukannya berkait Yang di-Pertuan Agong.  Semalam, Bernama melaporkan Pengarah JSJ Bukit Aman Datuk Huzir Mohamed sebagai berkata Liu merupakan antara empat individu yang disiasat berhubung penghinaan terhadap Yang di-Pertuan Agong Al-Sultan Abdullah Ri’ayatuddin Al-Mustafa Billah Shah menerusi media sosial.  Liu dilaporkan memuat naik status Facebook yang dibaca: “Now in Bangkok. They Are Saying No to the King” dan Polis masih mengesan dua lagi individu bagi membantu siasatan kes itu. – BERNAMA",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Ronnie Liu, ahli Dewan Undangan Negeri (ADUN) Selangor Sungai Pelek, ditahan Polis Diraja Malaysia (PDRM) pagi ini kerana didakwa memfitnah Yang di-Pertuan Agong melalui media sosial. Liu ditangkap sekitar 10:40 pagi. di Ibu Pejabat Polis Daerah Petaling Jaya untuk siasatan di bawah Seksyen 4(1) Akta Hasutan 1948 dan Seksyen 233 Akta Komunikasi dan Multimedia 1998. Ini berlaku selepas Bernama melaporkan Liu adalah salah seorang daripada empat individu yang disiasat kerana didakwa memfitnah Yang di-Pertuan Agong Al-Sultan Abdullah Ri'ayatuddin Al-Mustafa Billah Shah di media sosial. Liu dikatakan telah memuat naik status Facebook yang berbunyi \"Sekarang di Bangkok. Mereka Berkata Tidak Kepada Raja\" dan polis masih mencari dua lagi individu untuk membantu siasatan."
+}

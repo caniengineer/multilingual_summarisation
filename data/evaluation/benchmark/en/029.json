@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_029",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "By Harriet RobinsonReporter Bristol actor Ed Speleers, who played footman Jimmy Kent, and his friend and neighbour Tom Morison, want to raise £30,000 for The National Brain Appeal. Mr Morison's father Oliver was diagnosed with a rare form of dementia and Alzheimer's in December 2019. The Clifton High School PE teacher said running had helped him cope with his father's diagnosis. He said: \"It's been very therapeutic. Just alone with my own thoughts and memories, and getting rid of frustrations.\" Oliver Morison was diagnosed with Logopenic Progressive Aphasia and his condition has deteriorated throughout the pandemic. Tom, 42, said: \"It was really hard hearing mum coping. And now to the stage that she's helping him dress, helping him wash.\" He added training with Mr Speleers, 33, had helped him to open up. \"It was quite nice to be away with a friend, who actually didn't know my family so I could tell [him] the stories completely blind and share those emotions\", he said. Mr Speleers started daily 10K runs in 2020 to raise money for the NHS. When he missed 10 days due to an injury, Mr Morison helped him run a 100K loop to make up the miles. \"We raised nearly £16,000 last year, so that was pretty good\", the actor - who has also starred in Outlander - added. \"Having struck up a great friendship with Tom through running and the fact he supported me last year, the minute Tom suggested a challenge it was a bit of a no-brainer for me.\" The pair have already raised more than £14,000 of their £30,000 target and will run a stretch of the South West Coastal Path in Cornwall from 29-30 May. \"When you're doing that sort of endurance, there's hugely dark moments, and if you've got somebody else to guide you through it and to keep reminding what this is for, who it's for... I couldn't not do it,\" Mr Speleers added. Related Internet Links Tom Morison is fundraising for The National Brain Appeal",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A Downtown Abbey star and his friend plan to run 200k in two days to raise money for a dementia charity."
+}

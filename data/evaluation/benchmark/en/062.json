@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_062",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Kesia Leatherbarrow was detained for two nights on suspicion of criminal damage and possessing Class B drugs at a house in Hyde, Greater Manchester. Her body was found in a friend's garden the day after she appeared in court. Her family helped change the law to stop children in England and Wales from being held overnight in police cells. Giving evidence at Stockport Coroner's Court, Kesia's mother Martina Brincat-Baines described her daughter - who lived with her in Chorley, Lancashire - as \"really clever and incredibly talented\". But she said her behaviour became difficult when she reached her teens and during this period she had self-harmed and received treatment at a specialist mental health unit. In the months leading up to Kesia's death, Ms Brincat-Baines said her daughter's health deteriorated; she talked about killing herself and became very aggressive. Ms Brincat-Baines told the court that in a previous incident, her daughter \"couldn't handle being in police custody\" overnight. She told the court \"she was ripping her hair out and banging her head\" and threatened suicide. Kesia had been due to appear at Tameside Youth Court on 3 December 2013 - the day her body was found in Dukinfield. Ms Brincat-Baines later backed the successful campaign by Just for Kids Law to amend the Criminal Justice and Courts Bill and stop most 17-year-olds being detained overnight in police cells in England and Wales. The Independent Police Complaints Commission (IPCC) is investigating her death and the circumstances surrounding her detention by Greater Manchester Police.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The mother of a 17-year-old girl found dead three days after being arrested has described her daughter's troubled life at her inquest."
+}

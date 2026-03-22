@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_063",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Game4Grenfell, which was held at QPR's Loftus Road, featured big names from the world of sport and entertainment including Marcus Mumford and Olly Murs. Paul Menacer, who lived in the tower and played in the match, told Newsbeat: \"Today was perfect. \"I've never experienced something like this.\" At least 80 people died in the tower block fire in west London on 14 June. Paul, who is 23, was among four former Grenfell residents who came on in the 80th minute of the match and played on the same team as Manchester United manager Jose Mourinho, comedian Russell Howard and actor Jamie Dornan. \"Jose was amazing. For someone as busy as him to take time out of his schedule to come down and talk to us and ask how we're getting on is an amazing thing. \"People from all different backgrounds in the area have come together as well. \"The fact we can bond as a group and meet people who actually care about us means the world.\" See Newsbeat's tweet showing the minute's silence before kick-off All ticket money form the match went to the Evening Standard's fund for those affected by the tragedy. \"It's just the start - there's still a long way to go,\" added Paul. \"There are still hundreds of us still living in hotels. \"But at the same time it's an amazing achievement to be able to say I was part of something this special. \"Things like this will bring us closer together.\" Ex-footballer Les Ferdinand, who helped organise the match, said: \"It wasn't about celebrities, it was about the people of Grenfell and the community around it. \"I know a load of those people are going home with smiles on their faces because they know people care. \"To have that after the tragedy of what they've had shows we've helped with part of the journey of where they need to get to. \"Sometimes football gets bad press but today we saw it come together and unite people.\" Find us on Instagram at BBCNewsbeat and follow us on Snapchat, search for bbc_newsbeat",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "One of the survivors of the Grenfell Tower fire has said a charity football match held to help those affected was \"perfect\"."
+}

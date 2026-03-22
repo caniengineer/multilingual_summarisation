@@ -1,17 +1,64 @@
 {
-  "version": "1.0.0",
-  "categories": {
-    "monolingual": {
-      "path": "xlsum_ms",
-      "count": 12
+  "version": "2.0.0",
+  "tiers": {
+    "smoke": {
+      "description": "Fast sanity check (~10 samples)",
+      "categories": {
+        "ms": {
+          "path": "smoke/ms",
+          "count": 5
+        },
+        "en": {
+          "path": "smoke/en",
+          "count": 3
+        },
+        "cs": {
+          "path": "smoke/cs",
+          "count": 0
+        }
+      }
     },
-    "codeswitching": {
-      "path": "codeswitching",
-      "count": 8
+    "regression": {
+      "description": "Quality gate (~100 samples)",
+      "categories": {
+        "ms_human": {
+          "path": "regression/ms_human",
+          "count": 10
+        },
+        "ms_mixtral": {
+          "path": "regression/ms_mixtral",
+          "count": 30
+        },
+        "en": {
+          "path": "regression/en",
+          "count": 25
+        },
+        "cs": {
+          "path": "regression/cs",
+          "count": 0
+        }
+      }
     },
-    "english": {
-      "path": "english",
-      "count": 5
+    "benchmark": {
+      "description": "Full benchmark (~500 samples)",
+      "categories": {
+        "ms_human": {
+          "path": "benchmark/ms_human",
+          "count": 16
+        },
+        "ms_mixtral": {
+          "path": "benchmark/ms_mixtral",
+          "count": 200
+        },
+        "en": {
+          "path": "benchmark/en",
+          "count": 150
+        },
+        "cs": {
+          "path": "benchmark/cs",
+          "count": 0
+        }
+      }
     }
   }
 }

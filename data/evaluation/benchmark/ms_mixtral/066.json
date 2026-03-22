@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_066",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Parlimen bubar esok. PUTRAJAYA: Perdana Menteri, Datuk Seri Najib Tun Razak mengumumkan pembubaran Parlimen bermula esok, 7 April bagi memberi laluan kepada Pilihan Raya Umum Ke-14 (PRU-14). Beliau memaklumkan demikian pada siaran Pengumuman Khas Perdana Menteri di bangunan Perdana Putra, Presint 1, di sini, sebentar tadi yang disiarkan secara langsung di RTM1. Beliau memaklumkan telah mengadap Yang di-Pertuan Agong ke-15, Sultan Muhammad ke-V dan menyembah watikah memohon perkenan supaya Parlimen ke-13 dibubar esok. “Saya ingin memaklumkan kepada seluruh rakyat Malaysia bahawa, saya telah pun menghadap KeBawah Duli Yang Maha Mulia, Seri Paduka Baginda Yang di-Pertuan Agong Ke-15, Sultan Muhammad V, dan menyembah warkah kepada Baginda memohon perkenan supaya Parlimen ke-13 dibubarkan pada hari Sabtu, 7 April 2018. “Sehubungan dengan itu, selaras dengan peruntukan Perkara 55 Perlembagaan Persekutuan, Baginda telah pun memperkenankan bagi Parlimen Ke-13 dibubarkan berkuat kuasa pada hari Sabtu 7 April 2018,” katanya. Justeru, beliau menasihati ketua-ketua kerajaan negeri yang berkenaan, untuk menghadap Ketua-Ketua Negeri mereka, bagi mendapatkan perkenan pembubaran Dewan Undangan Negeri masing-masing, supaya Pilihan Raya Umum Peringkat Parlimen dan Dewan Undangan Negeri, dapat diselaraskan secara serentak di seluruh negara. – HARAKAHDAILY 6/4/2018",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Perdana Menteri Malaysia, Datuk Seri Najib Tun Razak, mengumumkan pembubaran Parlimen bermula 7 April, bagi memberi laluan kepada Pilihan Raya Umum Ke-14 (PRU14). Beliau membuat pengumuman itu dalam Kenyataan Khas Perdana Menteri di Bangunan Perdana Putra, Presint 1, di sini, yang disiarkan secara langsung di RTM1. Najib menyatakan bahawa beliau telah bertemu dengan Yang di-Pertuan Agong, Sultan Muhammad V, dan menyerahkan surat memohon kebenaran untuk membubarkan Parlimen ke-13 sekarang. “Saya ingin memaklumkan kepada semua rakyat Malaysia bahawa saya telah bertemu dengan Seri Paduka Baginda Yang di-Pertuan Agong Ke-15, Sultan Muhammad V, dan menyerahkan surat memohon kebenaran Parlimen ke-13 dibubarkan pada Sabtu, April. 7, 2018. “Justeru, selaras dengan peruntukan Fasal 55 Perlembagaan Persekutuan, Kebawah Duli Yang Maha Mulia Seri Paduka Baginda telah memperkenankan Parlimen ke-13 dibubarkan, berkuat kuasa pada Sabtu, 7 April 2018,” katanya. Hasilnya, Najib menasihatkan ketua menteri negeri-negeri berkaitan supaya berjumpa dengan raja-raja negeri masing-masing bagi mendapatkan kebenaran pembubaran Dewan Undangan Negeri masing-masing, supaya pilihan raya Parlimen dan Dewan Undangan Negeri dapat diadakan serentak di seluruh negara."
+}

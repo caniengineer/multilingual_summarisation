@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_074",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KOTA BHARU: Sebanyak 12 laluan melibatkan empat jajahan di Kelantan ditutup akibat banjir yang melanda negeri itu setakat pukul 2 petang ini.\nLaluan yang ditutup kepada semua kenderaan ialah dua di Tanah Merah iaitu jalan masuk ke loji air Bukit Remah dan Jalan Bukit Panau – Bendang Nyior, serta dua di Pasir Mas iaitu Jalan Pengkalan Rakit – Batu Karang dan jalan Sekolah Kebangsaan Tok Deh. \nSementara itu, empat laluan di Pasir Puteh ditutup kepada kenderaan ringan melibatkan jalan Kota Bharu – Kuala Terengganu, FT003 jalan Kota Bharu – Kuala Terengganu (Panggong 3 Daerah), jalan Pasir Puteh – Gong Kelih (Kg. Chengal Pulas) dan jalan Gaal – Kg. Bukit.\nDi Kuala Krai pula, dua laluan yang ditutup kepada kenderaan ringan melibatkan jalan Sg. Durian -Chenulang dan jalan Bukit Sireh – Kampung Bedal – Kuala Nal. \nDi Pasir Mas, dua laluan iaitu jalan Tok Deh – Gual Periok dan jalan Bakat – Kubang Kuau turut ditutup kepada kenderaan ringan. — AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Di Kelantan, 12 jalan di empat daerah ditutup akibat banjir. Dua jalan di Tanah Merah, Jalan Bukit Remah dan Jalan Bukit Panau – Bendang Nyior, dan dua di Pasir Mas, Jalan Pengkalan Rakit – Batu Karang dan Jalan Sekolah Kebangsaan Tok Deh, ditutup kepada semua kenderaan. Empat jalan di Pasir Puteh, Jalan Kota Bharu – Kuala Terengganu, jalan FT003 Kota Bharu – Kuala Terengganu (Panggong 3 Daerah), jalan Pasir Puteh – Gong Kelih (Kg. Chengal Pulas) dan jalan Gaal – Kg. Bukit, ditutup kepada kenderaan ringan. Dua jalan di Kuala Krai, Jalan Sg. Durian-Chenulang and Jalan Bukit Sireh – Kampung Bedal – Kuala Nal, and two in Pasir Mas, Jalan Tok Deh – Gual Periok and Jalan Bakat – Kubang Kuau, are also closed to light vehicles. (AlHijrah Online)"
+}

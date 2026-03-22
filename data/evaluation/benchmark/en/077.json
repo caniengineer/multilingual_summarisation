@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_077",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Elaine Brown, 69, died of a stroke after contracting legionella pneumonia from The Feathers Hotel in Ludlow. Tests found the same strain of the legionella bacteria in samples taken from a sink in the room in which she stayed, an inquest heard. A narrative verdict was given at the inquest in Shrewsbury. Son Neil Edwards said he needed time to take stock before deciding what action, if any, to take next. On Wednesday, the inquest heard Mrs Brown's husband, Graham, died last month, aged 58. In a statement read to the jury, Mr Brown said he had suffered clinical depression after his wife's death. After the inquest, Mr Edwards said that when his mother and stepfather, from Stoneycroft in Liverpool, went to the hotel they did not think they were triggering a course of action that would lead to them both dying. The inquest had heard that, before the Browns' stay, the hotel had twice called in a firm to improve plumbing and reduce the risk of bacterial outbreak. Mrs Brown's death came months after another guest caught the disease but Public Health England did not tell anyone. The hotel subsequently closed but is due to reopen under new management following a refit. The coroner recorded that Mrs Brown died of a stroke at the Royal Liverpool Hospital on 26 August 2017. A key contributing factor of death was the contracting of legionella pneumonia at the hotel on 30 July. Follow BBC West Midlands on Facebook, on Twitter, and sign up for local news updates direct to your phone. Related Internet Links Shropshire Council Public Health England",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The son of a woman who died after contracting Legionnaires' disease said the saddest thing is that his daughters will not get to know who she was."
+}

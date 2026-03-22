@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_126",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The woman asked the operator if it was still Christmas Day, and when told it was Boxing Day replied \"perfect\". She then asked the call handler if he was OK and if it was busy and wished him a Merry Christmas. When asked if she had an emergency, she said \"no\". Herts Police said it deals with a surge of 999 calls on New Year's Eve and time-wasting calls were \"reckless\". Last year, calls to Hertfordshire Police, including non-emergencies, more than doubled between 1900 GMT on 31 December 2009 and 0700 GMT on 1 January 2010. There were around 800 calls, compared to the average of 300 over the same shift during 2009, police said. Criminal conviction They said it hoped details of the call in the early hours of Boxing Day will serve as a reminder that hoax and time-wasting calls can stop genuine 999 calls getting through. The call was made during a particularly busy period for the police. The woman was informed of this, but continued to wish the operator a Merry Christmas. Jason Baxter, assistant manager at the force communications room, said: \"This kind of reckless behaviour could not only result in a criminal conviction, it could also ultimately put other genuine callers' lives at risk while they wait for their call to be answered or for officers to arrive. \"As New Year's Eve approaches, I am asking people to think before they make that call.\" Hertfordshire Police said the maximum penalty for hoax call offences is up to six months imprisonment and a fine of £5,000. If it involves specifically wasting police time this can be increased to up to seven years in prison.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Police in Hertfordshire have issued a warning after a woman dialled 999 to say \"Merry Christmas\"."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_127",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The work provides public access into part of the castle for the first time in hundreds of years. It also includes a 30ft (10m) high glass bridge. The work is part a £19m Welsh Government project to boost the contribution tourism at heritage sites makes to the Welsh economy. Oystermouth Castle, which overlooks the Mumbles, closed last autumn, and the building project is said to assure the building's long term sustainability. The bridge gives access into Alina's Chapel, which is thought to be linked to Alina de Breos, daughter of William de Breos III, Lord of Gower. It was added to the castle in the 14th Century and is its highest point, giving views across Swansea Bay. First Minister Carwyn Jones said, \"Oystermouth Castle is a great example of the terrific ancient buildings we have in Wales. \"Castles such as this are a physical reminder of our rich heritage and tell the story of our nation. 'First-class attraction' \"The Welsh Government is delighted to be helping to fund the restoration work that will make the site a first-class attraction for Mumbles and Swansea and preserves the castle for future generations.\" The Welsh Government is contributing £400,000 through its heritage section, Cadw, and £585,000 has been provided from the European Regional Development Fund. A grant has also come from the Heritage Lottery Fund with further help from Swansea city and county council. Other work includes a new visitor centre with an activities area outside, improved accessibility for people with disabilities, and a refurbished toilet block. A castle community co-ordinator has also been appointed to manage a wide range of events. The area below Alina's Chapel will be developed into a multi-functional room. Meanwhile, Denbigh Castle, Denbighshire, is undergoing a £600,000 revamp, including a new visitor centre.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Swansea's Oystermouth Castle has reopened after the completion of the first phase of a £1m revamp."
+}

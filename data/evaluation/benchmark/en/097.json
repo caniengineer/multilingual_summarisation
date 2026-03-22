@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_097",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "By News from Elsewhere......as found by BBC Monitoring Immigration Minister Sylvi Listhaug travelled to the Greek island of Lesbos to see rescuers' work and also experience the situation from the migrants' perspective, The Local website reports. \"You can't put yourself into the same situation as the refugees but you can see it from that perspective [and experience] how it is to be in the water that way,\" she was quoted as saying. She admitted, however, that migrants \"don't have a survival suit, so it's not comparable\". Images and footage of Ms Listhaug jumping off a Norwegian rescue vessel and then being fished out of the sea were published widely in the country's media. But they ignited a storm of criticism on social media, where many users were unimpressed by what they saw as a publicity stunt, Aftenposten newspaper reports. \"Next week: Sylvi Listhaug experiences what it is like to be blind by closing her eyes,\" quipped one Twitter user. \"How about opening the window to see what it's like to be homeless?\" suggested another. Ms Listhaug vowed to toughen Norway's immigration rules on taking up the role in December. A member of the anti-immigration Progress Party, she has proposed stricter requirements for family reunifications and for gaining permanent residency in Norway. Next story: Solomon Islands court halts MPs' tax-free salaries Use #NewsfromElsewhere to stay up-to-date with our reports via Twitter.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A Norwegian minister has faced online ridicule for jumping off a rescue boat into the Mediterranean to see what it's like to be a refugee."
+}

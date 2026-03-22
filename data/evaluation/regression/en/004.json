@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_004",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The city council wants to build the scheme on three sites it owns, including Morris Fen near Thorney. The project would help achieve renewable energy targets and profits would keep tax bills low, it says. However, English Heritage said the fen could be a \"nationally important\" site and recommended a detailed study. The organisation had not originally objected to the proposed scheme, however, a spokesman said further evidence had been submitted by archaeologist Professor Charles French of Cambridge University. It suggested the \"presence of nationally important buried Bronze and Iron Age landscapes in the vicinity\". At a meeting on Monday evening the council agreed to defer the planning decision until a later date to allow a survey to be completed.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Campaigners hoping to halt plans for a solar energy farm near Peterborough are celebrating after proposals were put on hold for an archaeological survey."
+}

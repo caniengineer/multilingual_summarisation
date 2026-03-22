@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_145",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "There were 109,580 sales in June, the same as in November last year, and the highest since the end of 2007, HM Revenue and Customs' data shows. This gives a further indication of a recovery in the housing market spurred, in part, by government schemes. But estate agents say very few buyers are aged under 30. A report by the National Association of Estate Agents (NAEA) said that 3% of those buying property in June were aged between 18 and 30 - the lowest it has ever recorded. This compares to 48% of buyers in the 31-to-40 age bracket, the report said. \"Things are getting even tougher for first-time buyers,\" said Mark Hayward, NAEA managing director. \"Not only do you now need to stump up ridiculously large sums of money in terms of deposits and stamp duty to be able to get on the ladder, but new rules mean buyers will also have to prove they can easily afford repayments now and in the future.\" House price calculator Those rules. introduced earlier in the year, mean that lenders are conducting stricter affordability checks on potential borrowers. The checks include closer attention to current and expected income and outgoings. \"First-time buyers like those looking to move up the housing ladder are finding the new mortgage checks are making the process of an application harder and it is taking longer,\" said housing expert Henry Pryor. He added that the HMRC figures showed there was still \"life in the housing market\". However, whether the market continued to grow at such a rate after the traditionally busy time of year - known as the Spring bounce - was questionable, he added. \"The housing market is pausing for breath this summer before it resumes activity in September but it looks like some of the heat has gone out of it which will come as relief for [government] ministers and the Bank of England,\" he said. Some 87% of buyers in June were purchasing a home as couples, the report added, with 7% buying alone.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "UK property sales in June hit their joint highest monthly total since the financial crisis began, figures show, but sales among young adults are low."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_194",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Aku nak mintak tolong.\n.\n Dulu masa aku sekolah menengah, aku selalu mencuri duit kawan aku. Ada yg aku ingat nama. Ada yang tak ingat. Duit dorm jugak.masa tu tak terfikir langsung consequences benda tu bila besar. Bila dah besar, dah kerja,dah meningkat dewasa, bila ingat mati, aku selalu nangis nak tuhan ampunkan dosa mencuri aku tapi aku tahu dosa sesame manusia kne langsai dengan manusia.\n.\nJadi aku nak minta tolong gitau aku. Macamana ye nak langsaikan semua yang aku curi? Dengan org yg aku ingat nama dia dan terutama yang tak ingat nama dia?\n.\nAku buntu sebab rasa berdosa sangat lagi2 yg aku x ingat nama dia. Nak tanya ustaz ustazah, aku malu. Jadi tolong bagitahu aku. Tolong jangan bash sebab aku sendiri rasa jijik dan malu dengan dosa aku. Tolong pliz",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Saya pernah mencuri wang daripada rakan sekelas saya di sekolah menengah, ada yang saya ingat nama mereka dan ada yang tidak. Akibat perbuatan saya pada masa itu tidak terlintas di fikiran saya, tetapi kini saya sudah dewasa dan bekerja, saya amat menyesali perbuatan saya dan sering memohon kepada Tuhan untuk mengampuni saya. Saya ingin membuat pindaan untuk apa yang telah saya lakukan, terutamanya kepada mereka yang saya tidak ingat namanya. Saya terlalu malu untuk meminta bantuan ketua agama, jadi saya bertanya di sini. Tolong bimbing saya tentang cara membuat pindaan untuk kesalahan saya, walaupun saya tidak dapat mengingati semua nama mereka yang saya salah. Tolong jangan nilai saya, saya sudah rasa jijik dan malu dengan perbuatan saya yang lalu. Terima kasih."
+}

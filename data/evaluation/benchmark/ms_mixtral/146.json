@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_146",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "We thoroughly enjoyed our time at the \nfirst\n and \nsecond\n edition of the Evo Enduro hosted by our friends over at Aurizn Malaysia but unfortunately have to sit out on this year’s drive to Phuket, Thailand. However, that didn’t stop GC Mah from soaking in the hype at the KL flag-off ceremony.\n \nEvo Enduro 2019 saw over 80 cars started their journey from Kuala Lumpur heading up North to Phuket, Thailand, enjoying the passion for cars and driving with fellow like-minded petrolheads. The convoy is made up of a mad mix of cars from classics like Mini Moke to JDM legends like the Honda S2000 and everything in between.\nBy the time the group returns to home base in Kuala Lumpur, their cars would’ve clocked over 2,000 km throughout the journey.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Evo Enduro 2019, dihoskan oleh Aurizn Malaysia, merupakan pemanduan yang mendebarkan dari Kuala Lumpur ke Phuket, Thailand, menampilkan lebih 80 kereta. Walaupun kami tidak dapat turut serta, GC Mah telah menghadiri upacara bendera KL. Konvoi yang pelbagai termasuk kereta klasik dan JDM, seperti Mini Moke dan Honda S2000. Lebih 2,000 km telah ditempuhi sepanjang perjalanan ini, dipenuhi dengan kemesraan dan berkongsi semangat untuk kereta dan pemanduan. Kami menantikan acara-acara akan datang dan mendoakan semua peserta perjalanan yang menyeronokkan."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_051",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Thomas Orchard, 32, died seven days after having an emergency response belt placed across his face in October 2012. On Thursday, the Independent Office for Police Conduct (IOPC) withdrew its decision to direct misconduct hearings for two detention officers. Mr Orchard's family said the decision felt \"outrageously\" wrong. In a statement, the family said they had been \"let down by the IOPC\" and called on a coroner to \"examine the circumstances surrounding Thomas' death publicly, openly, honestly and constructively\". In May 2019, Devon and Cornwall Police was sentenced and fined £234,500 for health and safety breaches in relation to the belt used after Mr Orchard was arrested in Exeter. In July, a preliminary hearing was held for four Devon and Cornwall Police officers facing misconduct allegations and an independent panel ruled the allegations should be dismissed as the officers could not have a fair hearing. The two remaining detention officers, who fall under different regulations to the police officers, would have faced a separate hearing. Alongside a custody sergeant, the two detention officers were previously prosecuted for gross negligence manslaughter and faced two criminal trials. They were acquitted by a jury in March 2017. IOPC regional director Sarah Green said: \"We recognise that this has been a traumatic process for everyone involved, and that throughout it has taken far too long. \"We are working hard to make improvements on timeliness.\" Chief Constable Shaun Sawyer said he welcomed the decision but understood the \"significant impact of this long-running matter on staff, officers and their families, and of course the family of Thomas Orchard\". Director of the charity Inquest, Deborah Coles, said the decision \"once again calls into question the ability of the IOPC to investigate police criminality and wrongdoing and ensure that police and detention officers are properly held to account for their actions\". The IOPC said a decision on publishing its reports would be made once all proceedings had concluded, including a potential inquest.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "There will be no misconduct hearings for officers involved in the detention and restraint of a mentally ill man who later died."
+}

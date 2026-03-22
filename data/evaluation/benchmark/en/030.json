@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_030",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The move is aimed at ensuring there are the \"highest standards of animal welfare\" in all abattoirs, the government said. It has pledged to bring forward legislation later in the year. The move comes after the vast majority of people who responded to a consultation backed the measure. Rural Affairs Minister Mairi Gougeon said more than 80% of slaughterhouses in Scotland had already installed CCTV cameras voluntarily. But she said the standards of CCTV coverage could vary, and added that the new rules were needed to \"improve further the already high standards being followed by the livestock sector in Scotland.\" She formally unveiled her plans in the Scottish Parliament on Wednesday afternoon. 'Open and transparent' Animal rights groups have claimed that the abuse of animals is widespread in slaughterhouses, and believe independently-monitored CCTV cameras will help to limit their suffering. The Scottish Association of Meat Wholesalers welcomed the Scottish government announcement, but said more than 95% of animals slaughtered in Scotland go through abattoirs that already use CCTV systems. It also insisted the industry had an \"open and transparent approach\" with the veterinary authorities and follows the strict welfare controls which are monitored by Food Standards Scotland. A spokesman for the association said some existing CCTV systems may need to be upgraded or completely replaced under the proposals, and called for assurances that the industry will be given help to meet any additional costs as has already happened in Wales.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Abattoirs will need to install CCTV cameras in all areas where there are live animals under new laws to be introduced by the Scottish government."
+}
