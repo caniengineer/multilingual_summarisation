@@ -10,5 +10,6 @@
     "target_language": "auto",
     "summary_type": "brief",
     "max_length": 80
-  }
+  },
+  "ref_quality": "none"
 }
