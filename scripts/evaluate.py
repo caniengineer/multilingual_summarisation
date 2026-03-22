@@ -58,6 +58,78 @@ def load_samples(manifest: dict, category_filter: str = "all") -> list[dict]:
     return samples
 
 
+def load_tiered_samples(data_dir: Path, manifest: dict, tier: str) -> list[dict]:
+    """Load all sample JSON files from a specific tier."""
+    samples = []
+    tier_info = manifest["tiers"][tier]
+    for cat_name, cat_info in tier_info["categories"].items():
+        cat_dir = data_dir / cat_info["path"]
+        if not cat_dir.exists():
+            continue
+        for json_file in sorted(cat_dir.glob("*.json")):
+            with open(json_file) as f:
+                sample = json.load(f)
+            samples.append(sample)
+    return samples
+
+
+def aggregate_results_tiered(results: list[dict]) -> dict:
+    """Aggregate results by category with chrF++ split by ref_quality."""
+    categories = {}
+    for r in results:
+        if "error" in r:
+            continue
+        cat = r["category"]
+        if cat not in categories:
+            categories[cat] = []
+        categories[cat].append(r)
+
+    aggregated = {}
+    for cat, cat_results in categories.items():
+        # Split chrF++ by ref_quality
+        human_chrf = [r["chrf"] for r in cat_results if r.get("chrf") is not None and r.get("ref_quality") == "human"]
+        machine_chrf = [r["chrf"] for r in cat_results if r.get("chrf") is not None and r.get("ref_quality") == "machine"]
+        all_chrf = [r["chrf"] for r in cat_results if r.get("chrf") is not None]
+        latencies = [r["latency_ms"] for r in cat_results]
+        compressions = [r["compression_ratio"] for r in cat_results]
+        lang_matches = [r for r in cat_results if r.get("language_match")]
+        total_input = sum(r["input_tokens"] for r in cat_results)
+        total_output = sum(r["output_tokens"] for r in cat_results)
+
+        agg = {
+            "count": len(cat_results),
+            "total_input_tokens": total_input,
+            "total_output_tokens": total_output,
+        }
+
+        if human_chrf:
+            agg["chrf_human_avg"] = sum(human_chrf) / len(human_chrf)
+        if machine_chrf:
+            agg["chrf_machine_avg"] = sum(machine_chrf) / len(machine_chrf)
+        if all_chrf:
+            agg["chrf_avg"] = sum(all_chrf) / len(all_chrf)
+            agg["chrf_min"] = min(all_chrf)
+            agg["chrf_max"] = max(all_chrf)
+
+        agg["compression_avg"] = sum(compressions) / len(compressions) if compressions else 0
+        agg["latency_avg_ms"] = round(sum(latencies) / len(latencies)) if latencies else 0
+        agg["language_match"] = f"{len(lang_matches)}/{len(cat_results)}"
+
+        # LLM-as-Judge averages
+        eval_results = [r["evaluation"] for r in cat_results if r.get("evaluation")]
+        if eval_results:
+            dims = ["faithfulness", "coherence", "coverage", "language_quality", "conciseness"]
+            agg["judge_scores"] = {}
+            for dim in dims:
+                scores = [e[dim] for e in eval_results if dim in e]
+                if scores:
+                    agg["judge_scores"][dim] = round(sum(scores) / len(scores), 2)
+
+        aggregated[cat] = agg
+
+    return aggregated
+
+
 def compute_chrf(hypothesis: str, reference: str) -> float:
     """Compute chrF++ score between hypothesis and reference."""
     score = sacrebleu.sentence_chrf(hypothesis, [reference])
@@ -124,6 +196,7 @@ async def run_evaluation(samples: list[dict], use_judge: bool) -> list[dict]:
                 "category": sample["category"],
                 "language": sample["language"],
                 "has_reference": sample.get("has_reference", True),
+                "ref_quality": sample.get("ref_quality", "human"),
                 "summary": data["summary"],
                 "detected_language": data["metadata"]["detected_language"],
                 "code_switching_detected": data["metadata"]["code_switching_detected"],
@@ -310,6 +383,12 @@ def parse_args():
         default=None,
         help="Output JSON path (default: results/evaluation_<timestamp>.json)",
     )
+    parser.add_argument(
+        "--tier",
+        choices=["smoke", "regression", "benchmark"],
+        default=None,
+        help="Evaluation tier (uses tiered directory structure)",
+    )
     return parser.parse_args()
 
 
@@ -319,12 +398,21 @@ def main():
     if args.output:
         output_path = Path(args.output)
     else:
+        tier_prefix = f"{args.tier}_" if args.tier else ""
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = RESULTS_DIR / f"evaluation_{ts}.json"
+        output_path = RESULTS_DIR / f"{tier_prefix}evaluation_{ts}.json"
 
     print("Loading evaluation samples...")
     manifest = load_manifest()
-    samples = load_samples(manifest, category_filter=args.category)
+
+    if args.tier:
+        if "tiers" not in manifest:
+            print("Manifest does not have tiered structure. Run scripts/prepare_data.py --all first.")
+            sys.exit(1)
+        samples = load_tiered_samples(DATA_DIR, manifest, tier=args.tier)
+    else:
+        samples = load_samples(manifest, category_filter=args.category)
+
     print(f"Loaded {len(samples)} samples")
 
     if not samples:
@@ -336,7 +424,11 @@ def main():
     results = asyncio.run(run_evaluation(samples, use_judge=args.evaluate))
     total_time = time.time() - start
 
-    aggregated = aggregate_results(results)
+    if args.tier:
+        aggregated = aggregate_results_tiered(results)
+    else:
+        aggregated = aggregate_results(results)
+
     print_results(aggregated, results, total_time)
     save_results(results, aggregated, output_path, total_time)
 
