@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_013",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "KUALA LUMPUR: Tempoh berkempen Pilihan Raya Umum ke-15 (PRU15) Parlimen Padang Serai dan DUN Tioman yang bermula pada 24 November lepas, tamat malam tadi. Justeru, selepas tempoh berkenaan, setiap calon daripada parti bertanding dilarang berkempen untuk merayu undi bagi kedua-dua kawasan berkenaan terutama menjelangnya hari pengundian hari ini. PRU15 di dua kawasan itu ditangguhkan susulan kematian calon yang disahkan bertanding iaitu M. Karupaiya dari Pakatan Harapan (PH) bagi Parlimen Padang Serai dan Md Yunus Ramli mewakili Perikatan Nasional (PN) di DUN Tioman. Karupaiya, 69, meninggal dunia pada 16 November dipercayai akibat serangan jantung dan komplikasi kesihatan, manakala Yunus, 61, disahkan meninggal dunia beberapa jam sebelum proses pengundian PRU15 pada 19 November lepas. Perebutan kerusi Parlimen Padang Serai menyaksikan pertembungan enam penjuru antara calon PH Dr Mohamad Sofee Razak, C. Sivaraajh (BN), Azman Nasrudin (PN), dan Hamzah Abd Rahman (Pejuang). Dua lagi pencabar ialah Mohd Bakhri Hashim (Warisan), dan Sreanandha Rao (Bebas). Bagaimanapun pada 2 Disember lepas, BN bersetuju memberi laluan kepada PH di kerusi Parlimen berkenaan. Sebelum ini, Warisan turut memutuskan tidak mengambil bahagian dalam pilihan raya berkenaan, namun logo parti itu masih tersenarai dalam kertas undi kerana sudah didaftarkan sebagai antara parti yang bertanding. Sementara itu, DUN Tioman akan menyaksikan pertembungan lima penjuru melibatkan calon PN Nor Idayu Hashim, Mohd Johari Hussain (BN), Osman A Bakar (Pejuang), Sulaiman Bakar (Bebas). Calon lain, Mohd Fadzli Mohd Ramly dari PH, mengumumkan memberi laluan kepada calon BN untuk meningkatkan peluang untuk menang, tetapi namanya (Fadzli) masih tertera di kertas undi. Menurut SPR, status calon tidak boleh diubah selepas pencalonan mereka diterima. Daftar pemilih bagi kerusi Parlimen Padang Serai melibatkan seramai 133,867 pemilih berdaftar, manakala bagi DUN Tioman, terdapat 28,465 pemilih berdaftar.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Pilihan raya umum diadakan di Padang Serai dan Tioman pada 24 November. Pilihan raya itu ditangguhkan berikutan kematian calon yang disahkan bertanding M. Karupaiya dari Pakatan Harapan (PH) untuk Parlimen Padang Serai dan Md Yunus Ramli mewakili Perikatan Nasional di DUN Tioman."
+}

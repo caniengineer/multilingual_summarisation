@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_015",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "KULIM: Calon yang menarik diri dan memberi laluan kepada calon parti lain pada Pilihan Raya Umum ke-15 bagi Parlimen Padang Serai serta Dewan Undangan Negeri (DUN) Tioman akan tetap diisytiharkan sebagai pemenang sekiranya memperoleh jumlah undi yang tertinggi. Pengerusi Suruhanjaya Pilihan Raya (SPR) Tan Sri Abdul Ghani Salleh berkata ia kerana kesemua calon sedia ada telah disahkan layak bertanding pada hari penamaan calon 24 Nov lepas. &quot;Kita akan umum (nama calon yang menang walaupun mereka menarik diri). Calon yang (boleh) tarik diri hanya pada waktu pencalonan (antara pukul 9 hingga 10 pagi) pada hari berkenaan sahaja. &quot;Jadi selepas pukul 10 pagi sudah tidak boleh (menarik diri) kerana telah disahkan layak bertanding,&quot; katanya kepada pemberita selepas meninjau pusat pengundian PRU15 Parlimen Padang Serai di Sekolah Menengah Kebangsaan Sultan Badlishah di sini hari ini. Pada 29 Nov lepas, Pakatan Harapan (PH) memutuskan untuk memberi laluan kepada calon Barisan Nasional (BN) di DUN Tioman sebagai tanda kesepakatan kerajaan perpaduan di peringkat negeri dan nasional. [LAPOR LANGSUNG] PRU15 Padang Serai, Tioman: Lebih 35 peratus keluar mengundi setakat 12 tengah hari - SPR Selepas itu, langkah yang sama turut diambil di Parlimen Padang Serai dengan calon Warisan turut mengumumkan untuk memberi laluan kepada PH selepas hari penamaan calon bagi kawasan itu selesai. BN turut membuat keputusan untuk menarik diri daripada bertanding pada PRU15 Parlimen Padang Serai dan memberi laluan kepada PH beberapa jam sebelum hari pengundian awal dijalankan pada 3 Dis lepas. Parlimen Padang Serai menyaksikan pertembungan enam penjuru antara Dr Mohamad Sofee Razak (PH), Datuk Azman Nasrudi (Perikatan Nasional), Datuk C. Sivaraj (BN), Hamzah Abd Rahman (Pejuang), Mohd Bakhri Hashim (Warisan) dan calon BEBAS Sreanandha Rao. PRU15 DUN Tioman pula melibatkan penyandang daripada BN Datuk Seri Mohd Johari Hussien, Mohd Fadzli Mohd Ramly (PH), Sulaiman Bakar (BEBAS), Osman Bakar (Pejuang) dan calon PN Nor Idayu Hashim. Sementara itu, Abdul Ghani menyasarkan statistik keluar mengundi antara 60 hingga 75 peratus pada PRU15 di Parlimen Padang Serai dan DUN Tioman, hari ini. Justeru, beliau meminta majikan supaya memberi kebenaran kepada pekerja yang layak mengundi di kawasan masing-masing untuk keluar menunaikan tanggungjawab mereka. Setakat 11 pagi tadi, SPR merekodkan sebanyak 28 peratus statistik keluar mengundi bagi Parlimen Padang Serai dan 27 peratus bagi DUN Tioman. -- BERNAMA",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Pilihan raya umum diadakan di Padang Serai dan Tioman pada 24 November. Semua calon yang menarik diri pada hari itu telah disahkan layak bertanding. Pengerusi Suruhanjaya Pilihan Raya Tan Sri Abdul Ghani Salleh berkata, semua calon sedia ada telah disahkan layak bertanding pada hari penamaan calon."
+}

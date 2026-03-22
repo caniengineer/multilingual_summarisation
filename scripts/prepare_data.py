@@ -32,16 +32,18 @@ XLSUM_EN_PARQUET = (
     "https://huggingface.co/datasets/csebuetnlp/xlsum"
     "/resolve/refs%2Fconvert%2Fparquet/english/test/0000.parquet"
 )
-MALAY_DATASET_SUMMARIZATION = (
-    "https://raw.githubusercontent.com/huseinzol05/malay-dataset"
-    "/master/summarization/long-news-with-summaries.json"
-)
+MALAY_DATASET_SUMMARIZATION = [
+    "https://raw.githubusercontent.com/malaysia-ai/malaysian-dataset"
+    "/master/summarization/semisupervised-astroawani/berita-malaysia-validation-set.json",
+    "https://raw.githubusercontent.com/malaysia-ai/malaysian-dataset"
+    "/master/summarization/semisupervised-astroawani/berita-politik-validation-set.json",
+]
 
 # Tier sample counts
 TIER_COUNTS = {
     "smoke": {"ms_human": 3, "ms_mixtral": 2, "en": 3, "cs": 2},
-    "regression": {"ms_human": 30, "ms_mixtral": 30, "en": 25, "cs": 15},
-    "benchmark": {"ms_human": 100, "ms_mixtral": 200, "en": 150, "cs": 50},
+    "regression": {"ms_human": 10, "ms_mixtral": 30, "en": 25, "cs": 15},
+    "benchmark": {"ms_human": 16, "ms_mixtral": 200, "en": 150, "cs": 50},
 }
 
 
@@ -138,13 +140,28 @@ def write_tiered_manifest(data_dir: Path, tier_counts: dict) -> None:
 
 
 def download_malay_dataset() -> list[dict]:
-    """Download Malay-Dataset human-curated summaries."""
-    print("Downloading Malay-Dataset (human-curated)...")
+    """Download Malaysian-Dataset human-curated summaries from Astro Awani."""
+    import html
+    import re
     import urllib.request
-    with urllib.request.urlopen(MALAY_DATASET_SUMMARIZATION) as resp:
-        raw = json.loads(resp.read().decode())
-    # Filter for samples with both text and summary
-    samples = [s for s in raw if s.get("text") and s.get("summary")]
+
+    print("Downloading Malaysian-Dataset (human-curated, Astro Awani)...")
+    samples = []
+    for url in MALAY_DATASET_SUMMARIZATION:
+        print(f"  Fetching {url.split('/')[-1]}...")
+        with urllib.request.urlopen(url) as resp:
+            raw = json.loads(resp.read().decode())
+        for item in raw:
+            article_body = (item.get("r") or {}).get("response", {}).get("articleBody", "")
+            summaries = item.get("summarization", [])
+            if not article_body or not summaries:
+                continue
+            # Strip HTML tags from articleBody
+            text = re.sub(r"<[^>]+>", " ", html.unescape(article_body))
+            text = re.sub(r"\s+", " ", text).strip()
+            if len(text) < 100:
+                continue
+            samples.append({"text": text, "summary": summaries[0]})
     print(f"  Found {len(samples)} samples with summaries")
     return samples
 

@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_010",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "PUTRAJAYA: Tinggalkan kenderaan yang telah rosak di parkir sebuah kuarters kerajaan sehingga mencacatkan pemandangan serta menyebabkan kekurangan parkir buat penduduk. Itu realiti yang berlaku di Putrajaya, apabila ada sesetengah penduduk hanya mengambil jalan mudah dengan meninggalkan kenderaan lusuh mereka berbulan-bulan lamanya. Menurut Pengarah Penguatkuasa Perbadanan Putrajaya (PPj), Mohd Ali Jusoh, kira-kira 31 buah kenderaan buruk tersadai ditunda dari Presint 14, 15 dan Presint 9 pada Rabu dengan kerjasama Bahagian Pengurusan Hartanah (BPH), Jabatan Perdana Menteri (JPM). &quot;Operasi ini kita jalankan dengan pihak BPH sebagai pengurusan hartanah JPM bersama dengan PPj. Fokus area kita pagi ini adalah di Presint 14 (fasa 12 dan fasa 14), Presint 15 (fasa 12b dan 15), Presint 9 (fasa 8). &quot;Tiga lokasi ni kita dah di kenal pasti sebanyak 31 buah kenderaan kereta buruk tersadai yang kebanyakkannya milik penghuni kuarters di kawasan kuarters. &quot;Kerjasama ini kita sentiasa lakukan bersama pihak BPH untuk kita nak mengurangkan isu kekurangan kawasan parking di kawasan kuarters. Bila pihak BPH telah kenal pasti beberapa kawasan yang ada kenderaan buruk tersadai, BPH akan maklum PPj dan kita melakukan operasi secara bersama,&quot; jelasnya ketika ditemui Astro AWANI di Presint 14 pada Rabu.. Sejak tahun 2006 tambah Mohd Ali, lebih 400 kenderaan tersadai berjaya ditunda oleh pihaknya ke depoh PPj di Presint 20. &quot;Kebanyakan kereta yang kita tarik hari ni telah diberi notis oleh pihak BPH, dah mungkin tiga kali notis kita dah bagi kepada penghuni dan pemilik kereta. &quot;Selepas itu kita bawa ke depoh simpanan kita di Presint 20 dan selepas daripada itu pemilik kereta akan berurusan dengan pihak PPj untuk menuntut balik. &quot;Bila pemilik kereta menuntut balik kita akan kenakan beberapa kos, kepada pemilik kereta itu,&quot; katanya. Sekiranya tidak dituntut dalam tempoh enam bulan ujarnya, kenderaan terbabit akan dilupuskan oleh pihak PPj. Mengulas lanjut jelas Mohd Ali, tindakan itu diambil bagi mengelak kuarters dijadikan tempat menyimpan kenderaan buruk yang tidak digunakan lagi. &quot;Kita tengok tahun lepas 100 lebih kenderaan buruk tersadai dah kita ambil, kalau kita tengok rekod kenderaan buruk tersadai yang kita ambil ni tiada yang tuntut. &quot;Mungkin orang Putrajayai ni kaya-kaya, jadi kebanyakannya selepas enam bulan kita kena lupuskan, takda yang menuntut,&quot; katanya lagi.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Putrajaya, Putrajaya, telah mengeluarkan 31 kenderaan yang rosak di parkir kuarters. Lebih 400 kenderaan telah ditunda ke kuarters sejak tahun 2006."
+}

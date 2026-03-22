@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_009",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "KUALA LUMPUR: Kerajaan pimpinan Perdana Menteri, Datuk Seri Anwar Ibrahim tidak berpegang kepada konsep &lsquo; rule of law &rsquo; kerana melantik seseorang yang mempunyai kes mahkamah sebagai Timbalan Perdana Menteri (TPM), dakwa Tun Dr Mahathir Mohamad. Dr Mahathir berkata, pelantikan Presiden UMNO Datuk Seri Ahmad Zahid Hamidi&nbsp; akan menyukarkan usaha membersihkan negara dari gejala rasuah dan kleptokrat. &quot;Jika kita nak bersihkan negara, kita tak boleh pilih orang yang dianggap melakukan jenayah. &quot;Ya dia belum terbukti bersalah, tetapi jika seseorang itu dihadapkan walaupun dengan satu kes, itu sudah menunjukkan dia tidak layak jadi pemimpin,&quot; katanya selepas Pelancaran Buku 40 Tahun Dasar Pandang Ke Timur pada Rabu. Ahmad Zahid kini berdepan 47 tuduhan rasuah, pecah amanah jenayah dan pengubahan wang haram. Sementara itu ketika diminta mengulas masa depan Parti Pejuang Tanah Air (Pejuang) pimpinannya yang kalah teruk dalam Pilihan Raya Umum ke-15 (PRU15) lalu, Dr Mahathir menjelaskan partinya itu akan tetap meneruskan misinya untuk menyelamatkan Malaysia. &ldquo;Kita kalah teruk tapi kita pegang pada prinsip, kita berjuang untuk membersihkan negara dan kita akan terus berjuang untuk bersihkan negara walaupun kita ditolak oleh semua orang,&rdquo; katanya. Pada PRU15 lalu, Gerakan Tanah Air (GTA) yang bertanding menggunakan logo Pejuang tewas disemua 125 Parlimen yang ditandinginya.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Dr Mahathir mengatakan pelantikan Ahmad Zahid akan menyukarkan usaha membersihkan negara. Ahmad Zahid menghadapi 47 tuduhan rasuah, pecah amanah jenayah dan pengubahan wang haram."
+}

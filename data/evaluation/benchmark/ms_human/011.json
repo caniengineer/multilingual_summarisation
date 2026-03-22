@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_011",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "ISKANDAR PUTERI: Dewan Undangan Negeri (DUN) Johor hari ini menetapkan Ahli-Ahli Dewan Undangan Negeri (ADUN) yang tidak menghadiri mesyuarat persidangan itu tidak dibenarkan mewakilkan soalan lisan mereka kepada ahli yang hadir, mulai tahun depan. Perkara itu dimaklumkan oleh Speaker DUN Johor Datuk Dr Mohd Puad Zarkashi sebelum sesi soal jawab pada persidangan DUN Johor di Bangunan Sultan Ismail, Kota Iskandar, di sini hari ini. &quot;Saya memutuskan bahawa selepas ini bermula pada tahun depan dalam sidang yang akan datang, dewan tidak lagi akan membenarkan ADUN yang tidak hadir di dewan mesyuarat ini mengemukakan soalan lisan mereka melalui ADUN yang hadir. &quot;Tidak hadir adalah tidak hadir. Kita tidak membenarkan ahli yang tidak mengikut peraturan kerana ini akan menjejaskan kredibiliti dewan,&quot; kata Mohd Puad yang juga ADUN Rengit. Beliau berkata perkara berkenaan merujuk kepada tiga ADUN yang tidak hadir pada persidangan itu semalam, namun soalan lisan mereka dibacakan oleh ADUN yang hadir. &quot;Semalam ADUN Mahkota (Datuk Sharifah Azizah Syed Zain), ADUN Tangkak (Ee Chin Li) dan ADUN Panti (Hahasrin Hashim) tidak hadir sidang dewan melalui notis yang dibenarkan. Ketiga-tiga ahli yang berhormat berkenaan mengemukakan soalan lisan tanpa kehadiran mereka kerana dibaca oleh ahli-ahli yang berhormat yang lain. &quot;Maka saya merujuk standing order Dewan Negeri Johor Perkara 26(4) dengan izin, if the member entitled to an oral reply fails to rise and ask his question, yang bermaksud, ahli-ahli yang berhormat mana yang tidak hadir tetapi mereka tidak bangun,&quot; katanya. Mohd Puad berkata DUN Johor juga tidak membenarkan ahli-ahlinya menjadi proksi, dan begitu juga dengan soalan lisan yang tidak boleh diproksikan. &quot;Bayangkan kita ada 10 soalan yang diproksikan dalam satu hari, maka di manakah kewibawaan dewan? Logiknya dewan juga tidak akan membenarkan menjadi proksi walaupun ahli yang berhormat tidak hadir kerana dijangkiti COVID-19 ataupun yang lain-lain. Maka begitulah juga soalan lisan tidak boleh diproksikan. &quot;Saya juga ingin mengingatkan soalan lisan adalah nadi penting kepada dewan ini, tetapi kita perhati ada juga ahli-ahli yang berhormat yang tidak menghantar soalan atau hanya hantar satu dua soalan. Semoga kita dapat perbaiki perkara ini pada masa akan datang,&quot; katanya. -- BERNAMA",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Ahli-ahli Dewan Undangan Negeri (ADUN) yang tidak hadir tidak dibenarkan mengemukakan soalan lisan kepada ahli yang hadir. Perkara itu dimaklumkan oleh Speaker DUN Johor Datuk Dr Mohd Puad Zarkashi sebelum sesi soal jawab pada persidangan DUN Johor di Kota Iskandar."
+}

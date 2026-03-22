@@ -6,7 +6,7 @@
       "categories": {
         "ms": {
           "path": "smoke/ms",
-          "count": 2
+          "count": 5
         },
         "en": {
           "path": "smoke/en",
@@ -21,6 +21,10 @@
     "regression": {
       "description": "Quality gate (~100 samples)",
       "categories": {
+        "ms_human": {
+          "path": "regression/ms_human",
+          "count": 10
+        },
         "ms_mixtral": {
           "path": "regression/ms_mixtral",
           "count": 30
@@ -38,6 +42,10 @@
     "benchmark": {
       "description": "Full benchmark (~500 samples)",
       "categories": {
+        "ms_human": {
+          "path": "benchmark/ms_human",
+          "count": 16
+        },
         "ms_mixtral": {
           "path": "benchmark/ms_mixtral",
           "count": 200

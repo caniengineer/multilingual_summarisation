@@ -1,0 +1,15 @@
+{
+  "id": "malaydata_ms_012",
+  "source": "malay-dataset",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "ROMPIN: Dua dari lima calon yang bertanding pada Pilihan Raya Umum ke-15 (PRU15) bagi kerusi Dewan Undangan Negeri (DUN) Tioman hari ini, selesai mengundi awal pagi ini. Calon Perikatan Nasional (PN) Nor Idayu Hashim tiba di pusat pengundian Sekolah Menengah Kebangsaan (SMK) Tanjung Gemuk, di sini, dan membuang undi pada jam 8.30 pagi. Manakala calon Barisan Nasional (BN) Datuk Seri Mohd Johari Hussain selesai mengundi di pusat pengundian Sekolah Kebangsaan (SK) Pontian, di sini, pada jam 9.53 pagi.&nbsp; Ketika ditemui, Mohd Johari berharap semua pengundi dapat keluar menunaikan tanggungjawab pada PRU kali ini dan pada masa sama berharap kerajaan dapat melihat keperluan memudahkan pengundi muda menunaikan tanggungjawab mereka. &quot;Pihak kerajaan diseru untuk lihatlah perkara-perkara apa yang sedang berlaku pada hari ini, kerana, apa yang berlaku hari ini merupakan satu momentum untuk pilihan raya pada masa akan datang, khususnya bagi anak muda. &quot;Dan kita tengok hari, dengan tidak ada cuti, dengan keadaan hari bekerja, semua agak membantutkan sedikit anak-anak muda untuk pulang ke kawasan,&quot; katanya. DUN Tioman menyaksikan pertembungan lima penjuru antara Mohd Johari, Nor Idayu, Osman A Bakar (Pejuang), Sulaiman Bakar (Bebas) dan Mohd Fadzli Mohd Ramly (Pakatan Harapan). Bagaimanapun, PH telah membuat keputusan untuk memberi laluan kepada calon BN selepas mengadakan kerjasama pembentukan kerajaan negeri Pahang. [LAPOR LANGSUNG] PRU15 Padang Serai, Tioman: Lebih 35 peratus keluar mengundi setakat 12 tengah hari- SPR Nama calon PH itu bagaimanapun tetap tertera di kertas undi kerana menurut SPR Pahang, status pencalonan tidak boleh diubah selepas tempoh penamaan calon ditutup. Pada PRU14 lalu, Mohd Johari menang dengan majoriti 1,280 undi selepas memperoleh 6,662 undi menewaskan calon Pas, Md Yunus Ramli yang mendapat 6,382 undi, calon PKR, Sazii Mohd Nor (3,029 undi) dan calon Bebas, Iman Zul (58 undi). PRU15: KEPUTUSAN RASMI ADA DI SINI&nbsp;",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Dua daripada lima calon yang bertanding pada Pilihan Raya Umum ke-15 (PRU15) selesai mengundi awal pagi ini. Calon Perikatan Nasional (PN) Nor Idayu Hashim membuang undi pada jam 8.30 pagi. Calon Barisan Nasional (BN) Datuk Seri Mohd Johari Hussain selesai mengundi pada jam 9.53 pagi."
+}
