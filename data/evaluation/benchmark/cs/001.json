@@ -1,0 +1,15 @@
+{
+  "id": "cs_001",
+  "source": "manual",
+  "language": "ms_en",
+  "category": "codeswitching",
+  "has_reference": true,
+  "text": "Hari ni kita launch product baru — AI-powered chatbot untuk customer service bank. System ni boleh handle query dalam Bahasa Melayu, English, dan even Mandarin. Response time dia under 2 seconds, much faster than human agents. Tapi untuk complex cases macam fraud detection atau loan disputes, chatbot akan escalate ke human agent. Privacy compliance pun dah handle — semua conversation encrypted end-to-end dan data retention follow Bank Negara guidelines.",
+  "reference_summary": "Chatbot AI baharu untuk perkhidmatan pelanggan bank dilancarkan hari ini, mampu mengendalikan pertanyaan dalam tiga bahasa dengan masa respons bawah 2 saat. Kes kompleks akan dieskalasi kepada ejen manusia, dengan pematuhan privasi mengikut garis panduan Bank Negara.",
+  "config": {
+    "target_language": "auto",
+    "summary_type": "brief",
+    "max_length": 100
+  },
+  "ref_quality": "none"
+}

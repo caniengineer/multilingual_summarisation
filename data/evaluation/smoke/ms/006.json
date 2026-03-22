@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_006",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Kerajaan wajar awasi provokasi kumpulan subversif. GABUNGAN Mahasiswa Islam Se-Malaysia (GAMIS) mengikuti rapat perkembangan situasi semasa di Thailand yang sedang bergolak dengan kemelut politik dalaman negara tersebut.Namun, dalam kehangatan kemelut politik dalaman di negara jiran, GAMIS melihat terdapat cubaan dan gerakan halus untuk membawa sentimen yang sama ke negara kita dan konotasi yang menyelubungi institusi beraja di Thailand cuba disamakan dengan institusi beraja di Malaysia.Kumpulan subversif ini cuba mengapi-apikan rakyat Malaysia dengan meraih simpati terhadap kumpulan pembantah yang mendesak pembubaran institusi monarki. Melihat kepada tindakan beberapa pemimpin DAP dan PAN serta badan yang bernaung di bawahnya seperti Jaringan Hak Asasi Manusia (JHAM) yang cuba menyemarakkan isu ini, adakah mereka bermaksud untuk menghasut rakyat supaya menentang sistem beraja di Malaysia juga? GAMIS melihat usaha ini sebagai jarum halus yang cuba menggugat kestabilan politik negara dan wajar dihentikan segera. Wahai pengkhianat negara, jika kalian tidak menghentikan hasutan ini, rakyat tidak akan teragak-agak untuk menghalau kalian dari negara yang berdaulat ini! GAMIS menyeru kepada seluruh masyarakat dan individu yang menggelarkan diri mereka sebagai rakyat Malaysia supaya terus menghayati dengan selumat mungkin isi kandungan dan intipati Perlembagaan Malaysia dan lima asas Rukun Negara. Semoga negara ini terus aman dan makmur di bawah lembayung Kebawah Duli Yang Maha Mulia Seri Paduka Baginda Yang di-Pertuan Agong XVI Al-Sultan Abdullah Ri’ayatuddin Al-Mustafa Billah Shah Ibni Almarhum Sultan Haji Ahmad Shah Al-Musta’in Billah.  MUHAMMAD SYAZWAN MOHD AMIRPengerusiMajlis Politik NasionalGabungan Mahasiswa Islam Se-Malaysia (GAMIS) 202021 Oktober 2020 | 4 Rabiul Awal 1442H – HARAKAHDAILY 21/10/2020",
+  "reference_summary": "GAMIS, sebuah pertubuhan pelajar Islam Malaysia, melahirkan kebimbangan mengenai pengaruh pergolakan politik Thailand ke atas Malaysia. Mereka melihat percubaan untuk menghasut sentimen yang sama terhadap monarki, dengan beberapa pemimpin DAP dan PAN, dan kumpulan seperti JHAM, mempromosikan pandangan anti-monarki. GAMIS melihat ini sebagai usaha subversif untuk menjejaskan kestabilan politik Malaysia dan menyeru agar tindakan yang memecah belah ini dihentikan. Mereka menggesa semua rakyat untuk menjaga Perlembagaan dan prinsip Rukun Negara, memastikan keselamatan dan kemakmuran Malaysia di bawah pemerintahan Yang di-Pertuan Agong XVI Al-Sultan Abdullah Ri'ayatuddin Al-Mustafa Billah Shah Ibni Almarhum Sultan Haji Ahmad Shah Al-Musta' dalam Billah.\n\n(Nota: Mesej itu dari sudut politik dan menekankan kepentingan perpaduan nasional dan penghormatan kepada monarki.)",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  }
+}

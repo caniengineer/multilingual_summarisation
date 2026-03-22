@@ -42,8 +42,8 @@ MALAY_DATASET_SUMMARIZATION = [
 # Tier sample counts
 TIER_COUNTS = {
     "smoke": {"ms_human": 3, "ms_mixtral": 2, "en": 3, "cs": 2},
-    "regression": {"ms_human": 10, "ms_mixtral": 30, "en": 25, "cs": 15},
-    "benchmark": {"ms_human": 16, "ms_mixtral": 200, "en": 150, "cs": 50},
+    "regression": {"ms_human": 10, "ms_mixtral": 30, "en": 25, "cs": 5},
+    "benchmark": {"ms_human": 16, "ms_mixtral": 200, "en": 150, "cs": 8},
 }
 
 
@@ -294,10 +294,36 @@ def build_tiers(target_tier: str | None = None):
             )
             actual_counts[tier]["en"] = n
 
-        # Code-switching (empty dirs with README)
-        cs_dir = DATA_DIR / tier / "cs"
-        cs_dir.mkdir(parents=True, exist_ok=True)
-        actual_counts[tier]["cs"] = len(list(cs_dir.glob("*.json")))
+        # Code-switching (copy from legacy codeswitching/ dir)
+        cs_legacy_dir = DATA_DIR / "codeswitching"
+        if cs_legacy_dir.exists() and "cs" in counts:
+            cs_samples = []
+            for json_file in sorted(cs_legacy_dir.glob("*.json")):
+                with open(json_file) as f:
+                    cs_samples.append(json.load(f))
+            if cs_samples:
+                indices = allocate_tiers(
+                    list(range(len(cs_samples))),
+                    smoke=min(TIER_COUNTS["smoke"]["cs"], len(cs_samples)),
+                    regression=min(TIER_COUNTS["regression"]["cs"], len(cs_samples)),
+                )
+                selected = [cs_samples[i] for i in indices[tier]][:counts["cs"]]
+                cs_dir = DATA_DIR / tier / "cs"
+                cs_dir.mkdir(parents=True, exist_ok=True)
+                gitkeep = cs_dir / ".gitkeep"
+                if gitkeep.exists():
+                    gitkeep.unlink()
+                for j, sample in enumerate(selected, start=1):
+                    sample_copy = dict(sample)
+                    sample_copy["id"] = f"cs_{j:03d}"
+                    filepath = cs_dir / f"{j:03d}.json"
+                    with open(filepath, "w", encoding="utf-8") as f:
+                        json.dump(sample_copy, f, ensure_ascii=False, indent=2)
+                actual_counts[tier]["cs"] = len(selected)
+            else:
+                actual_counts[tier]["cs"] = 0
+        else:
+            actual_counts[tier]["cs"] = 0
 
         print(f"\n  Tier '{tier}': {sum(actual_counts[tier].values())} samples written")
 

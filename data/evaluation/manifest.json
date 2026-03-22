@@ -14,7 +14,7 @@
         },
         "cs": {
           "path": "smoke/cs",
-          "count": 0
+          "count": 2
         }
       }
     },
@@ -35,7 +35,7 @@
         },
         "cs": {
           "path": "regression/cs",
-          "count": 0
+          "count": 5
         }
       }
     },
@@ -56,7 +56,7 @@
         },
         "cs": {
           "path": "benchmark/cs",
-          "count": 0
+          "count": 8
         }
       }
     }

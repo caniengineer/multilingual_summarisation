@@ -1,0 +1,15 @@
+{
+  "id": "cs_002",
+  "source": "manual",
+  "language": "ms_en",
+  "category": "codeswitching",
+  "has_reference": true,
+  "text": "Research paper dari UM dan YTL AI Labs baru je publish kat EMNLP pasal MalayMMLU benchmark. Dataset ni contain 24,000 soalan multiple-choice dari kurikulum pendidikan Malaysia. Result dia interesting — ILMU model score 86.98% accuracy, beating GPT-4o yang dapat 84.98%. Ni first time Malaysian sovereign AI model outperform international model on local benchmark. Implications dia besar untuk development of Malay-centric AI applications.",
+  "reference_summary": "Kertas penyelidikan UM-YTL AI Labs mengenai penanda aras MalayMMLU menunjukkan model ILMU mencapai ketepatan 86.98%, mengatasi GPT-4o pada 84.98%, menjadi model AI tempatan pertama yang mengatasi model antarabangsa.",
+  "config": {
+    "target_language": "auto",
+    "summary_type": "brief",
+    "max_length": 100
+  },
+  "ref_quality": "none"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cs_005",
+  "source": "manual",
+  "language": "ms_en",
+  "category": "codeswitching",
+  "has_reference": true,
+  "text": "Startup scene kat Malaysia memang growing rapidly. Banyak founder muda yang graduate dari local uni dah start their own companies. Ecosystem support pun dah improve — ada MDEC, Cradle Fund, dan macam-macam accelerator programme. Last year alone, Malaysian startups raised more than USD 500 million in funding. Tapi challenge dia still ada — talent retention jadi issue sebab banyak engineer prefer kerja Singapore for higher salary.",
+  "reference_summary": "Ekosistem startup Malaysia berkembang pesat dengan sokongan MDEC dan Cradle Fund. Startup tempatan mengumpul lebih USD 500 juta tahun lepas, namun pengekalan bakat kekal mencabar kerana ramai jurutera memilih bekerja di Singapura.",
+  "config": {
+    "target_language": "auto",
+    "summary_type": "brief",
+    "max_length": 100
+  },
+  "ref_quality": "none"
+}
