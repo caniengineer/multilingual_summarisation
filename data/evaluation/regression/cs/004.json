@@ -11,5 +11,5 @@
     "summary_type": "brief",
     "max_length": 80
   },
-  "ref_quality": "human"
+  "ref_quality": "machine"
 }
