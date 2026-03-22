@@ -1,17 +1,38 @@
 {
-  "version": "1.0.0",
-  "categories": {
-    "monolingual": {
-      "path": "xlsum_ms",
-      "count": 12
+  "version": "2.0.0",
+  "tiers": {
+    "smoke": {
+      "description": "Fast sanity check (~10 samples)",
+      "categories": {
+        "ms": {"path": "smoke/ms", "count": 0},
+        "en": {"path": "smoke/en", "count": 0},
+        "cs": {"path": "smoke/cs", "count": 0}
+      }
     },
-    "codeswitching": {
-      "path": "codeswitching",
-      "count": 8
+    "regression": {
+      "description": "Quality gate (~100 samples)",
+      "categories": {
+        "ms_human": {"path": "regression/ms_human", "count": 0},
+        "ms_mixtral": {"path": "regression/ms_mixtral", "count": 0},
+        "en": {"path": "regression/en", "count": 0},
+        "cs": {"path": "regression/cs", "count": 0}
+      }
     },
-    "english": {
-      "path": "english",
-      "count": 5
+    "benchmark": {
+      "description": "Full benchmark (~500 samples)",
+      "categories": {
+        "ms_human": {"path": "benchmark/ms_human", "count": 0},
+        "ms_mixtral": {"path": "benchmark/ms_mixtral", "count": 0},
+        "en": {"path": "benchmark/en", "count": 0},
+        "cs": {"path": "benchmark/cs", "count": 0}
+      }
+    }
+  },
+  "legacy": {
+    "categories": {
+      "monolingual": {"path": "xlsum_ms", "count": 12},
+      "codeswitching": {"path": "codeswitching", "count": 8},
+      "english": {"path": "english", "count": 5}
     }
   }
 }
