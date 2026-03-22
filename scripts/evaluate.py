@@ -30,6 +30,8 @@ from app.main import create_app
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "evaluation"
 RESULTS_DIR = Path(__file__).parent.parent / "results"
+BASELINE_DIR = Path(__file__).parent.parent / "results" / "baselines"
+REGRESSION_THRESHOLD = 0.10  # 10% drop = flag
 
 
 def load_manifest() -> dict:
@@ -364,6 +366,52 @@ def save_results(results: list[dict], aggregated: dict, output_path: Path, total
     print(f"Results saved to {output_path}")
 
 
+def save_baseline(aggregated: dict, tier: str, baseline_dir: Path = BASELINE_DIR) -> None:
+    """Save current aggregated results as the baseline for a tier."""
+    baseline_dir.mkdir(parents=True, exist_ok=True)
+    path = baseline_dir / f"{tier}_baseline.json"
+    with open(path, "w") as f:
+        json.dump(aggregated, f, indent=2)
+    print(f"Baseline saved to {path}")
+
+
+def compare_baseline(
+    aggregated: dict,
+    tier: str,
+    baseline_dir: Path = BASELINE_DIR,
+    threshold: float = REGRESSION_THRESHOLD,
+) -> list[dict]:
+    """Compare current results against saved baseline. Returns list of regressions."""
+    path = baseline_dir / f"{tier}_baseline.json"
+    if not path.exists():
+        print("No baseline found. Run with --save-baseline first.")
+        return []
+
+    with open(path) as f:
+        baseline = json.load(f)
+
+    regressions = []
+    metrics_to_check = ["chrf_avg", "chrf_human_avg", "chrf_machine_avg"]
+
+    for cat, agg in aggregated.items():
+        if cat not in baseline:
+            continue
+        base = baseline[cat]
+        for metric in metrics_to_check:
+            if metric in agg and metric in base and base[metric] > 0:
+                pct_change = (agg[metric] - base[metric]) / base[metric]
+                if pct_change < -threshold:
+                    regressions.append({
+                        "category": cat,
+                        "metric": metric,
+                        "baseline": base[metric],
+                        "current": agg[metric],
+                        "pct_change": round(pct_change * 100, 1),
+                    })
+
+    return regressions
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate multilingual summarization API")
     parser.add_argument(
@@ -388,6 +436,11 @@ def parse_args():
         choices=["smoke", "regression", "benchmark"],
         default=None,
         help="Evaluation tier (uses tiered directory structure)",
+    )
+    parser.add_argument(
+        "--save-baseline",
+        action="store_true",
+        help="Save results as baseline for future comparison",
     )
     return parser.parse_args()
 
@@ -431,6 +484,16 @@ def main():
 
     print_results(aggregated, results, total_time)
     save_results(results, aggregated, output_path, total_time)
+
+    if args.tier and args.save_baseline:
+        save_baseline(aggregated, tier=args.tier)
+    elif args.tier:
+        diffs = compare_baseline(aggregated, tier=args.tier)
+        if diffs:
+            print("\n!! REGRESSIONS DETECTED !!")
+            for d in diffs:
+                print(f"  {d['category']}/{d['metric']}: "
+                      f"{d['baseline']:.1f} -> {d['current']:.1f} ({d['pct_change']}%)")
 
 
 if __name__ == "__main__":

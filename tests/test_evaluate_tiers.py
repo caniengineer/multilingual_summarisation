@@ -110,3 +110,49 @@ def test_aggregate_results_splits_by_ref_quality():
     assert "chrf_machine_avg" in agg["monolingual"]
     assert agg["monolingual"]["chrf_human_avg"] == 45.0
     assert agg["monolingual"]["chrf_machine_avg"] == 35.0
+
+
+def test_save_and_compare_baseline(tmp_path):
+    """Save a baseline and compare against it."""
+    from scripts.evaluate import save_baseline, compare_baseline
+
+    baseline_dir = tmp_path / "baselines"
+
+    aggregated = {
+        "monolingual": {
+            "chrf_avg": 40.0,
+            "chrf_human_avg": 45.0,
+            "chrf_machine_avg": 35.0,
+            "latency_avg_ms": 500,
+        }
+    }
+
+    save_baseline(aggregated, tier="regression", baseline_dir=baseline_dir)
+
+    # Baseline file exists
+    assert (baseline_dir / "regression_baseline.json").exists()
+
+    # Compare: no regression
+    new_aggregated = {
+        "monolingual": {
+            "chrf_avg": 42.0,
+            "chrf_human_avg": 46.0,
+            "chrf_machine_avg": 36.0,
+            "latency_avg_ms": 480,
+        }
+    }
+    diffs = compare_baseline(new_aggregated, tier="regression", baseline_dir=baseline_dir)
+    assert len(diffs) == 0  # no regressions
+
+    # Compare: regression detected (>10% drop)
+    regressed = {
+        "monolingual": {
+            "chrf_avg": 34.0,  # -15%
+            "chrf_human_avg": 38.0,  # -15.6%
+            "chrf_machine_avg": 33.0,
+            "latency_avg_ms": 600,
+        }
+    }
+    diffs = compare_baseline(regressed, tier="regression", baseline_dir=baseline_dir)
+    assert len(diffs) > 0
+    assert any("chrf_avg" in d["metric"] for d in diffs)
