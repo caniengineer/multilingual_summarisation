@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_030",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KUALA LUMPUR: Empat termasuk dua wanita maut dan seorang lelaki cedera parah dalam kemalangan membabitkan dua kereta di susur keluar dari arah Subang menghala Kelana Jaya di Lebuh Raya Baru Lembah Klang (NKVE) awal pagi tadi.\nPengarah Jabatan Bomba dan Penyelamat Malaysia (JBPM) Selangor Norazam Khamis berkata mangsa yang maut dikenali pasti sebagai P. Puvaaneshwaran, 28; Lai Mun Fai, 28; Eng Siew Hooi, 31 dan Leong Man Yuen, 27 manakala yang parah dikenali sebagai Heng Chan Yee, 28.\nBeliau berkata pihaknya menerima panggilan berhubung kejadian itu kira-kira 4.11 pagi.\nKatanya insiden tersebut membabitkan kereta Wira Aeroback yang dipandu seorang lelaki dan Wira jenis sedan dinaiki empat orang.\n“Empat mangsa disahkan meninggal dunia di tempat kejadian manakala seorang lagi yang parah dibawa ke Hospital Sungai Buluh untuk rawatan,” katanya dalam kenyataan hari ini. –AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Kemalangan kereta di Lebuhraya Baru Lembah Klang (NKVE) dekat Subang, menghala ke Kelana Jaya, mengakibatkan 4 maut dan 1 cedera parah. Mangsa telah dikenal pasti sebagai P. Puvaaneshwaran, 28; Lai Mun Fai, 28; Eng Siew Hooi, 31; dan Leong Man Yuen, 27. Mangsa yang cedera, Heng Chan Yee, 28, dibawa ke Hospital Sungai Buloh untuk rawatan. Kemalangan melibatkan Wira Aeroback dipandu seorang lelaki dan kereta sedan Wira bersama empat penumpang. Jabatan Bomba dan Penyelamat Malaysia menerima panggilan berhubung kejadian itu sekitar jam 4:11 pagi. Keempat-empat mangsa disahkan meninggal dunia di tempat kejadian."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_010",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Scottish Labour said the figures came from freedom of information requests to each Scottish health board. Health spokeswoman Jackie Baillie said the SNP had pledged to increase bed numbers but they were now falling. The Scottish government said the figures reflected shorter stays and better treatments and that Labour had cut 1,300 hospital Scottish beds. The figures showed a drop of 1,148 beds between 2007 and 2010. The biggest decline was in NHS Greater Glasgow and Clyde, which had cut 333 beds in the past three years. NHS Grampian cut 180 beds and NHS Highland 162. Ms Baillie said: \"Although advances in medical practice mean patients don't need to spend so long in hospital and more people with long-term conditions are treated in the community, the health secretary, Nicola Sturgeon, promised in opposition to increase the number of hospital beds. \"Instead, the number of beds has fallen by over 1,100 in the last three years. The SNP are also planning to cut 1,500 nurses jobs this year. The fact is that they are guilty of the most staggering hypocrisy.\" Out-patient treatment Ms Sturgeon said one of the reasons Labour were thrown out of office in Scotland was because of their \"wretched\" record on health, cutting hospital beds by 1,300. She added: \"The truth is that there is record investment in Scotland's NHS under the SNP. If Labour had been returned to office in 2007, they would have closed the A&E units at Monklands and Ayr, and they were pledged to cut Scotland's health budget and transfer the cash elsewhere. \"In contrast, the SNP government saved the A&E units, and are building a brand new Southern General Hospital.\" Ms Sturgeon said fewer long-stay beds for elderly or disabled people were needed, through care in the home or community, and that medical advances had reduced the length of hospital stay, with many procedures done on an out-patient basis.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "More than 1,000 hospital beds have been cut from the NHS in Scotland over the past three years, Labour has warned."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_073",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The car driver and his passenger were pronounced dead at the scene in Peterstow, Ross-on-Wye on Sunday morning, police said. \"The ambulance was not responding to a 999 call at the time of the collision,\" West Midlands Ambulance Service said. Two ambulance staff were taken to hospital with injuries which were not believed to be serious. They were treated by ambulance colleagues after the crash on the A49 outside Pengethley Garden Centre in Peterstow, Ross-on-Wye, at 06:11 BST, the service said. A West Midlands Ambulance Service spokeswoman said: \"The trust will work closely with officers from West Mercia Police on the investigation which is already under way.\" Police are appealing for witnesses to the crash to come forward. Sgt Dan Poucher of West Mercia Police said: \"Next of kin have been informed and our thoughts are with the families of those affected. \"If anyone was in the area early this morning and witnessed the collision, or has dashcam footage, we would ask them to get in contact with us.\" Follow BBC West Midlands on Facebook, on Twitter, and sign up for local news updates direct to your phone. Related Internet Links West Mercia Police West Midlands Ambulance Service",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Two men have been killed in a crash between a car and an ambulance in Herefordshire."
+}

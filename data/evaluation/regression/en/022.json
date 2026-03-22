@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_022",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Gerald Quigley was last seen at his Courtfield Road home on 3 April 1999 and reported missing by his girlfriend. Despite a lengthy police investigation, which included inquiries at known haunts in London and Surrey, there has been no trace of the 25-year-old. Mr Quigley's brother Peter has joined police in a new appeal for information. He said: \"It has been 20 years today since Gerald disappeared and we still want to know what has happened to him. \"It has been impossible for us to get any closure and until we know otherwise, there is a chance that he is still out there and living his life. \"If that is the case I want to ask him directly to get in touch with police and let us know that he is okay.\" Northumbria Police said officers were \"keeping an open mind\" as to the whereabouts of Mr Quigley. Det Sgt Laura Stabler said: \"Over the years we have received bits of information but nothing has been able to shed any light on why he may have disappeared. \"He could have gone anywhere in the country and we are launching this fresh appeal in the hope that someone, somewhere, may have some information that might help us get answers for his family. \"We have to keep an open mind in terms of what happened to him, and there is always a chance that he is still alive, however unlikely that may seem.\" When Mr Quigley disappeared he had the words \"Always wanted, Always loved\" tattooed across his shoulders and a skull tattoo on his left arm.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The family of a man who went missing from his Newcastle home 20 years ago have appealed for the public to help them \"gain closure\"."
+}

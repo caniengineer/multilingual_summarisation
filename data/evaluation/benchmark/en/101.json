@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_101",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Statkraft-owned Spittal Hill Wind Farm Ltd's wanted to construct up to 30 turbines on a site in Caithness. Following a public inquiry, Energy Minister Fergus Ewing refused planning permission in June last year. The developer has now proposed erecting eight turbines on the same site at Spittal Hill. Statkraft said the project would bring economic, social and environmental benefits to the local area. The company's original project received 1,546 letters of objection and 1,268 letters of support. Highland Council opposed the scheme. Mr Ewing said it would have had a negative impacts on nearby properties and views of the landscape. Noise from the turbines could potentially have been heard from residents in 89 properties within 1.2 miles (2km) of the site, the inquiry held in Halkirk last year heard.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The first developer in four years to have its plans for an onshore wind farm rejected by the Scottish government has announced a revised proposal."
+}

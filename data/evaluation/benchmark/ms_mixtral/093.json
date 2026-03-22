@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_093",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "You’ve heard previously \nwhat rally drivers had to say about the Toyota GR Yaris\n so now let Japanese racing driver and drifter, Nobuteru Taniguchi, share his thoughts on \nToyota’s \nlatest hot-hatch. We watched the entire video in broken English from automatically-generated translations and here’s are some of the feedback we gathered.\nThe test drive took place in wet conditions \nat the Fuji Speedway \nbut right away, the GR Yaris delivered on the hype and promises that surrounded it. The first thing you’d immediately notice is how throaty the (world’s most powerful) 3-cylinder 1.6-litre turbocharged engine, with 272 hp and 370 Nm, sounds. 0 to 100 km/h in this feisty little thing will only take you five seconds by the way.\n \nWhile we do not understand Japanese, Nobu did use the words “kimochi” and “powerful” to describe the GR Yaris. The latter is self explanatory but don’t ask why we know what “kimochi” means. The explanation may not be suited for publication.\nFrom what we deduced, Nobu also described the GR Yaris to have a \nwide powerband\n and that it had \ngood stability\n. Note how much the speedometer climbs before a gear change! The latter was evident when the car was switched to Track Mode with its Vehicle Stability Control system switched off. Three different driving modes were tested – Normal, Sport and Track.\nThe other thing Nobu pointed out was how responsive the car was, with “small” turbo lag. From the on-board camera, you’d also notice how controllable the car is even when in a skid; a testament to the GR Yaris’ all-wheel drive system with 50:50 torque distribution. As and when necessary, the driver can also tweak the torque distribution for different driving conditions – 60:40 for a more front-bias setup, 30:70 for a “more rear-wheel drive” experience.\nWord is that this little monster will be coming to Malaysia but it won’t be cheap. How much are you willing to pay?",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Nobuteru Taniguchi, seorang pemandu lumba dan drifter Jepun, baru-baru ini berkongsi pendapatnya tentang Toyota GR Yaris selepas memandu ujian dalam keadaan basah di Fuji Speedway. Dia memuji enjin pengecas turbo 1.6 liter kereta itu, yang menghasilkan 272 hp dan tork 370 Nm dan berjalan dari 0 hingga 100 km/j dalam masa lima saat. Taniguchi menyifatkan GR Yaris sebagai \"kimochi\" dan \"berkuasa\" dengan jalur kuasa yang luas dan kestabilan yang baik. Dia juga menyatakan tindak balas kereta itu, ketinggalan turbo yang minimum, dan pengendalian yang boleh dikawal semasa tergelincir, terima kasih kepada sistem pacuan semua rodanya dengan pengagihan tork boleh laras. GR Yaris dijangka tiba di Malaysia, tetapi ia mungkin datang dengan tanda harga yang tinggi."
+}

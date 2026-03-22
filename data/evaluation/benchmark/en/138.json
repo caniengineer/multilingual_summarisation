@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_138",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Janet Brown, 51, was attacked in Radnage, Buckinghamshire, in April 1995 and no-one has ever been convicted of her murder. Roxanne Brown was due to be at home that evening but stayed with a friend who had just passed their driving test. Ms Brown said she would \"just like to remember my mum for being my mum\". Mrs Brown had been alone at her home in Sprigs Holly Lane on 10 April 1995 when she was killed. Her naked body was found at the foot of the stairs by builders who arrived to do some work. A post-mortem examination showed the Oxford University research nurse died of head injuries believed to have been inflicted by a blunt instrument - such as a crowbar. There was no evidence of sexual assault and police said they were open-minded about a motive. Roxanne Brown said she and her friend were originally due to stay in the home with her mother that night, but \"understandably [my friend's] mum was a little bit nervous about her driving quite a distance when she'd literally just passed her test\". \"So our plans changed that day, which I've always felt really guilty about, that I wasn't there with her that night,\" said Ms Brown. She said the following days felt \"surreal and strange\" and she remembered \"going to the supermarket once and there just being rows and rows of newspapers with her face on it\". In 2015, the police announced they had produced a DNA sample, which has been checked against swabs of 700 men. Ms Brown said: \"The police have worked really hard - in recent years we've managed to get a DNA profile but we just really need a vital clue to really pinpoint or lead us to the killer or killers and just be able to put all of that behind us.\" Find BBC News: East of England on Facebook, Instagram and Twitter. If you have a story suggestion email eastofenglandnews@bbc.co.uk",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The daughter of a nurse killed in her home 25 years ago said she has felt \"guilty\" she was not with her on the night of her murder."
+}

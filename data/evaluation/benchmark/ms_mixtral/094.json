@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_094",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "[E3 2019] Romancing SaGa 3 and SaGa: Scarlet Grace Ambitions coming to mobile and consoles\n\n\nSquare Enix has announced that Romancing SaGa 3 and SaGa: Scarlet Grace Ambitions will be heading west. The two games will be available in English on iOS and Android, as well as PC, PS4, Switch, and Xbox One.\n\n\n\n\nDeveloped by Square Enix, the SaGa series is a series of turn-based RPGs. The Romancing SaGa 3 and SaGa: Scarlet Grace Ambitions are the 6th and 12th games in the series, respectively. Before this, the two games have never been released outside of Japan.   Follow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\nRelease dates have not been provided yet, but we expect the games to be available within the year.\n\nCheck This Out Next\n\n\nTags: AndroidiOSMobilePCPS4Romancing SaGa 3RPGSaGaSaGa: Scarlet Grace AmbitionsSquare EnixSwitchXbox One",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Square Enix mengumumkan bahawa Romancing SaGa 3 dan SaGa: Scarlet Grace Ambitions akan dikeluarkan di Barat buat kali pertama, disetempatkan dalam bahasa Inggeris untuk iOS, Android, PC, PS4, Switch dan Xbox One. Siri SaGa terdiri daripada RPG berasaskan giliran, dengan Romancing SaGa 3 sebagai permainan ke-6 dan SaGa: Scarlet Grace Ambitions menjadi permainan ke-12. Tarikh keluaran belum diumumkan, tetapi ia dijangka dikeluarkan dalam tahun ini."
+}

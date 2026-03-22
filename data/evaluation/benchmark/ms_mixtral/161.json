@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_161",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "The last we checked, it’s still March, so it’s definitely not April’s Fool yet. But there seems to be a rumour going around suggesting that the US arm of Volkswagen is planning a name change to “Voltswagen” – a rumour so silly that it might just turn out to be true.\nThe company supposedly prematurely published a news release on its US newsroom website yesterday, and was noticed by a reporter at \nUSA Today\n before it was deleted. The press release was dated April 29, yet published on the 29th of March – adding on to the legitimacy of the whole deal, just that someone in Volkswagen (how long more can we still call it that?) made an oopsie.\nPer the publication, the news release apparently said that this move is “more than a name change; ‘Voltswagen’ is a public declaration of the company’s future-forward investment in e-mobility”.\n“The new name and branding symbolise the highly-charged forward momentum Voltswagen has put in motion, pursuing a goal of moving all people point-to-point with EVs,” the carmaker said in the release.\nVolkswagen’s latest EV, the \nID.4\n.\nThe announcement also says that new electric models would get a ‘Voltswagen’ exterior badge, while cars with internal combustion engines will continue using the standard ‘VW’ logo.\nAccording to the \nAssociated Press\n, an anonymous source close to the situation has \nconfirmed \nthat the carmaker was planning for a formal announcement on Tuesday (today), but the press release went online prematurely.\nIf the rumours turn out to be true, it’s equal parts cringe and weird that a historical carmaker of this calibre would forego its entire 80-odd years of history – Hitler-association and all – for a silly name change.\nWe’re convinced that this is just a stunt, dreamt up by their marketing department to boost its EV mindshare. And judging by the number of news reports that have come up from this story alone, we’d say that it definitely worked. Please, prove us right, \nVolkswagen\n.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Volkswagen, pembuat kereta bersejarah, dikhabarkan akan menukar namanya kepada \"Voltswagen\" di AS, sebagai usaha untuk menyerlahkan komitmennya terhadap kenderaan elektrik. Berita itu diterbitkan sebelum waktunya di laman web syarikat itu dan kemudian dipadamkan, tetapi tidak sebelum disedari oleh seorang wartawan. Penukaran nama yang dicadangkan itu dikatakan sebagai \"pengisytiharan awam\" tumpuan Volkswagen pada e-mobiliti. Jika benar, model dengan enjin pembakaran dalaman akan terus menggunakan logo \"VW\", manakala model elektrik baharu akan menampilkan lencana \"Voltswagen\". Syarikat itu masih belum mengesahkan atau menafikan khabar angin tersebut."
+}

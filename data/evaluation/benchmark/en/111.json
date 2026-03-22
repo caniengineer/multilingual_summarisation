@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_111",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Alex Rodger of the Admiral de Saumarez Trust said: \"The States have to make their contribution\". Deputy Mike O'Hara, the Culture and Leisure minister, said he viewed the park as a \"good long-term project\". However he said his department was waiting for uncertainty over ownership of the park to be resolved. The Culture and Leisure Department took the park on a 25-year lease from the parish on 1 May 1989, meaning it will pass back into parish control in 2014. Deputy O'Hara said: \"We'd like to see Delancey Park ceded to the States of Guernsey.\" He said the possibility had been discussed at a meeting between Culture and Leisure and St Sampson officials in November. 'Deep pockets' Paul Le Pelley, St Sampson's Junior Constable, confirmed the possibility of transferring ownership - or drawing up a \"considerably longer lease\" - was due to be discussed at a parish meeting on 23 January. Both Mr Rodger and Deputy O'Hara said obtaining sponsorship towards the estimated £1m cost of 18 rejuvenation projects was being hampered by uncertainty over the lease. Mr Rodger said he was particularly frustrated by delays in the project to rebuild a monument to Admiral Lord James de Saumarez. The original was built in between 1876 and 1878 and destroyed by occupying German forces during World War II. \"It seems strange to me that a monument gets knocked down during the war,\" Mr Rodger said, \"[then] they use all the stone from it but never think about rebuilding it.\" The Trust has raised about £300,000 so far. Mr Rodger said: \"We need some financial help to get things moving, so if anyone has deep pockets, we'd love to hear from them.\"",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The chairman of a Guernsey charity has said the States should be \"more engaged\" in plans to redevelop Delancey Park in the parish of St Sampson."
+}

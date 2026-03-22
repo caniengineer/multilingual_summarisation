@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_102",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The youngster, identified as Michael, formally joined his new family at Kent County court on Thursday. A photo shared by Kent County on Facebook showed the little boy relaxing in an adult-sized courtroom chair, next to his adoptive parents. Behind them, his classmates happily waved paper hearts on sticks. During the hearing, each child introduced themselves and explained why they had come to celebrate. \"Michael is my best friend,\" said a small boy named Steven. \"My name is Lily and I love Michael,\" a little girl told Judge Patricia Gardner, who wore a necklace of Christmas decorations for the occasion. \"We began the school year as a family,\" Michael's teacher said. \"Family doesn't have to be DNA, because family is support and love.\" The group of classmates, teachers and parents broke into cheers and applause as Michael and his parents banged the judge's gavel, completing the process. Thursday was Kent County court's annual Adoption Day, and 37 children were \"lovingly and officially welcomed by their families\", the county wrote on Facebook. \"Sometimes their journeys have been very long. They've included miracle and change for the children and family, and incredible community support - as you're able to see today in Michael's adoption hearing,\" the Honorable Judge Patricia Gardner said, according to local ABC affiliate 13 On Your Side. \"His whole kindergarten class and school being here to say 'we love you,' and 'we support you' and 'we'll be here not only today, but in all the years in the future.'\" Filmed outside the courtroom for local television, the five-year-old declared, \"I love my daddy!\" as his father visibly welled up. The picture showing Michael and his class has since been shared more than 100,000 times on Facebook. You might also be interested in Couple win 'race discrimination' adoption battle 'I'm 16, not a 33-year-old scam artist'",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A five-year-old boy in Michigan has invited his whole kindergarten class to witness his legal adoption - and warmed hearts across the world."
+}

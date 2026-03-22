@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_001",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Swansea University's Dr Dan Jones said media scare stories could be discouraging homeowners from reporting and tackling infestations. He said a lack of planning and shrinking council budgets were also exacerbating the problem. Dr Jones is part of a team conducting trials on ways of controlling it. \"There are three main methods of controlling knotweed,\" he said. \"Physical, for example cutting, applying herbicides, and biological control whereby insects are introduced to feed off the plants. We are investigating the use of physical and herbicide-based methods of control, which have shown good results over the past four years. \"As yet none of the methods are perfect, but scare stories that the battle is already lost are well wide of the mark. \"The key is persistence and planning. Local authorities and governments budget for a year or two at a time then cut funding once things look better on the surface, but knotweed doesn't work to financial years. \"It can take up to a decade using any effective control method to properly get on top of a large infestation, and the sooner you tackle it, the cheaper it will be in the long run.\" Snowdon is battling an infestation of rhododendron, while parts of mid Wales and the M4 near Newport has giant hogweed, which can leave chemical burns on the skin if touched.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "More co-ordination and less hysteria is what is required to tackle Wales' £8.8m-a-year Japanese knotweed problem, according to an expert."
+}

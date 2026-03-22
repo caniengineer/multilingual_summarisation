@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_034",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "salam. saya nak tanya. saya ni sebenarnya tak bayar yuran lagi. ada lah dalam 700. tuition fees tak settle lagi. saya bukan budak PT ataupun scholar. memang setiap sem bayar cuma sem ni family ada masalah kewangan sikit. sebab tu bayar ansur ansur. saya ada baca yang prereg sampai 15hb ni. saya ingat mampu lah setelkan yuran sebelum 15hb. rupanya tak. ayah saya tetiba syarikat dia buang pekerja. so, nak tunggu duit pampasan dalam tahun depan baru dapat. saya nak tanya, boleh ke bayar yuran selepas tarikh prereg. apa akan jadi kalau saya tak dapat bayar yuran lagi. selain tak boleh tengok result, sem depan saya kiranya masih ada kat uia ke? sy ingat nak kerja masa cuti nak cari duit sikit. risau jugak tak dapat sambung belajar. maybe sebelum masuk sem depan baru saya dapat settle kan. first time macam ni. please tolong jawab akan jadi apa. huhu.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Penulis belum menjelaskan sepenuhnya yuran pengajian mereka dan tidak dapat membayar baki jumlah sebelum tarikh akhir prapendaftaran. Mereka mempunyai masalah kewangan dan telah membayar yuran mereka secara ansuran. Mereka telah membaca bahawa mereka boleh membayar yuran mereka sehingga 15hb tetapi telah menyedari bahawa mereka tidak boleh. Syarikat bapa mereka telah melepaskan beberapa pekerja, dan mereka menunggu pampasan mereka yang akan mereka terima tahun depan. Mereka bimbang tidak dapat melihat keputusan dan tidak dapat menyambung pelajaran. Mereka sedang mempertimbangkan untuk bekerja semasa rehat mereka untuk mendapatkan sedikit wang untuk membayar yuran mereka. Mereka adalah unsur-unsur akibat jika mereka tidak dapat membayar yuran mereka dan meminta penjelasan."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_009",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Mr Ford, who leads Canada's largest city, became the fourth Canadian politician in a week to acknowledge using the drug. Separately, he has denied rumours he was caught on video smoking crack cocaine and that he was addicted to it. In June, Liberal Party leader Justin Trudeau called for legalisation. Reporters confronted Mr Ford on Wednesday after Ontario Premier Kathleen Wynne acknowledged she had smoked marijuana 35 years ago, before entering politics. \"Oh yeah, I won't deny that,\" Mr Ford said with a laugh when asked if he had smoked marijuana. \"I've smoked a lot of it.\" Last week, New Democratic Party leader Thomas Mulcair also acknowledged using marijuana but would not say when, and Mr Trudeau said he had smoked marijuana since becoming a member of parliament. Rumours of hard drug use by Mr Ford first circulated in March after two media outlets said they had seen a video that purportedly showed him smoking crack cocaine. The video has not been released publicly and has not been verified. Mr Ford has said he does not smoke crack cocaine and is not an addict.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Toronto Mayor Rob Ford has said he has smoked \"a lot\" of marijuana, as a national debate on legalisation of the drug builds."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_007",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Bersatu hasil cadangan alternatif kurang beban rakyat. KUALA LUMPUR: Bersatu mengakui kemenangan besar Bersatu dan PERIKATAN NASIONAL (PN) pada pilihan raya umum (PRU) lepas hasil sokongan padu generasi baharu politik negara. “Generasi baharu menolak rasuah, menolak politik wang dan menolak politik menipu demi kuasa. Sebaliknya mereka mahu budaya politik baru yang bersih dan budaya prihatin kepada nasib rakyat. Oleh itu katanya Bersatu menyahut keinginan generasi baharu dan menerima mereka dengan tangan terbuka bagi membolehkan memainkan peranan dalam parti terbabit. Menurutnya generasi baharu wajar dilantik mengisi jawatan yang sesuai dalam parti untuk membantu mereka berperanan membasmi budaya tidak sihat dalam masyarakat. Wan Saiful yang juga Ahli Parlimen Tasek Gelugor berkata, Bersatu mampu menghasilkan cadangan dasar-dasar alternatif yang berkualiti untuk mengurangkan bebanan rakyat. “Di Britain pembangkang dipanggil His Majesty’s Most Loyal Opposition. Dalam konteks Malaysia menjadi tanggungjawab pembangkang untuk tidak bersetuju dengan kerajaan dan mencari idea-idea alternatif,” tambahnya. – HARAKAHDAILY 2/1/2023",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Bersatu mengakui kemenangan ketara Bersatu dan Perikatan Nasional (PN) dalam pilihan raya umum baru-baru ini, dikaitkan dengan penolakan rasuah, wang politik, dan politik dekaden oleh generasi baharu pengundi. Bersatu mengalu-alukan generasi baharu dan keinginan mereka untuk politik bersih dan keprihatinan terhadap rakyat, mencadangkan mereka mengambil jawatan yang sesuai dalam parti untuk membantu menghapuskan amalan budaya tidak sihat dalam masyarakat. Wan Saiful Wan Jan, Ahli Parlimen Bersatu Tasek Gelugor, menyatakan Bersatu mampu menghasilkan dasar alternatif berkualiti tinggi bagi mengurangkan beban rakyat. Di Malaysia, adalah menjadi tanggungjawab pembangkang untuk tidak bersetuju dengan kerajaan dan mencari idea alternatif."
+}

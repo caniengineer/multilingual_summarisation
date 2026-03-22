@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_101",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Langrisser Mobile global now available to pre-register\n\n\nThe latest entry for the classic SRPG Langrisser, Langrisser Mobile has just confirmed for a global launch last month, and now the pre-registration is live on the official site! Everyone who signed up for Langrisser Mobile global will get Trinity Voucher x1, Advanced EXP Potion x3 and Gold x10,000 at launch, more rewards will be available once the certain milestones are reached too.\n\n\n\n\nFor the first time in the series, Langrisser Mobile features a real-time tactical combat system. Other than retaining many of its main features such as the original class suppression and terrain effects, the game also features a new storyline that revolves around the birth of a new hero in the land of El Sallia.   Of course, the iconic characters from the original series including Elwin, Leon, Cherie, Bernhardt and Ledin will be making their way in the new mobile game. There will be more than 300 stages for you to master too!\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\n \nLangrisser Mobile global is set to launch on January 24, 2019. Don’t forget to sign up if you are interested, you can visit its Google Play Store or App Store page for more info as well!\n\nCheck This Out Next\n\n\nTags: GlobaliOSLangrisserLangrisser mobileMobileSRPGZlongame",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Langrisser Mobile, entri terbaharu dalam siri SRPG klasik, kini tersedia untuk prapendaftaran di laman web rasminya. Pemain yang mendaftar akan menerima ganjaran termasuk Trinity Voucher x1, Advanced EXP Potion x3 dan Gold x10,000 semasa pelancaran. Permainan ini menampilkan sistem tempur taktikal masa nyata, penindasan kelas asal dan kesan rupa bumi, dan jalan cerita baharu yang berpusat di sekitar kelahiran wira baharu di El Sallia. Watak ikonik dari siri asal juga akan muncul. Permainan ini ditetapkan untuk dilancarkan pada 24 Januari 2019, dan akan tersedia di Gedung Google Play dan App Store."
+}

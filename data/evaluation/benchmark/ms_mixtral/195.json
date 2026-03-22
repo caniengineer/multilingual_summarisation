@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_195",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Saya kuat berdoa. Terlalu kuat dalam segala hal kecil hingga hal besar aku berdoa. Alhamdulillah aku bersyukur kerana Allah beri nikmat untuk aku mampu berdoa.\n\nTapi sejak kebelakangan ini, aku ada berdoa tentang satu perkara. Perkara apa, tidak perlu dicakap. Cukuplah ia perkara yang baik dan aku amat hajatkan dengan asbab yang baik.\n\nCuma sejak kebelakangan ini bila aku buat doa itu.Aku tak rasa tenang. Bukan tak tenang sebab apa, tapi lebih kepada tak tenang sebab rasa tak yakin. Ragu-ragu. Kadang-kadang muncul dalam kepala ini fikiran-fikiran negatif dan situasi yang buruk buat aku rasa patah hati dan mula was-wad dan ragu sama ada Allah akan perkenalkan doa aku atau tidak. Aku tahu, aku patut yakin dengan doa aku. Tapi bila timbul benda-benda dan fikiran serta perasaan macam ni. Aku macam takut dan keliru,\n\nAdakah ini memang angkara syaitan yang buat aku was-was dan berhenti doa, atau memang sebab aku kurang yakin pada Allah. Ini kali pertama aku rasa macam ni.\n\nAku mohon sesiapa boleh berikan nasihat dan pandangan. Berilah. Aku dah sampai tertekan dan nangis sebab doa, tapi perasaan ini selalu muncul2,",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Saya kuat dalam doa, berdoa untuk semua yang besar dan kecil. Alhamdulillah, saya bersyukur kerana dapat berdoa. Baru-baru ini, saya telah berdoa untuk satu perkara khususnya, tetapi yang khusus tidak penting. Ia adalah perkara yang baik dan saya benar-benar menginginkannya dengan niat yang baik.\n\nNamun, kebelakangan ini apabila saya berdoa untuk ini, saya tidak berasa tenang. Bukan saya tidak tenang kerana sesuatu yang khusus, tetapi lebih-lebih lagi kerana ketidakpastian dan keraguan. Fikiran negatif dan senario terburuk muncul di kepala saya, membuatkan saya berasa patah hati, bimbang, dan tidak pasti sama ada Allah akan menjawab doa saya. Saya tahu saya harus yakin dengan doa saya, tetapi apabila fikiran dan perasaan ini timbul, saya berasa takut dan keliru.\n\nAdakah ini perbuatan Syaitan menyebabkan saya ragu-ragu dan berhenti berdoa, atau adakah ia hanya kekurangan iman kepada Allah? Ini kali pertama saya rasa begini. Saya akan menghargai sebarang nasihat atau perspektif. Saya telah sampai ke satu tahap yang saya rasa terharu malah pernah menangis kerana perasaan ini yang sentiasa datang kembali."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_132",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The deputy head of the Madrid regional administration, Pedro Rollán, warned of penalties if the Church had broken the region's anti-homophobia laws. The bishopric of Alcalá de Henares, north-east of Spain's capital, denied offering such \"cures\", in a statement. It provided \"pastoral and spiritual company\" to those \"freely seeking it\". The statement on its website (in Spanish) denounced as \"fake news\" the report by El Diario, in which a reporter posed as a gay man seeking sexual orientation help from the Alcalá clergy. Another page on the bishopric's website lists various links to publications on marriage and sexuality, including a book titled: \"How to prevent homosexuality: children and gender confusion\". Read more on similar topics: El Diario's undercover reporter described (in Spanish) how he had attended a session where an untrained counsellor told him that she risked going to prison for giving him advice on how to stop being homosexual. The Madrid administration has outlawed conversion classes for LGBT citizens, as psychiatrists say participants are often driven to depression and suicide. Experts say there is no scientific basis for claiming to \"cure\" homosexuals. Pleas for the administration to investigate the Alcalá courses came from the leftist Podemos party and a consumer rights group called Facua Madrid. Under the region's anti-homophobia laws, such pseudo-therapies can be punished with fines of up to €45,000 (£39,000; $50,000).",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A Roman Catholic diocese near Madrid is being investigated after a newspaper reported that it was running courses to \"cure\" gay men of homosexuality."
+}

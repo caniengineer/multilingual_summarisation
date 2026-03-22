@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_095",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Worcestershire Regulatory Services carried out the inspection and said it had \"found contraventions\". It did not reveal what the issue was but stressed there was no risk to the public. It said the kitchen would be re-inspected before it reopened. Worcestershire Acute Hospitals NHS Trust said ward kitchens were being used to reheat food. In a statement Worcestershire Regulatory Services the trust voluntarily closed the C-block main kitchen. 'Minor remedial works' \"The kitchen was already in very limited use and alternative catering arrangements have been made,\" it said. \"We will continue to monitor the situation, and we will re-inspect the kitchen before it reopens.\" The trust said the main kitchen was used purely for reheating food. \"Patient meals are cooked from fresh on site at the Alexandra Hospital in Redditch before being frozen and transferred to Kidderminster where they are reheated,\" a statement said. \"Following a routine inspection we have made the decision to temporarily close the kitchen at Kidderminster to carry out some minor remedial works. \"While this work is being carried out our patient meals are being reheated on the wards. \"We work very hard to ensure our patients are offered nutritious, high-quality meals with plenty of choice while they are in our hospitals and we would like to reassure patients that there has been no impact to meals as a result of this temporary closure.\"",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The main kitchen at Kidderminster Hospital has been closed after a routine food hygiene inspection."
+}

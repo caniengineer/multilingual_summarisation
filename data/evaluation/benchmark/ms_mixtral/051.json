@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_051",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Samurai Shodown welcomes Gongsun Li to its roster\n\n\nSamurai Shodown will be receiving Gongsun Li as a new downloadable character on 5 August. She will be available completely free. If you don’t recognize her, she’s from the Tencent game Honor of Kings, a multiplayer online battle arena game that was not released outside of China, where it enjoys massive popularity. It seems a little strange to introduce a character that not many would know worldwide, but nonetheless, a free character to try is a free character.\n\n\n\nHer profile is given as such on the official website:\n\n\n\nRelated Posts   Pokemon Sleep Now Available In Malaysia   GamerBraves Newsletter Vol. 103 – The Glory of The Barbie/Oppenheimer Double Feature   To reasons unknown to anyone but herself, a dancer from a faraway land makes her voyage to Japan.\nIt is said her performance has the power to entrance and uplift the masses.\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\nBut few suspect her actual motives, which are to gather evidence against those who’s misdeeds towards the public have been kept a secret.\nTo the dancer, allowing ones to steal away others’ happiness is a grave sin, and she will stop at nothing for the betterment of the people.\n\nThe previous DLC collaboration for Samurai Shodown prior to Honor of Kings’ Gongsun Li was For Honor‘s Warden who was added to the game on 24 June. Unlike his fellow DLC crossover character, Warden was paid DLC, available as the final character of Season Pass 2.\n\nWhile Honor of Kings is technically not released outside of China, it IS published internationally as Arena of Valor, available on both mobile devices and Nintendo Switch.\n\nCheck This Out Next\n\n\nTags: Honor of KingsSamurai ShodownSNKSNK CoTencentTencent Games",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Gongsun Li, watak daripada permainan Cina Honor of Kings (Arena of Valor di peringkat antarabangsa), akan hadir ke Samurai Shodown sebagai watak yang boleh dimuat turun secara percuma pada 5 Ogos. Dia seorang penari yang mencari bukti terhadap mereka yang telah melakukan kesalahan terhadap orang ramai. Kerjasama ini menyusuli penambahan For Honor's Warden ke Samurai Shodown pada 24 Jun, yang tersedia sebagai DLC berbayar."
+}

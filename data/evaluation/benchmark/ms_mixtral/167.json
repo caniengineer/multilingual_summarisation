@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_167",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Following months of inactivity due to the Movement Control Order (MCO), \nPerodua Tweckbot\n is resuming operations with health and safety measures now in place to protect the company’s staff and customers.\nThe \ncomplimentary vehicle inspection service\n will be stationed at Tesco Extra Bukit Tinggi Klang this Saturday and Sunday (12th and 13th of September), from 9 am to 5 pm on both days.\nTweckbot offers 50 point inspections on \nPerodua vehicles\n and these include the engine, transmission, cooling system, brakes, power steering, clutch, tyres, suspension and the vehicles’ electronics.\nAll Tweckbot customers will be required to undergo temperature checks and will need to comply with contact tracing protocols as mandated by the government. Due to social distancing SOPs, Tweckbot stations will now feature a more spaced-out layout with marked areas for waiting, consultation, and vehicle inspection to minimise movement and contact. The entire station in itself will be evacuated and sanitised twice a day.\n“Our technicians will wear face shields at all times and every vehicle will be thoroughly sanitised before and after inspection. Physical distancing and the wearing of face masks apply at all times. For the protection of the public, the number of vehicles to be inspected has to be limited to a first-come, first-served basis,” Perodua President and CEO, Dato’ Zainal Abidin Ahmad said.\nThe following is where you can catch the Perodua Tweckbot station in other locations, also from 9 am to 5 pm:\nTesco Extra Bukit Tinggi Klang – 12th to 3th September\nTesco Puncak Alam – 19th to 20th September\nTesco Extra Ampang – 26th to 27th September\nCustomers who inspect their vehicles with Tweckbot will get a 20% discount voucher, redeemable for the purchase of selected parts and accessories at any authorised Perodua service centre. Terms and conditions apply.\nGALLERY",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Perodua Tweckbot, perkhidmatan pemeriksaan kenderaan percuma untuk kenderaan Perodua, meringkaskan operasi dengan langkah-langkah kesihatan dan keselamatan yang ditetapkan. Perkhidmatan ini akan disediakan di Tesco Extra Bukit Tinggi Klang pada 12-13 September, 9 pagi-5 petang. Pemeriksaan termasuk pemeriksaan 50 mata pelbagai komponen kenderaan. Langkah berjaga-jaga kesihatan termasuk pemeriksaan suhu, pengesanan kenalan, penjarakan sosial, topeng muka, dan sanitasi biasa. Kenderaan akan diperiksa berdasarkan siapa cepat dia dapat. Pelanggan akan menerima baucar diskaun 20% untuk alat ganti dan aksesori terpilih. Lokasi Tweckbot akan datang termasuk Tesco Puncak Alam (19-20 September) dan Tesco Extra Ampang (26-27 September)."
+}

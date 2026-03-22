@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_033",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KUALA TERENGGANU: Lelaki yang disyaki menikam seorang wanita dengan menggunakan senjata tajam dipercayai gunting di kedai dobi layan diri di Kuala Nerus pada Sabtu lepas, berjaya diberkas polis semalam. \nTimbalan Ketua Polis Daerah Kuala Terengganu Supt Wan Mohd Zaki Wan Ismail berkata suspek yang juga seorang penganggur berusia 25 tahun itu ditahan di Kampung Mengabang Telipot, sekitar 3.30 petang semalam. \nKatanya suspek kini direman selama empat hari bermula hari ini bagi membolehkan siasatan dijalankan mengikut Seksyen 324 Kanun Keseksaan dan Seksyen 393 akta sama.\n“Melalui siasatan awal kedua-dua mereka tidak mengenali antara satu sama lain dan mangsa yang berusia 31 tahun dilaporkan sedang menerima rawatan di Hospital Sultanah Nur Zahirah serta berada dalam keadaan stabil,” katanya ketika dihubungi. \nDilapor pada Sabtu lepas seorang wanita ditikam di belakang badannya oleh seorang lelaki menggunakan senjata tajam dipercayai gunting, di dalam sebuah kedai dobi layan diri berhampiran Kem Batalion 18 Rejimen Askar Melayu Diraja (RAMD) di Seberang Takir dekat Kuala Nerus.\nTurut tular di media sosial, video rakaman kejadian tersebut melalui litar tertutup (CCTV) di premis berkenaan yang memaparkan suspek meluru masuk lalu menikam mangsa sebelum melarikan diri.–AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Seorang lelaki yang disyaki menikam seorang wanita menggunakan senjata tajam dipercayai gunting di sebuah kedai dobi layan diri di Kuala Nerus pada Sabtu, ditahan polis semalam. Suspek penganggur berusia 25 tahun itu ditahan di Kampung Mengbang Telipot sekitar jam 3.30 petang dan direman empat hari sehingga Rabu ini untuk siasatan mengikut Seksyen 324 dan 393 Kanun Keseksaan. Mangsa berusia 31 tahun sedang menerima rawatan di Hospital Sultanah Nur Zahirah dan dilaporkan dalam keadaan stabil. Video kejadian yang dirakam CCTV menunjukkan suspek memasuki premis itu, menikam wanita itu dari belakang, dan melarikan diri dari tempat kejadian."
+}

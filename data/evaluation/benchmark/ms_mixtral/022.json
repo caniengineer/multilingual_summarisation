@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_022",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KUALA LUMPUR: Tempoh Perintah Kawalan Pergerakan Pemulihan (PKPP) yang tamat pada 31 Ogos ini dilanjutkan sehingga 31 Disember 2020.\nPerdana Menteri, Tan Sri Muhyiddin Yassin berkata tindakan itu demi kepentingan kesihatan rakyat negara ini susulan penularan wabak COVID-19 yang masih belum reda di Malaysia.\n“Dengan pelanjutan PKPP, tindakan penguatkuasaan di bawah Akta Pencegahan dan Pengawalan Penyakit Berjangkit 1988 (Akta 342) masih boleh diambil.\n“Ini adalah untuk memastikan semua pihak mematuhi Prosedur Operasi Standard (SOP) dan protokol kesihatan yang ditetapkan,” katanya dalam perutusan khas malam ini.\nMuhyiddin memaklumkan dengan pelanjutan PKPP ia tidak menjejaskan kehidupan rakyat kerana mereka boleh melakukan aktiviti harian seperti biasa namun perlu mematuhi SOP yang ditetapkan seperti penjarakan fizikal.\n“Yang penting mesti terus membiasakan diri dengan pemakaian pelitup muka, membasuh tangan, sentiasa menjaga kebersihan diri dan mengelakkan tempat yang sesak,” katanya.\nSelain itu, Muhyiddin juga menyokong cadangan Kementerian Kesihatan Malaysia (KKM) untuk menaikkan kadar kompaun di bawah Akta 342 sebanyak dua ke tiga kali ganda.\nNamun jelasnya akta tersebut perlu dipinda terlebih dahulu di Parlimen. — AlHijrah Online.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Perintah Kawalan Pergerakan Pemulihan (PKPP) di Malaysia, yang akan berakhir pada 31 Ogos, telah dilanjutkan sehingga 31 Disember 2020. Keputusan itu dibuat demi kepentingan kesihatan negara, berikutan penularan wabak COVID-19 yang berterusan. belum surut. Dengan lanjutan PKPP, penguatkuasaan Akta Pencegahan dan Pengawalan Penyakit Berjangkit 1988 (Akta 342) akan terus memastikan semua pihak mematuhi Prosedur Operasi Standard (SOP) dan protokol kesihatan. Pelanjutan itu tidak akan menjejaskan kehidupan seharian orang ramai, tetapi mereka mesti mematuhi SOP yang ditetapkan, termasuk penjarakan sosial. Perdana Menteri turut menyokong cadangan Kementerian Kesihatan untuk menaikkan kadar kompaun di bawah Akta 342 sebanyak dua hingga tiga kali ganda. Bagaimanapun, Akta tersebut mesti dipinda di Parlimen terlebih dahulu."
+}

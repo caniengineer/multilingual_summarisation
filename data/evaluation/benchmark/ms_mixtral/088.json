@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_088",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Aku orang nya susah nak luahkan perasaan aku. Aku punya tahap malu tu rasa tinggi sangat even dengan family pon. Aku sebenarnya nak tunjuk kan rindu aku dekat family,sayang aku dekat family aku and dengan kawan2 semua. Dalam text,wassap aku bole kata rindu semua tu, tapi bila f2f aku rasa malu gila, aku pulak bila nak cover malu aku tu muka aku jadi serius. Sebenarnya dalam hati malu. Kawan aku ada cakap aku ego tak tunjuk perasan aku. Aku pon confius aku ego ke aku malu. Siapa ada sama perangai dengan aku dan dah bole move on dengan sifat tu? Tolong bagi aku tips. Yelah, orang kata 1st impression ni sangat penting, and susah nak ubah sebab bagi aku bila orang dah kenal aku macam tu, tetiba aku berubah manja2 dengan family dengan kawan2 tak ke pelik diorg dengan aku?? Aku malu laaa. Tolong ye, aku nak sangat berubah,bagi aku tips2 yang berkesan tau",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Orang itu berasa malu dan sukar untuk meluahkan perasaan mereka, walaupun kepada ahli keluarga. Mereka ingin menunjukkan kasih sayang dan kasih sayang mereka kepada keluarga dan rakan-rakan mereka, tetapi apabila bersemuka, mereka berasa sangat malu dan serius. Mereka meluahkan perasaan mereka melalui mesej teks atau WhatsApp tetapi sukar untuk melakukannya secara peribadi. Rakan-rakan mereka telah menunjukkan bahawa mereka mempunyai ego yang besar dan tidak menunjukkan emosi mereka. Orang itu keliru sama ada mereka pemalu atau mempunyai ego yang besar. Mereka mahu berubah dan sedang mendapatkan nasihat tentang cara mengatasi rasa malu dan menunjukkan perasaan sebenar mereka di sekeliling keluarga dan rakan-rakan. Mereka sedar bahawa tanggapan pertama adalah penting dan sukar untuk diubah apabila orang telah membentuk tanggapan tentang mereka sebagai pemalu."
+}

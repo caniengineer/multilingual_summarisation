@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_099",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Arundells in Cathedral Close, Salisbury, was where Sir Edward lived for the last 20 years of his life. After his death in 2005 the house was left to the nation. It was first opened to the public in 2008 and has been open periodically since then. Wiltshire Council has given permanent planning consent for the Grade II listed building to stay open. Chairman of the Friends of Arundells, Gerald Gibson, said: \"We're absolutely delighted. Since the Friends was formed four years ago its what we've always been campaigning for. \"It's the only former residence of a British prime minister that is left as it was the day he died. It's exactly how he left it.\" Until now only the downstairs rooms have been open to the public. Under the new plans, the first floor will also be opened up. It will allow visitors to see Sir Edward's study, where he carried out his political work, and which contains his desk which once belonged to Lloyd George. The house is owned by the Sir Edward Heath Charitable Foundation. Chairman of trustees, Wilf Weeks, said a fundraising plan would soon be launched to help pay for the cost of running the house. \"We'll need to raise millions to make it viable,\" he said. Last year the foundation reported a deficit of about £100,000, which has now been paid off by one of the trustees. A limited number of events, including music recitals and lectures will be held at the house as part of the plans.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The former home of Prime Minister Sir Edward Heath will remain open to the public permanently."
+}

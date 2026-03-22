@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_174",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "TAIPING: Pandemik COVID-19 yang melanda ketika ini memberi kesan kepada banyak pihak terutama penduduk luar bandar yang bergantung kepada pendapatan harian.\nPrihatin dengan masalah tersebut, kerajaan negeri Perak dengan inisiatif Parlimen Bukit Gantang mengadakan program jualan bantu rakyat.\nAhli Parlimen Bukit Gantang, Datuk Syed Abu Hussin Hafiz Syed Abdul Fasal berkata, inisiatif tersebut yang menggunakan kaedah kedai runcit bergerak menjual barangan keperluan asas pada harga borong dengan potongan 30 peratus.\n“Dalam suasana Perintah Kawalan Pergerakan (PKP) yang berlanjutan ini, keadaan ekonomi tak berapa memberangsangkan, perniagaan menguncup, jadi sebabkan orang tak berani nak keluar dan peraturan tidak membenarkan kita keluar, jadi mereka akan berhadapan dengan masalah.\n“Jadi saya memberikan inisiatif dengan memberikan 30 peratus diskaun supaya semua orang yang ada sedikit kemampuan boleh beli dan kita juga sediakan bakul makanan secara percuma kepada mereka yang betul-betul tak mampu,” katanya.\nBeliau berkata demikian kepada TV Alhijrah selepas program jualan bantu rakyat di Kamunting, hari ini.\nPada program tersebut, beliau turut membekalkan ikan pelaling percuma sebanyak satu tan yang memanfaatkan 500 isi rumah.\nDalam pada itu ujar Syed Abu Hussin Hafiz, program jualan bantu rakyat tersebut telah bermula sejak 10 tahun lalu namun lebih aktif apabila COVID-19 melanda bagi membantu golongan yang memerlukan.\nKatanya, kedai runcit bergerak tersebut akan ke enam lokasi berlainan setiap bulan bagi membolehkan lebih ramai penduduk membeli keperluan pada harga lebih rendah.– AlHijrah Online / Hamimah Hamid",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Pandemik COVID-19 telah memberi kesan yang ketara kepada ramai orang, terutamanya mereka yang makan gaji harian di kawasan luar bandar. Bagi mengurangkan masalah ini, kerajaan negeri Perak dengan inisiatif Ahli Parlimen Bukit Gantang melancarkan program kedai runcit bergerak menjual barangan keperluan pada harga borong dengan diskaun 30%. Program itu bertujuan membantu mereka yang tidak mampu membeli keperluan asas sepanjang tempoh Perintah Kawalan Pergerakan yang berpanjangan. Ahli Parlimen, Datuk Syed Abu Hussin Hafiz Syed Abdul Fasal, menyatakan beliau memberikan diskaun 30% dan pakej makanan percuma untuk membantu mereka yang benar-benar memerlukan. Selain itu, beliau mengagihkan satu tan ikan bilis percuma kepada 500 isi rumah. Program kedai runcit mudah alih telah berjalan selama 10 tahun tetapi telah menjadi lebih aktif semasa pandemik COVID-19 untuk membantu mereka yang memerlukan. Program itu akan melawat enam lokasi berbeza setiap bulan bagi membolehkan lebih ramai orang membeli barangan keperluan pada harga lebih rendah."
+}

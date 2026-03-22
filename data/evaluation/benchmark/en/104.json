@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_104",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The bank revealed last month that it had underestimated the risk level of some of its commercial loans. As a result, it intends to issue new shares to make up for the shortfall. The price of the bank's existing shares fell by 16% on Tuesday, followed by a further 20% in Wednesday trading. Full details of the capital-raising plan were disclosed on Tuesday afternoon, after the London markets had closed. The bank also reported underlying pre-tax profits of £50m for 2018, up 140% on the previous year, but lower than the £59m forecast by analysts. At the same time, it said the accounting blunder would be investigated by the Bank of England's Prudential Regulation Authority, which first spotted the accounting error, and the Financial Conduct Authority. Despite the problems, the bank's chief executive, Craig Donaldson, told Reuters news agency there were \"absolutely no question marks\" over its future. He said he had offered to resign when the accounting error was first discovered, but he had the confidence of the board to carry on. However, he was foregoing his bonus as a result. In the latest survey of customers' satisfaction with their banks, published earlier this month by the Competition and Markets Authority, Metro Bank took the top spot, with 83% of its personal customers saying they would recommend the bank to their family and friends. The rankings are drawn from the views of 16,000 people (1,000 from each bank), who were asked how likely they would be to recommend their account provider to friends and family. For personal banking, Metro Bank - which started operating in the UK in 2010 - was the most popular.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Metro Bank shares have fallen sharply for a second day running, after it unveiled plans to raise £350m from investors to plug a funding gap left by an accounting error."
+}

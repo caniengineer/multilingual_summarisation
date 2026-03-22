@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_084",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "A combination of the lowest tides of the year and high atmospheric pressure, exposed parts of the Shingles Bank on the western edge of the Needles Channel. Normally underwater, the bank of pebbles was estimated to be 14ft (4.2m) above sea level at its highest point. Royal Southern Yacht Club's Mike Jones said: \"We don't know anyone who has seen it so far out of the water in 20 years.\" The Shingles is a naturally-occurring, constantly shifting bank of pebbles which stretches for 3 miles (5km) on the opposite side of the Needles Channel from the famous lighthouse. It is infamous among sailors, having been the cause of numerous navigational blunders and shipwrecks over the years. The sailors landed on the one square mile (2.6 square km) area of the bank at 1612 GMT on Monday with three rigid inflatable boats. Mike Jones said: \"It was quite surreal.\" \"Having sailed along that channel a thousand times, I've never seen anything like it. It was such a balmy day and memorable evening.\" The sailors were able to spend two hours on the island before the incoming tide began to engulf it. They were able to have a barbecue and plant a yacht club pennant on the \"summit\". The Royal Southern Yacht Club has a history of unusual antics at low tide including playing the annual Brambles Bank cricket match in the middle of the eastern Solent.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A group of 12 Hampshire sailors has landed on a new \"island\" in the Solent."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_024",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Wesley Adyinka, 37, and a woman in her 30s were attacked outside a block of flats in Knightrider Street in Maidstone on 10 February 2019. Kevin Roach was found guilty of murder and jailed for life. He was told he would serve a minimum of 27 years in prison. Julian Grant, Rodney Harris and Alfie Caparn were convicted of manslaughter. Roach, 40, of Peace Close, South Norwood, London was also found guilty of unlawful wounding and possession of a bladed article at the end of a nine-week trial at Maidstone Crown Court. Grant, 28, of Tull Street in Mitcham, London and Harris, 38, of Mann Close in Croydon, London were also convicted of unlawful wounding and jailed for 20 years and 18 years respectively. Caparn, 18, of Drakeswood Road in Streatham, London was jailed for 18 years after being convicted of manslaughter. Mr Adyinka and the woman were outside at about 00:30 GMT when they were approached by Caparn, who had met them before, and Roach, Kent Police said. \"While the woman was talking on her mobile phone, Roach threatened Mr Adyinka who was held by Caparn before falling to the ground. \"Roach then took a knife from his jacket pocket and stabbed Mr Adyinka in the chest,\" a police spokesman said. \"The woman tried to intervene but Caparn pulled her away and Roach turned around and stabbed her left thigh,\" the spokesman added. The two then ran to a car with Harris and Grant inside, which was stopped by police later in Bromley. CCTV footage showed all four men had been in the area looking for their victims about an hour before the stabbings. Follow BBC South East on Facebook, on Twitter, and on Instagram. Send your story ideas to southeasttoday@bbc.co.uk.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Four men have been jailed for their part in a knife attack that left a man dead and a woman seriously injured."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_012",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Classic SNES Horror Game Clock Tower Is Being Localized For Modern Consoles\n\n\nThe classic horror game Clock Tower is being officially localized for the first time for Nintendo Switch, PS4, PS5, Xbox One, Xbox Series X|S, and PC via Steam. The game will release in early 2024.\n\n\n\nThe localization is being handled by Wayforward, the developers of the Shantae and River City Girls games, and was announced at the Limited Run Games showcase (LRG3). This included a new trailer where the localization team spoke more about their history with Clock Tower and why they wished to bring it over.\n\n\n\nRelated Posts   Pokemon Sleep Now Available In Malaysia   GamerBraves Newsletter Vol. 103 – The Glory of The Barbie/Oppenheimer Double Feature   Clock Tower was one of the earliest survival horror games, originally released for the Super Famicom (SNES) exclusively in Japan in 1995. While it was never released outside of Japan, it was fan-translated by Aeon Genesis as well as had two sequels and a spin-off title which did release in international regions.\nThe game sees you play as Jennifer Simpson, a teenage orphan who along with three other girls is being adopted by the elusive Barrows family. Upon arriving at their mansion, the electricity goes out and the girls are separated. Jennifer needs to find her three friends while also being hunted by The Scissorman, arguably the first-ever pursuer enemy in a horror game.\nFollow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\nThe Scissorman will hunt Jennifer throughout the entire game. She has no way to attack him, only briefly stun him so that she can run and hide. It’s also one of the first games to use a sanity meter mechanic as when Jennifer is more stressed she’ll trip over more or run out of breath.\n\nCheck This Out Next\n\n\nTags: Clock TowerHuman EntertainmentLimited Run GamesWayForward",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Permainan seram klasik \"Clock Tower\", yang pada asalnya dikeluarkan untuk Super Famicom (SNES) di Jepun pada tahun 199"
+}

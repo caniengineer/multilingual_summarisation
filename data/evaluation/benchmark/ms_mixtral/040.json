@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_040",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Mesyuarat Exco terakhir penggal ke-13. KOTA BHARU: “Saya ingin mengambil kesempatan mengucapkan terima kasih kepada Ahli Majlis Mesyuarat Kerajaan Negeri, Kelab Penyokong Kerajaan Negeri (BBC) dan Setiausaha Kerajaan Negeri. “Terima kasih di atas kerjasama yang diberikan selama ini,” ujar Menteri Besar, Ustaz Dato’ Bentara Kanan Ahmad Yakob selepas mesyuarat Exco di Kota Darulnaim hari ini.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Mesyuarat akhir Exco penggal ke-13 telah diadakan di Kota Bharu. Menteri Besar, Ustaz Dato' Bentara Kanan Ahmad Yakob merakamkan ucapan terima kasih kepada Ahli Majlis Mesyuarat Kerajaan Negeri, Kelab Penyokong Kerajaan Negeri (BBC), dan Setiausaha Kerajaan Negeri. Beliau mengucapkan terima kasih atas kerjasama mereka sepanjang penggal ini."
+}

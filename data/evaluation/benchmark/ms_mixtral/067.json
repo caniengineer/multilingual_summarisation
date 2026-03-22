@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_067",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Salam. Hai aku perempuan. Aku tengahdilema. Aku dah jumpa kerja di kl. Tapi aku rasa bersalah nak bagitahu mak sebab mak tinggal sorang. Actually mak cakap kalau nak kerja mintak la dekat company sepupu and konfem dapat.sepupu aku pon selalu ckp nak mintak tlg pape cakap je. Tapi aku kalau boleh taknak, aku nak rasa dapat keje sendiri, and tak suka kerja situ sebab ramai sangat saudara. \n\nAku pulak jenis tak takot pon pergi tempat orang, even aku sorang and tak pernah kenal tempat tu. Redah je la. Rasanya mak aku lepas je sebab memang biasa mak aku lepas je gi mana2, tapi tu lah . Duk rumah saje pon xboleh jugak. 3 bulan kot cuti.\n\nNi pulak bulan puasa, so nanti kesian mak kena bukak pose dan sahur sorang2. Just weekend je la adik balik pon sebab dia belajar kat asrama universiti tapi dekat je. Tapi aku nak kerja.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Saya seorang wanita dan saya menghadapi dilema. Dah jumpa kerja kat KL tapi rasa bersalah nak bagitahu mak sebab dia tinggal sorang. Dia telah mencadangkan supaya saya bekerja di syarikat bapa saudara saya, tetapi saya teragak-agak untuk bertanya kepadanya kerana takut menyusahkannya. Saya adalah jenis orang yang tidak takut untuk menceburi tempat baru sendirian, tetapi saya mahu dapat menyara diri dan tidak bergantung pada keluarga. Ibu saya sentiasa berdikari, tetapi saya tahu dia akan bergelut dengan memasak dan menguruskan seorang diri. Sekarang bulan Ramadan, dan adik saya hanya di rumah pada hujung minggu untuk membantu. Saya mahu bekerja, tetapi saya rasa bersalah."
+}

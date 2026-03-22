@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_055",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "PUTRAJAYA: Seramai 63 orang jemaah umrah warganegara Malaysia terdiri daripada 28 dewasa dan 35 kanak-kanak terkandas di Arab Saudi sejak Jun 2022.\n “Kesemua jemaah telah dibawa ke Madinah oleh kumpulan tarekat Naqsyabandiyah Al-Kholidiah untuk mengerjakan ibadah umrah pada Mac lepas,” kata kenyataan bersama yang dikeluarkan oleh Wisma Putra dan Pejabat Menteri di Jabatan Perdana Menteri (Hal Ehwal Agama).\nBagaimanapun, katanya, mereka hanya berada di Madinah sehingga hari ini dan tidak pernah dibawa ke Mekah untuk menyempurnakan ibadah umrah. \n“Susulan daripada pelanggaran undang-undang tempatan, ketua kumpulan tarekat berkenaan telah diusir keluar oleh Kerajaan Arab Saudi pada 20 Ogos 2022. \n “Kerajaan Malaysia bersetuju untuk membantu urusan penghantaran pulang para jemaah yang sedang terkandas ini dengan usaha dan kerjasama antara agensi-agensi Kerajaan yang berkaitan,” kata kenyataan itu.\nKenyataan itu menyebut Wisma Putra dan Pejabat Menteri di Jabatan Perdana Menteri (Hal Ehwal Agama) bersama dengan Kedutaan Besar Malaysia di Riyadh dan Konsulat Jeneral Malaysia di Jeddah akan menyelaraskan urusan penghantaran pulang para jemaah berkenaan ke tanah air dalam masa terdekat.\n “Kementerian Luar Negeri sentiasa berusaha untuk memastikan keselamatan dan kebajikan Keluarga Malaysia yang berada di luar negara sentiasa terpelihara,” katanya.—AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Sekumpulan 63 jemaah umrah Malaysia yang terdiri daripada 28 dewasa dan 35 kanak-kanak telah terkandas di Arab Saudi sejak Jun 2022. Mereka dibawa ke Madinah oleh kumpulan tarekat Naqsyabandiyah Al-Kholidiah untuk menunaikan ibadah umrah pada Mac lalu, namun hanya kekal. di Madinah dan belum dibawa ke Mekah untuk menyempurnakan umrah. Ketua kumpulan tarekat itu telah dibuang oleh kerajaan Saudi setakat 20 Ogos kerana pelanggaran undang-undang tempatan. Kerajaan Malaysia bersetuju membantu kepulangan jemaah haji yang terkandas dengan kerjasama dan usaha agensi kerajaan berkaitan. Kementerian Luar, Wisma Putra, Kementerian Jabatan Perdana Menteri (Hal Ehwal Agama), Kedutaan Besar Malaysia di Riyadh, dan Konsulat Jeneral Malaysia di Jeddah akan menyelaras kepulangan jemaah haji ke Malaysia secepat mungkin. Kementerian Luar sentiasa berusaha untuk memastikan keselamatan dan kesejahteraan keluarga Malaysia di luar negara. (AlHijrah Online, 2022)"
+}

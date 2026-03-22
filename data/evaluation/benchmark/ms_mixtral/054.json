@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_054",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "The Porsche 911 GT3 RS will be making its world premiere on \nAugust 17, 2022\n. Soon to be topping the 911 range in terms of performance, it seems the 911 GT3 RS will be the more extreme bigger brother to the \n911 GT3\n.\nAccording to Porsche, the development of the Porsche 911 GT3 RS has been inspired by the successful Porsche 911 RSR and Porsche 911 GT3 R GT racing cars.\nFor context, this is what the regular GT3 did around the Nurburgring Nordschleife.\nPorsche’s GT Model Line Director, Andreas Preuninger said, “The new 911 GT3 RS is even more optimised for track use than its predecessors. The spontaneously responsive, high-revving four-litre, six-cylinder boxer engine with approximately 500 PS has proven ideal for use at trackdays and club sport events. That’s why we focused primarily on aerodynamics and chassis questions in the development of the new 911 GT3 RS.”\nRELATED: Let this Porsche 911 GT3 scream away your Monday blues!\nPorsche 911 GTR (Not the RS)\nCurrently, the PDK-equipped Porsche 911 GT3 is powered by a 3,996-cc naturally-aspirated flat-6 engine that produces \n510 hp\n of maximum power and \n470 Nm\n of torque. With that powertrain, 0-100 km/h is achieved in \n3.4 seconds\n, onward to 200 km/h in \n10.8 seconds\n. With the 911 GT3 RS, more extreme figures are to be expected.\nFor those of you excited about the Porsche 911 GT3 RS, the digital broadcast is slated for August 17, and can be found in the link \nhere\n. And as an extra surprise, we also have a very, very special video coming soon, \npotentially\n related to the GT3 RS! Keep your eyes peeled.\nRELATED: Realising my childhood dreams in a Porsche 911 GT3! – AutoVlog",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Porsche akan memperkenalkan 911 GT3 RS baharu pada 17 Ogos 2022. 911 paling ekstrem setakat ini, ia diinspirasikan daripada kereta lumba Porsche 911 RSR dan GT3 R. GT3 RS akan mempunyai enjin boxer empat liter enam silinder berputar tinggi dengan kira-kira 500 kuasa kuda. Ia akan dioptimumkan untuk kegunaan trek, memfokuskan pada aerodinamik dan casis. 911 GT3 yang dilengkapi PDK, dengan enjin 3,996-cc naturally-aspirated flat-6, menghasilkan 510 kuasa kuda dan 470 Nm tork, mencapai 0-100 km/j dalam 3.4 saat. Siaran digital pelancaran 911 GT3 RS boleh didapati di sini."
+}

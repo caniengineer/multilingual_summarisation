@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_103",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "S&P said it may downgrade the UK from the highest rating in the future if economic conditions worsened. In February, Moody's became the first rating agency to downgrade the UK from triple-A status. The Treasury welcomed the S&P decision, saying it supported the government's efforts to cut the budget deficit. \"In today's reaffirmation of our credit rating, Standard & Poor's stress the government's commitment to continued fiscal consolidation,\" a Treasury statement said. \"They specifically say that a downgrade could be prompted by a change in the government's 'willingness and ability to implement its ambitious fiscal strategy'. \"This serves as a reminder that our country cannot afford to simply run away from our problems.\" February's downgrade by Moody's, another of the big three rating agencies, was seen as a political embarrassment to the government, which had promised to protect the UK's credit rating when it was elected in 2010. S&P warned that it may still follow suit if the government's current plans veer off course. \"The outlook remains negative, reflecting our view of at least a one-in-three chance that we could lower the ratings if the UK's economic and fiscal performances were to weaken beyond our current expectations,\" it said. It said it now expects the UK economy to grow by an average of 1.6% a year over the next three years - lower than the official forecast given by the Office for Budget Responsibility.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Credit rating agency Standard & Poor's has reaffirmed its triple-A rating for the UK, but warned of the continuing negative outlook for the economy."
+}

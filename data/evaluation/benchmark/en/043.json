@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_043",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Breda Castle near Lokoshaza was lit up as the Welsh national anthem played. But coronavirus restrictions meant no audience could be present for the occasion. Montgomery in Powys has literary links with Hungary - from the poet János Arany's 160-year-old ballad, The Bards of Wales, which many Hungarian children learn to sing at school. In January, more than 30 Hungarians created a video letter to Wales called Let's Build Bridges. At the weekend, children in the nearby village of Kunagota learnt about Welsh culture and Hungarian-language St David's Day posters were also distributed across the village. Elizabeth Sillo is chair of the Welsh-Hungarian Cultural Association, which organised the display. She said: \"We wanted to send a message to our Welsh friends as they mark St David's Day in an undoubtedly difficult year. \"We'd like everyone in Wales to know that there's a place in Hungary where people have such admiration for their culture and where they are always welcome.\" Ms Sillo, a classical singer born in Kunagota, has introduced Welsh hymns to her community after visiting Cardiff. Balint Brunner, founding member of the Welsh-Hungarian Cultural Association, said: \"We were inspired by St David's well-known maxim, 'gwnewch y pethau bychain', or 'do the little things'. \"For this reason, we are sharing small acts of love and kindness from Hungarian individuals and organisations this year, including children's performances and a daffodil-themed painting by Kunagota-born Klara Gyomber.\"",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The Welsh flag has been projected on a remote Hungarian castle to mark St David's Day."
+}

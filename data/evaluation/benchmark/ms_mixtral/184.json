@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_184",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Ubisoft Forward: Save the date for 12 July\n\n\nUbisoft has announced its first fully digital conference in Ubisoft Forward. The event will be held on 12 July, 9PM CEST. The conference promises an E3-style showcase, with exclusive game news, exciting reveals and plenty more. We can probably at least expect more Assassin’s Creed Valhalla, and possibly other news of delayed titles like Watch Dogs Legion, Gods and Monsters and Rainbow Six Quarantine.\n\n\n\nWe don’t have many details on hand now, so we’ll have to wait and see as usual.\n\n\n\nRelated Posts   Pokemon Sleep Now Available In Malaysia   GamerBraves Newsletter Vol. 103 – The Glory of The Barbie/Oppenheimer Double Feature   Check This Out Next\n\n\nTags: UbisoftUbisoft Forward",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Ubisoft Forward, persidangan semua-digital pertama syarikat, akan berlangsung pada 12 Julai jam 9 malam CEST. Acara ini akan menampilkan berita permainan eksklusif, pendedahan dan banyak lagi. Peminat boleh mengharapkan kemas kini tentang Assassin's Creed Valhalla, serta kemungkinan berita mengenai tajuk tertunda seperti Watch Dogs Legion, Gods and Monsters, dan Rainbow Six Quarantine. Butiran adalah terhad, jadi peminat perlu menunggu maklumat lanjut apabila acara semakin hampir."
+}

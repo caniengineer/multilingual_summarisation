@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_008",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KUALA LUMPUR: Semua pertubuhan dilarang mengadakan program, aktiviti, persidangan, perhimpunan dan mesyuarat agung sehingga 30 Jun ini selaras dengan arahan dikeluarkan oleh kerajaan berikutan penularan COVID-19. \nJabatan Pendaftaran Pertubuhan Malaysia (ROS) dalam kenyataannya hari ini berkata, larangan itu terpakai kepada setiap peringkat pertubuhan termasuk cawangan-cawangan di seluruh negara.\n“Arahan khas yang dikeluarkan ini adalah selaras dengan kuasa-kuasa Pendaftar di bawah peruntukan Seksyen 3A, Akta Pertubuhan 1966 [Akta 335],” kata ROS dalam kenyataan. \nROS berkata, sekiranya sehingga tarikh 30 Jun, wabak COVID-19 dalam situasi meruncing maka pertubuhan perlu mengemukakan permohonan kepada ROS untuk pertimbangan bagi perlanjutan tempoh tarikh awal yang telah ditetapkan.\n“Permohonan perlanjutan adalah bertujuan untuk mengelakkan penyalahgunaan oleh pertubuhan berdaftar ke atas undang-undang tubuh pertubuhan serta Akta 335.\n“Diharapkan segala usaha dan langkah pencegahan yang dilakukan oleh kerajaan akan dapat membantu mencegah penularan COVID-19 dan sekali gus melindungi rakyat Malaysia daripada wabak itu,” kata kenyataan itu\nKerajaan kini giat melaksanakan usaha mencegah penularan wabak penyakit itu yang diisytiharkan Pertubuhan Kesihatan Sedunia (WHO) sebagai pandemik pada 11 Mac lalu ekoran peningkatan kes di seluruh dunia, termasuk Malaysia. \n“Selaras dengan itu, beberapa arahan telah dikeluarkan oleh kerajaan termasuk semua perhimpunan termasuk mesyuarat diarahkan untuk ditangguhkan atau dibatalkan bagi suatu tempoh tertentu,” katanya. — AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Pendaftar Pertubuhan (ROS) di Malaysia telah mengumumkan larangan terhadap semua program, aktiviti, persidangan, mesyuarat agung dan perhimpunan untuk semua peringkat organisasi, termasuk cawangan di seluruh negara, sehingga 30 Jun berikutan pandemik COVID-19. Larangan itu selaras dengan kuasa Pendaftar di bawah Seksyen 3A Akta Pertubuhan 1966 (Akta 335). Jika situasi COVID-19 tidak bertambah baik menjelang 30 Jun, organisasi mesti memohon kepada ROS untuk lanjutan tempoh awal. Pelanjutan ini adalah untuk mengelakkan penggunaan menyalahi undang-undang status undang-undang organisasi di bawah Akta. Kerajaan sedang giat berusaha mencegah penularan penyakit itu, yang diisytiharkan sebagai pandemik oleh Pertubuhan Kesihatan Sedunia pada 11 Mac lalu berikutan penularannya secara global, termasuk di Malaysia. Semua perhimpunan, termasuk mesyuarat, telah diarahkan untuk ditangguhkan atau dibatalkan untuk tempoh tertentu."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_054",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Powys council no longer opposes developments at Llaithddu, Llandinam, Llanbrynmair, and Carnedd Wen and building a power line from Llandinam to Welshpool. But it still objects to a windfarm at Llanbadarn Fynydd. The year-long inquiry will end in May. An alliance of about 20 organisations oppose plans by six energy developers in northern Powys. Alliance spokesman Richard Bonfield, said: \"We were stunned when we heard of the council's decision to withdraw objections to four of the windfarms. \"We are amazed that the council has surrendered and also that it has not stood firm on objecting to the cumulative effect of the proposals. \"We have contacted more than 20 county councillors in the last two weeks who were unaware of the local authority's change of stance.\" The proposed wind farm developments are large scale and well above the 50 megawatt jurisdiction of the Welsh government. These plans are dealt by the UK government's Department of Energy and Climate Change (DECC). In London, as in Cardiff, they are part of the target to achieve 15% of British energy from renewable sources by 2020. Arguments This public inquiry was convened because Powys council, as a consultee for large wind farms over 50MW, refused to support their construction. It is currently discussing the cumulative effect of the proposed developments at Llanbrynmair and Carnedd Wen in the 'Carno North strategic search area' and the other three in the 'Newtown South' area. A spokesman for Powys council, which has earmarked £2.8m from reserves to fund the inquiry, said the council had not changed its stance since the inquiry started. He added that some of the local authority's objections had been allayed by new information submitted by developers during the inquiry period and it had reviewed its position accordingly. \"The case is that we do object on an individual and cumulative basis to schemes within these two areas,\" he said. \"But given the distances involved between the two areas there are not considered to be unacceptable cumulative effects. \"However, we have raised cumulative objections in respect of the schemes within the individual strategic search areas at earlier sessions of the inquiry on a number of topics.\" A planning inspector has overseen the arguments for and against wind energy at the inquiry which has been held at a hotel in Welshpool since 4 June last year.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A council has denied a \"surrender\" claim after it withdrew its objections to five projects that are part of Britain's biggest windfarm public inquiry."
+}

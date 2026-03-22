@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_199",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KUALA LUMPUR: Jabatan Agama Islam Wilayah Persekutuan (JAWI) menyarankan masjid, surau Jumaat dan surau di seluruh Wilayah Persekutuan Kuala Lumpur, Putrajaya dan Labuan melaksanakan solat hajat bagi mendoakan kesejahteraan Yang di-Pertuan Agong, Al-Sultan Abdullah Ri’ayatuddin Al-Mustafa Billah Shah.\nPengarah JAWI, Mohd Ajib Ismail berkata solat hajat itu disaran dilaksanakan selepas solat Maghrib pada 23 September 2020 (Rabu).\n“Sebagaimana dimaklumi, Kebawah Duli Yang Maha Mulia Seri Paduka Baginda Yang di-Pertuan Agong sedang menjalani rawatan di Institut Jantung Negara (IJN).\n“Marilah kita semua berdoa agar Allah SWT mengurniakan kesembuhan dan keafiatan yang berpanjangan kepada Kebawah Duli Yang Maha Mulia Tuanku serta baginda sentiasa berada di bawah riayah dan perlindungan Allah SWT,” katanya dalam kenyataan media hari ini.\nSemalam, Istana Negara memaklumkan Al-Sultan Abdullah dimasukkan ke Wad Diraja IJN selepas mengadu kurang selesa dengan kesihatannya. — AlHijah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Jabatan Agama Islam Daerah Sekutuan (JAWI) mengesyorkan semua masjid, masjid Jumaat, dan surau di Wilayah Persekutuan Kuala Lumpur, Putrajaya, dan Labuan menunaikan solat hajat pada 23 September 2020 (Rabu) selepas solat Maghrib. . Ini bagi mendoakan kesejahteraan Yang di-Pertuan Agong, Al-Sultan Abdullah Ri'ayatuddin Al-Mustafa Billah Shah, yang kini menerima rawatan di Institut Jantung Negara (IJN). Pengarah JAWI, Mohd Ajib Ismail, menggesa semua orang mendoakan agar Agong segera sembuh dan dilindungi Allah SWT. Pada Selasa, Istana Negara mengumumkan bahawa Al-Sultan Abdullah dimasukkan ke Wad VIP IJN kerana tidak selesa dengan kesihatannya."
+}

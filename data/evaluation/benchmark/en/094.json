@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_094",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "It is the first time Northamptonshire County Council has redeveloped a commercial building for use as a school. The council bought Stirling House, a three-storey building on Cliftonville Road, for £1.6m last year to address a shortage of primary pupil places. It will have room for 210 pupils and be run by Abington Vale Primary. Abington Vale Primary is a mile away from Stirling House on Ashford Road. It is part of the Northampton Primary Academy Trust and will run the new 14,000 sq ft (1,300 sq m) school as an annex. 'Space and light' The school's business manager, Georgie Harrison, said: \"It is a new initiative in the country, but it's very common practice in Scandinavian countries and the States to turn offices and shopping malls into schools. \"When we took the whole staff down to Stirling House, we were all really amazed by the space and the light. \"Immediately we could all see how this concept could work and we're so excited about it.\" The Stirling campus has room for a \"designated outdoor space\" for the four to five-year-olds. \"There will be commuting [by mini-bus] between the sites because we've got more green space at Abington Vale - we don't see it as a problem,\" she added. A report by Northamptonshire County Council last year said it needs to create space for 450 extra reception-age children by September. The report added that building a new primary school from scratch would cost about £6m, not including the cost of purchasing a site, whereas it would cost £1.3m to convert Stirling House. The school at the Stirling House site will gradually grow in size, starting with 30 reception-age pupils this autumn.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A Northampton office building is being transformed into a school in order to accept pupils from September."
+}

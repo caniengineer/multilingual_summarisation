@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_045",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "The Hull-born veteran actor said he got \"very emotional\" when he was presented with the scroll - the highest honour a city can bestow - by the lord mayor. The 80-year-old spearheaded the city's bid for City of Culture by narrating a Philip Larkin poem in the video This City Belongs To Everyone. He is known for roles in The Loneliness of the Long Distance Runner, Billy Liar and Doctor Zhivago. More news from East Yorkshire and northern Lincolnshire 'In my brain forever' Courtenay said he dedicated his award to the fishing community area of Hessle Road where he grew up. \"I got very emotional... because I spoke about my early days in Hull, near the fish dock, so it means a lot to me. \"It was such an extraordinary sense of community there that I've never encountered anywhere since. Even driving along it yesterday from the station - and the street names - which are in my brain forever. \"I mean it was unique because everybody was bound together by the fish dock, which has gone now and that's sad.\" Courtenay was nominated for Best Actor at the Academy Awards for 1983 film The Dresser and was knighted in February 2001 for his service to cinema and theatre. Hull Council gave the actor the honour at a meeting earlier. Its leader Stephen Brady said: \"Sir Tom is a legendary actor who has always been very proud of his Hull roots. \"He helped tremendously as the city put forward its bid for the title of UK City of Culture.\" Other recipients of the Honorary Freedom of Hull include former South African president Nelson Mandela, charity fundraiser Jean Bishop the 'Bee Lady', and rugby league stars Johnny Whiteley and Colin Hutton.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Sir Tom Courtenay has been given the Honorary Freedom of Hull."
+}

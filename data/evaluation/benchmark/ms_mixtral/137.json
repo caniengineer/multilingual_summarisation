@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_137",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "The \ncurrent generation Kia Rio\n is indeed a looker (except maybe \nthe sedan\n), thanks to the bold design language employed by Kia Motors. However, the third-generation Korean supermini is due for a replacement, and now we get a glimpse of what’s to come.\nThese sketches suggest the new Rio will retain its sporty outlook, appealing to the younger demographic of buyers. The new Rio’s extended wheelbase, sculpted doors, and higher shoulder line point towards a roomier cabin, and remains as a hatchback body for now.\nKia’s signature ‘Tiger Nose’ grille design is noticeable at the front, and the slimmer grille design is in line with Kia’s latest products. At the back, a new set of taillight design is used together with a small roof spoiler, so the changes aren’t as drastic compared to the model it replaces. Those large wheels you see here won’t make it to production, so don’t hold your breath too long.\nInside, the dashboard looks pretty much straightforward, with a larger central touchscreen for multimedia consumption. The new Rio is expected to be equipped with the latest connectivity features such as Apple CarPlay and Android Auto.\nNo announcements are made on the powertrain, but judging from the current UK spec, the 1.25-litre and 1.4-litre petrol engines, as well as the 1.1-litre diesel lump will be carried over. Forced induction variants of the 1.4-litre and the all-new three-cylinder 1.0-litre engines are also planned for the new Rio.\nThe new Ford Fiesta rival will make its full debut at the upcoming Paris Motor Show in late September. Production is scheduled to begin by the end of the year. Presently, Kia Malaysia is offering both the third-generation \nRio hatchback\n and \nsaloon\n models, starting from RM72,888.00.\nIMAGE GALLERY",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Kia Rio baharu dijangka mengekalkan reka bentuk sportynya dan menarik minat pembeli yang lebih muda dengan kabin yang lebih luas, pintu berukir dan garis bahu yang lebih tinggi. Hatchback itu akan menampilkan gril \"Tiger Nose\" khas Kia dan reka bentuk gril yang lebih tipis, sejajar dengan model Kia terkini. Bahagian belakang akan mempunyai set lampu belakang baharu dan spoiler bumbung kecil. Bahagian dalamannya akan mempunyai papan pemuka yang ringkas dengan skrin sentuh pusat yang lebih besar untuk multimedia. Tiada pengumuman powertrain telah dibuat, tetapi ia dijangka membawa alih enjin semasa dengan potensi varian induksi paksa baharu. Rio baharu akan membuat penampilan sulungnya di Pameran Permotoran Paris pada penghujung September, dan pengeluaran dijangka bermula menjelang akhir tahun ini. Kia Malaysia kini menawarkan hatchback dan sedan Rio generasi ketiga bermula daripada RM72,888.00."
+}

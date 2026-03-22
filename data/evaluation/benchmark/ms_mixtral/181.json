@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_181",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "This comes after the Supervisory Board of Porsche AG had decided to reserve the \nMacan \nas a fully electric series and will be the first all-electric compact SUV from Porsche when it’s introduced early next decade.\nThis will add to Porsche’s portfolio of electric vehicles, following the introduction of the \nTaycan – Porsche’s first purely electric sports car \ndue to be launched at the end of this year – followed by the\n Taycan Cross Turismo\n.\n“By 2022 we will be investing more than six billion euros in electric mobility, and \nby 2025 50% of all new Porsche vehicles could have an electric drive system\n,” said Porsche AG, Chairman of the Board of Management, Oliver Blume.\n“Nevertheless, over the next 10 years our focus will still be on optimising petrol engines, plug-in hybrid models, and purely electrically-operated sports cars,” he added.\nPorsche will continue to produce the new Macans at the Leipzig plant in Germany, where currently over\n 90,000 units are built annually\n to fuel the global demand for the compact SUV.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Porsche telah mengumumkan bahawa Lembaga Penyeliaannya telah memutuskan untuk menjadikan Macan siri elektrik sepenuhnya, yang akan diperkenalkan pada awal 2020-an. Ini berikutan pelancaran Taycan dan Taycan Cross Turismo yang akan datang. Porsche merancang untuk melabur lebih enam bilion euro dalam mobiliti elektrik menjelang 2022, dengan separuh daripada kenderaan baharunya mempunyai sistem pemacu elektrik menjelang 2025. Walau bagaimanapun, syarikat itu akan terus mengoptimumkan enjin petrol, hibrid plug-in dan kereta sukan elektrik sepanjang dekad akan datang. Macan baharu masih akan dikeluarkan di kilang Leipzig di Jerman, di mana lebih 90,000 unit kini dibina setiap tahun untuk memenuhi permintaan global untuk SUV kompak itu."
+}

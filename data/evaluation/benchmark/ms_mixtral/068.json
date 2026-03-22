@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_068",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Final Fantasy 7: The First Soldier teaser trailer revealed\n\n\nBesides the whole Intergrade update for FF7 Remake, Final Fantasy 7 is getting two new mobile games, the first one being The First Soldier. The teaser is captioned as follows:\n\n\n\nHere’s Final Fantasy VII The First Soldier – a battle royale game set in Midgar before the events of FFVII. As a SOLDIER candidate, make full use of your abilities in a battle for your survival.\n\n\n\nThe game is set 30 years before the start of 7, when Shinra Company forms SOLDIER to boost their military prowess. These experimental corps of enhanced fighters are then put to the test. You’ll be able to utilize a variety of skills that can be levelled up along the way. Other mechanics also appear to include a Limit Break and Summoning. You’ll also be able to fight against monsters, and even elites. Of course, there will undoubtedly be costumes. Check out some of the teaser images from the trailer below. Besides your ammo, you’ll also have to manage your MP. It looks like there’s also in-game voice chat available.\n\n\n\nRelated Posts   Pokemon Sleep Now Available In Malaysia   GamerBraves Newsletter Vol. 103 – The Glory of The Barbie/Oppenheimer Double Feature   Follow us on Twitter\nFollow @GamerBraves\nand Tweet us\nTweet to @GamerBraves\n\nFinal Fantasy 7: The First Soldier is planned for a 2021 release, to be available on both iOS and Android. We’ll see when it launches and tries to break into a saturated battle royale market.\n\n\nCheck This Out Next\n\n\nTags: Final FantasyFinal Fantasy 7Final Fantasy 7: The First SoldierFinal Fantasy VIIFinal Fantasy VII: The First SoldierSquare Enix",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Square Enix telah mengumumkan permainan mudah alih baharu, Final Fantasy 7: The First Soldier, sebuah battle royale berlatarkan Midgar 30 tahun sebelum peristiwa FF7. Pemain akan menjadi calon ASKAR dengan kebolehan unik, melawan raksasa dan pemain lain, dengan keupayaan untuk meningkatkan kemahiran, menggunakan Pemecahan Had dan Saman. Permainan ini ditetapkan untuk keluaran 2021 pada iOS dan Android."
+}

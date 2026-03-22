@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_166",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Question related to Sosilawati mass murders placed fourth in tomorrow’s question time in Parliament   My question related to the Sosilawati mass murders in Banting has been placed as number four for tomorrow’s question time in Parliament.\n\n\nThe question I had submitted reads:\n\n\nTo ask Home Minister to list the date/nature of police reports lodged against the lawyer brothers in Banting suspected responsible for the Sosilawati mass murders, reasons for police inaction which have gravely undermined public confidence in police professionalism and latest actions on these police reports.\n\n\nTuan Lim Kit Siang [Ipoh Timur]  minta Menteri Dalam Negeri menyatakan tarikh/jenis laporan-laporan polis yang dibuat terhadao adik-beradik peguam yang disyaki terlibat dalam pembunuhan beramai-ramai Dato Sosilawati di Banting, serta tindakan terkini terhadap laporan-laporan polis berkenaan.\n\n\nI find that two of my questions submitted for the budget parliamentary meeting had been rejected, viz:\n\n\n(1) To ask the Prime Minister why the majority of Cabinet Ministers and top civil servants still do not accept the 1Malaysia concept of being Malaysian first and race second after 18 months, how he proposes to unite the entire administration under this concept.\n\n\n(2) To ask the Prime Minister whether the government has authorized purchase of millions of rounds of ammunition and tens of thousands of pistols, submarine guns and stun-grenades from underground sources in overseas blackmarkets, giving full costs and details and its connection with Umno Youth paramilitary training.\n\n\nAlthough these two questions have been rejected for question time, they will be raised during the course of the budget meeting of Parliament on other occasions.   This entry was posted on Sunday, 10 October 2010, 12:49 pm and is filed under \nParliament\n. You can follow any responses to this entry through \nRSS 2.0\n.",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Soalan mengenai pembunuhan beramai-ramai Sosilawati di Banting, khususnya meminta Menteri Dalam Negeri memberikan maklumat mengenai laporan polis yang dibuat terhadap adik-beradik peguam yang disyaki terlibat dan sebab polis tidak bertindak, telah diletakkan di tempat keempat pada waktu soal jawab esok di Parlimen. Dua lagi soalan dikemukakan berhubung penerimaan konsep 1Malaysia dan dakwaan pembelian peluru dan senjata dari pasar gelap luar negara ditolak, tetapi akan dibangkitkan semasa mesyuarat bajet."
+}

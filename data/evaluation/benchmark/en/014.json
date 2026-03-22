@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_014",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "However, opposition parties claimed Police Scotland, which came into being at midnight, created a new structure which could undermine local policing. Labour claimed there was a turf war between the chief constable and the Scottish Police Authority chair. And the Lib Dems accused the justice secretary of a power grab. However, Justice Secretary Kenny MacAskill said the structure had been overwhelmingly approved by the parliament and four committees, and shaped after extensive dialogue with police organisations, local authorities, unions and others. The new 17,000-strong single national force has replaced the previous eight-force structure, and it has become the second largest force in the UK, after the Metropolitan Police in London. Stephen House, formerly chief constable of Scotland's biggest force, Strathclyde Police, is the force's chief constable. He will be held to account by the Scottish Police Authority, chaired by Vic Emery. It in turn is accountable to government and the Scottish Parliament. Mr MacAskill said: \"There will continue to be strong local accountability in the new landscape and the new arrangements will lead to more local scrutiny of police services.\" 'Time bomb' Lewis Macdonald, Scottish Labour's justice spokesman, said a new chapter in Scottish policing had begun. \"We owe it to the communities who rely on our hard-working police officers for their safety to get this right,\" he said. But he accused Mr MacAskill of poor leadership and claimed there had been \"highly embarrassing\" disagreements between Vic Emery and Steve House. He said: \"In order for the new police force to enjoy the confidence of the people it serves, it has to move quickly to overcome these teething problems. \"Put the games aside and ensure that the local presence that people want in their communities will not be compromised by this new structure.\" Scottish Liberal Democrat justice spokesperson Alison McInnes described the agreement between Mr Emery and Mr House as a \"ticking time bomb\". She said: \"Kenny MacAskill rushed his plans for the new force through parliament - grabbing hold of extra powers as he went. \"But it's already coming back to bite him. Ongoing disagreements between the chief constable and police authority have threatened to derail the new force even before it began.\" She added that, despite being against the idea of a centralised police force, she would do what she could to make sure Police Scotland succeeded.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Scotland's merger of its eight police forces into one will provide a more accountable local police service, according to the Scottish government."
+}

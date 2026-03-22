@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_139",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "On Thursday, the fashion retailer L Brands announced it will sell 55% of the company to Sycamore Partners for $525m (£408m). Boss and executive chairman of Victoria's Secret, Leslie Wexner, will step down as part of the deal. He said that separating Victoria's Secret into a private company would \"restore\" the business's growth. The lingerie company accounted for nearly half of the company's $13.2bn revenue in 2019. But it has seen sales decline over the last year. L Brands valued the firm at $1.1bn and will retain a 45% stake. After selling several businesses, L Brands said it will concentrate on the beauty chain it owns, Bath & Body Works. Mr Wexner has been appointed chairman emeritus and will remain a member of the board. In 2019, he came under fire for his long friendship with the late sex offender Jeffrey Epstein. Mr Wexner employed Epstein as a close adviser, but cut ties in 2007. He said he was \"embarrassed\" by his friendship with the US financier. He also previously accused Epstein of misappropriating money. The brand faced further scrutiny last year as it cancelled its annual fashion show, citing poor television ratings. The show launched in 1995 and was once a major pop culture event, drawing millions of viewers each year to watch its so-called \"angels\". In 2018 it saw its lowest ratings ever, drawing criticism that it was sexist, outdated and lacked diversity. The brand's parent company L Brands said it was important to \"evolve\" its marketing strategy at the time. It has arguably been eclipsed in recent years by Savage X Fenty, the lingerie line by singer, actress and businesswoman Rihanna, whose events showcase a range of body types. There was also a furious response to an interview in Vogue with then chief marketing officer Ed Razek. He suggested \"transsexual\" people should not be a part of the fashion show. He later left the company.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "A controlling stake in the lingerie firm Victoria's Secret will be sold to a US private equity firm."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_162",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "ARAU: Polis menahan seorang wanita yang sedang sarat hamil sembilan bulan bersama kakak angkatnya, kerana dipercayai mencuri dua utas gelang tangan emas bernilai RM45,000 dari sebuah kedai emas di sini, semalam.\nKetua Polis Daerah Arau Superintendan Ahmad Mohsin Md Rodi berkata pihaknya menerima aduan pada 5.52 petang semalam, daripada seorang jurujual sebuah kedai emas di pekan Arau bahawa seorang wanita telah datang ke kedainya kerana ingin membeli barang kemas.\n“Ketika kejadian, suspek yang mengandung sembilan bulan meminta untuk melihat dua utas gelang tangan emas, yang dipamerkan di dalam meja pameran.\n“Dia melihat barang kemas tersebut lebih kurang selama sepuluh minit, sebelum bertindak melarikannya,” katanya dalam satu kenyataan hari ini.\nAhmad Mohsin berkata soal siasat awal mendapati suspek berusia 29 tahun itu, mengaku telah mencuri gelang tangan itu dan melarikan diri dengan membonceng sebuah motorsikal, yang dibawa oleh kakak angkatnya yang berusia 36 tahun, di hadapan kedai tersebut.\n“Siasatan di tempat kejadian telah dijalankan, dibantu pasukan forensik Ibu Pejabat Polis Kontinjen (IPK) Perlis dan telah berjaya menemukan kesan cap jari suspek berusia 29 tahun,” katanya.\nAhmad Mohsin berkata kes tersebut disiasat mengikut Seksyen 380 Kanun Keseksaan kerana mencuri dalam bangunan.\nBeliau berkata suspek berusia 36 tahun direman selama tiga hari sehingga 11 Jun bagi membantu siasatan, manakala suspek berusia 29 tahun yang mengandung sembilan bulan dilepaskan dengan jaminan polis. –AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Seorang wanita, hamil sembilan bulan, ditahan bersama kakak angkatnya berusia 36 tahun di Arau, Perlis, kerana dipercayai mencuri gelang emas bernilai RM45,000 dari sebuah kedai tukang emas. Kejadian berlaku apabila suspek berusia 29 tahun meminta untuk melihat gelang itu kemudian mengambilnya manakala pembantu kedai itu terganggu seketika. Siasatan polis mendapati suspek mengaku mencuri gelang itu dan melarikan diri dari tempat kejadian bersama kakak angkatnya menaiki motosikal. Polis berjaya menemui bukti kesan cap jari suspek di tempat kejadian. Kedua-dua suspek telah ditahan, dengan wanita hamil itu dibebaskan dengan jaminan polis, manakala kakak angkat pula direman selama tiga hari bagi membantu siasatan mengikut Seksyen 380 Kanun Keseksaan kerana mencuri di sebuah bangunan."
+}

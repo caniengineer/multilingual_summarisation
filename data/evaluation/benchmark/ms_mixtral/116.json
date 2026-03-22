@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_116",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Raja-Raja Melayu  bersidang petang ini. KUALA LUMPUR: Raja-raja Melayu akan mula bersidang petang ini dipercayai bagi membincangkan perkembangan politik semasa tanah air selepas Malaysia tiba-tiba dilanda kemelut politik negara.  Hari ini, dapat disaksikan kenderaan rasmi dari Istana Johor antara yang terawal memasuki pintu utama Istana Negara jam 9.30 pagi tadi, dipercayai membawa Sultan Johor Sultan Ibrahim Sultan Iskandar.  Menurut sumber yang dipetik dari BERNAMA, Raja-Raja Melayu yang dijangka hadir sama adalah Sultan Perak, Sultan Nazrin Shah; Sultan Terengganu, Sultan Mizan Zainal Abidin; Sultan Selangor, Sultan Sharafuddin Idris Shah dan Sultan Kedah, Sultan Sallehuddin Almarhum Sultan Badlishah. Sementara itu, Yang di-Pertuan Besar Negeri Sembilan, Tuanku Muhriz Almarhum Tuanku Munawir, Pemangku Raja Pahang, Tengku Hassanal Ibrahim Alam Shah dan Tengku Mahkota Kelantan, Dr Tengku Muhammad Faiz Petra Sultan Ismail Petra turut dijangka hadir dalam sidang berkenaan.  Terkini, dimaklumkan Yang di-Pertua Dewan Rakyat, Tan Sri Dato’ Mohamad Ariff Md Yusof telah menerima Surat Pemakluman Memanggil Mesyuarat Khas Dewan Rakyat yang ditandatangani Perdana Menteri Interim, Tun Dr Mahathir Mohamad memaklumkan bahawa kerajaan bersetuju supaya Dewan Rakyat dipanggil mesyuarat pada Isnin, 2 Mac. Bagaimanapun, menurut Mohd Ariff, surat berkenaan didapati tidak menepati Peraturan Mesyuarat 11(3) kerana tidak disusuli dengan Pemeberitahuan Usul yang lengkap. – HARAKAHDAILY 28/2/2020",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Raja-raja Melayu sedang mengadakan mesyuarat tergempar petang ini di Istana Negara, Kuala Lumpur, bagi membincangkan situasi politik semasa di Malaysia berikutan krisis politik yang mendadak. Sultan Johor adalah yang pertama tiba dalam iring-iringan diraja pada pukul 9.30 pagi, diikuti para hadirin lain yang dijangka, termasuk Sultan Perak, Sultan Nazrin Shah; Sultan Terengganu, Sultan Mizan Zainal Abidin; Sultan Selangor, Sultan Sharafuddin Idris Shah dan Sultan Kedah, Sultan Sallehuddin Almarhum Sultan Badlishah. Selain itu, Yang di-Pertuan Besar Negeri Sembilan, Tuanku Muhriz Almarhum Tuanku Munawir, Pemangku Raja Pahang, Tengku Hassanal Ibrahim Alam Shah, dan Tengku Mahkota Kelantan, Dr Tengku Muhammad Faiz Petra Sultan Ismail Petra juga dijangka hadir. Sementara itu, Speaker Dewan Rakyat, Tan Sri Dato' Mohamad Ariff Md Yusof, telah menerima notis mesyuarat khas parlimen yang ditandatangani Perdana Menteri Interim, Tun Dr Mahathir Mohamad, memanggil mesyuarat parlimen pada 2 Mac. Bagaimanapun, Mohd Ariff menyatakan surat itu tidak mematuhi Peraturan Mesyuarat 11(3) kerana tidak diikuti dengan Usul Cadangan yang lengkap. - HarakahDaily 28/2/2020."
+}

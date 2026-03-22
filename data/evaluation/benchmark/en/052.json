@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_052",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Liam Toner, 19, was reported missing in December 2017 after a night out in Cleethorpes, and found dead in a ditch in Lincolnshire 15 hours later. Humberside and Lincolnshire Police both said they would improve cross-force communication in such cases. It follows an investigation by the Independent Office for Police Conduct. Liam, from Ulceby in Lincolnshire, was initially reported missing to Humberside Police. The case was not passed to Lincolnshire Police for another six hours. More stories from East Yorkshire and Lincolnshire The Independent Office for Police Conduct (IOPC) investigated the forces' actions surrounding their response to the teenager's disappearance. Mr Toner's family called Humberside Police at 08:50 GMT on 16 December 2017 after he failed to return home from a night out. Lincolnshire Police was told by Humberside Police at 15:00 of a call to say Liam had taken a taxi to Holton-Le-Clay in Lincolnshire the night before. The IOPC said although the case was escalated to \"high risk\" at 19:00, the police log was not officially upgraded for several more hours. Mr Toner was eventually found by a family friend shortly before midnight on 16 December, near where the taxi left him in Holton-le-Clay, 20 miles from home. A post-mortem showed he died of asphyxiation, and an inquest recorded a verdict of accidental death. The IOPC did not identify misconduct, but recommended staff and officers were trained in cross-border missing persons procedures. It also recommended improved contact and information-sharing, and the forces were told a clearer handover and missing persons escalation process was needed for shift changes. Miranda Biddle, from the IOPC, said: \"We sincerely apologise to Liam's family and all those affected by his death for the length of time this investigation has taken. \"However, I hope they can gain some peace of mind from our findings.\" Follow BBC East Yorkshire and Lincolnshire on Facebook, Twitter, and Instagram. Send your story ideas to yorkslincs.news@bbc.co.uk.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "An investigation into the death of a teenager has recommended that police improve cross-border missing persons investigations."
+}

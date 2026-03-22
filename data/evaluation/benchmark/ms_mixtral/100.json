@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_100",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "KUALA LUMPUR: Perintah Kawalan Pergerakan (PKP) 3.0 yang dijadual tamat 14 Jun ini akan disambung bermula 15 Jun sehingga 28 Jun 2021.\nMenteri Kanan (Keselamatan) Datuk Seri Ismail Sabri Yaakob berkata Kementerian Kesihatan Malaysia (KKM) telah membentang dan mencadangkan dalam Sidang Khas Majlis Keselamatan Negara (MKN) yang dipengerusikan oleh Perdana Menteri Tan Sri Muhyiddin Yassin hari ini supaya PKP 3.0 dilanjutkan untuk tempoh dua minggu lagi.\n“Keputusan ini dibuat setelah mengambil kira jumlah kes harian masih tinggi melebihi 5,000 sehari dengan purata kes baharu sehingga semalam ialah 6,871.\n“Prosedur Operasi Standard (SOP) bagi setiap aktiviti perkilangan, perniagaan, dan industri masih kekal seperti mana diumumkan sebelum ini,” katanya dalam kenyataan hari ini.\nIsmail Sabri memaklumkan senarai SOP boleh dirujuk di laman sesawang kementerian berkaitan dan maklumat lanjut boleh diakses di laman sesawang MKN. — AlHijrah Online",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Perintah Kawalan Pergerakan (PKP) 3.0 di Malaysia yang dijadual berakhir pada 14 Jun akan dilanjutkan sehingga 28 Jun 2021. Keputusan itu dibuat semasa Mesyuarat Khas Majlis Keselamatan (MKN) yang dipengerusikan oleh Perdana Menteri, Tan Sri Muhyiddin Yassin, hari ini, selepas mempertimbangkan kes harian Covid-19 yang masih melebihi 5,000 dengan purata 6,871 kes baharu direkodkan setiap hari. Prosedur Operasi Standard (SOP) bagi setiap aktiviti perindustrian, perniagaan dan pembuatan akan kekal tidak berubah seperti yang diumumkan sebelum ini. SOP tersebut boleh diakses di laman web kementerian, dan maklumat lanjut boleh diperoleh daripada laman web MKN."
+}

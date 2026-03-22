@@ -1,0 +1,15 @@
+{
+  "id": "mesolitica_ms_119",
+  "source": "mesolitica-mixtral",
+  "language": "ms",
+  "category": "monolingual",
+  "has_reference": true,
+  "ref_quality": "machine",
+  "text": "Kerajaan kekalkan harga jualan runcit petrol RON95 dan diesel. Oleh ZIAUDDIN SHARUDDINKUALA LUMPUR: Kerajaan masih mengekalkan harga jualan runcit petrol RON95 dan diesel pada paras harga siling yang dilaksanakan sejak awal tahun 2021.Timbalan Menteri Kewangan, Dato’ Indera Mohd Shahar Abdullah, berkata harga minyak mentah Brent sejak awal tahun 2021, menunjukkan trend peningkatan signifikan dengan harga minyak mentah bulan Januari 2022 adalah pada kadar AS$85 setong, iaitu meningkat berbanding AS$55 setong pada Januari 2021. Katanya, kerajaan terpaksa menampung peningkatan subsidi petrol, diesel dan gas cecair memasak (LPG) yang ketara sehingga 10 kali ganda, iaitu meningkat daripada RM200 juta ringgit untuk Januari 2021 kepada lebih daripada RM2 bilion untuk Januari 2022. “Pengguna masih lagi membayar hanya RM2.05 seliter untuk petrol RON95 berbanding harga sebenar bulan Mac yang telah mencecah RM3.70 seliter. Bagi diesel, pengguna hanya membayar RM2.15 seliter sementara harga sebenar melebihi RM4 seliter,” katanya menjawab soalan lisan Dato’ Wira Amiruddin Hamzah (Bersatu-Kubang Pasu) di Dewan Rakyat, hari ini. Berbanding negara pengeluar minyak lain, Mohd Shahar berkata, harga runcit produk petroleum di Malaysia adalah sangat rendah dengan harga runcit petrol di Arab Saudi adalah RM2.61 seliter. Berdasarkan senario semasa peningkatan harga komoditi minyak mentah dunia, katanya kerajaan dijangka menanggung perbelanjaan subsidi tambahan bagi mengekalkan harga jualan petrol dan diesel di pasaran. “Jumlah subsidi produk petroleum bagi keseluruhan tahun ini, dijangka mencecah sehingga RM28 bilion jika harga minyak mentah dunia kekal melebihi AS$100 setong, berbanding RM11 bilion bagi tahun 2021,” katanya. Mohd Shahar mengakui bahawa kenaikan kos subsidi bagi produk petroleum akan memberi tekanan kepada kedudukan fiskal kerajaan kerana komitmen pertambahan kos subsidi sepatutnya boleh digunakan untuk manfaat pembangunan ekonomi dan kesejahteraan rakyat. Menurutnya, kerajaan juga tidak boleh meminjam untuk membiayai belanja mengurus seperti kos subsidi, maka kenaikan kos subsidi perlu diimbangi dengan pertambahan hasil dan penjimatan perbelanjaan. “Bajet 2022 menganggarkan hasil berkaitan petroleum sebanyak RM44 bilion berdasarkan kepada purata harga minyak mentah Brent pada paras AS$67 setong. Sehingga 14 Mac 2022, purata harga minyak mentah Brent berada pada sekitar AS$96 setong,” katanya. Beliau berkata, bagi setiap kenaikan AS$1 harga minyak mentah, impak kepada hasil berkaitan petroleum adalah sekitar RM300 juta dan jumlah ini tidak mengambil kira kesan kepada dividen daripada PETRONAS. – HARAKAHDAILY 24/3/22",
+  "config": {
+    "target_language": "ms",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "Kerajaan Malaysia mengekalkan harga runcit petrol RON95 dan diesel pada harga siling yang dilaksanakan sejak awal 2"
+}

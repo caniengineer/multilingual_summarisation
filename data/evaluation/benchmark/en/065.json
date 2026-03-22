@@ -1,0 +1,15 @@
+{
+  "id": "xlsum_en_065",
+  "source": "xlsum",
+  "language": "en",
+  "category": "english",
+  "has_reference": true,
+  "ref_quality": "human",
+  "text": "Parent Centrica has been trialling a digital-only \"challenger\" brand under the name British Gas X amid the highly competitive world of energy supply. The company has been shedding customers and this month said it would cut 5,000 jobs. Centrica would not comment but is expected to give more details in July. A test website for British Gas X is already up and running. It says the service is designed for \"digitally savvy\" customers, with everything done online. It also says customers can \"switch at any time with no exit fees\" and that the energy they use will be offset from \"100% renewable\" sources. Centrica plans to base its new no-frills service on this platform, however a final name has yet to be decided. Evolving landscape British Gas, once the sole supplier of gas to the country, is still the dominant force in energy supply with more than seven million customers, but it faces tough competition. Last year alone it lost almost 290,000 customers. Energy regulator Ofgem says there are currently around 60 suppliers operating around the country, and the landscape continues to evolve. Until recently supply was dominated by a \"Big Six\" but that is breaking down. Incomer Ovo recently bought major supplier SSE, and medium-sized players such as Shell-backed First Utility are making inroads. Meanwhile, a clutch of smaller entrants have tried and failed to make money in this market, with more than 20 going under in the past year. Job cuts Centrica's jobs shake-up was ordered by its new chief executive, Chris O'Shea. He said the company had more than 80 different employee contracts, \"each with multiple variants, with many of the agreements dating back over 35 years\", which, he said, needed to be modernised. Centrica currently has about 27,000 employees, with 20,000 of these based in the UK. In February, the firm blamed a big loss in 2019 on falling gas prices and the energy price cap. The price cap on electricity and gas bills came into effect in January 2019 and was a flagship policy of former prime minister Theresa May to end what she called \"rip-off\" prices. A number of energy companies have said the policy has affected their business and profits. Centrica made a loss of £849m in the last calendar year compared with a £987m profit in 2018.",
+  "config": {
+    "target_language": "en",
+    "summary_type": "brief",
+    "max_length": 150
+  },
+  "reference_summary": "The UK's biggest household energy supplier, British Gas, will soon face competition from a new, cheaper supplier from its own stable."
+}
