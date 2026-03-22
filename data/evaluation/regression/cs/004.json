@@ -3,13 +3,13 @@
   "source": "manual",
   "language": "ms_en",
   "category": "codeswitching",
-  "has_reference": false,
+  "has_reference": true,
   "text": "Universiti tempatan kena adapt dengan AI revolution ni. Banyak course masih teach outdated syllabus — student graduate tapi skill tak match industry requirement. Ada professor suggest integrate AI tools dalam curriculum, let students use ChatGPT untuk assignment tapi with proper citation. Some faculty members resist sebab takut academic integrity compromised. Dean kata kita perlu find balance between embracing technology dan maintaining educational standards.",
-  "reference_summary": null,
+  "reference_summary": "Universiti tempatan perlu menyesuaikan kurikulum dengan revolusi AI. Cadangan mengintegrasikan alat AI dalam pembelajaran mendapat tentangan sesetengah pensyarah yang bimbang tentang integriti akademik, namun keseimbangan antara teknologi dan standard pendidikan perlu dicapai.",
   "config": {
     "target_language": "auto",
     "summary_type": "brief",
     "max_length": 80
   },
-  "ref_quality": "none"
+  "ref_quality": "human"
 }

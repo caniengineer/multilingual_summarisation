@@ -3,13 +3,13 @@
   "source": "manual",
   "language": "ms_en",
   "category": "codeswitching",
-  "has_reference": false,
+  "has_reference": true,
   "text": "Bro, kau dah try guna new payment system tak? Aku try register semalam tapi keep getting error. Support team kata server maintenance, tapi dah 3 hari still down. Macam mana nak process payment kalau system tak function? Customer dah start complain, boss pun dah pressure. IT team cakap they're working on it but no ETA. Honestly, I think we should consider backup plan — maybe temporarily switch back to manual processing.",
-  "reference_summary": null,
+  "reference_summary": "Sistem pembayaran baharu mengalami gangguan selama tiga hari menyebabkan aduan pelanggan. Pasukan IT masih berusaha membaikinya tanpa anggaran masa, dan cadangan sementara ialah kembali kepada pemprosesan manual.",
   "config": {
     "target_language": "auto",
     "summary_type": "brief",
     "max_length": 80
   },
-  "ref_quality": "none"
+  "ref_quality": "human"
 }
