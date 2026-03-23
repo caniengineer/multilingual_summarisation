@@ -1,5 +1,10 @@
+import base64
+from pathlib import Path
+
 import pytest
 from app.processor import DocumentProcessor
+
+FIXTURE_DIR = Path(__file__).parent / "fixtures" / "pdf"
 
 
 def test_process_txt_basic():
@@ -39,7 +44,7 @@ def test_process_txt_whitespace_only_raises():
 def test_process_unsupported_type_raises():
     processor = DocumentProcessor()
     with pytest.raises(ValueError, match="Unsupported"):
-        processor.process("data", doc_type="pdf")
+        processor.process("data", doc_type="docx")
 
 
 def test_process_returns_token_estimate():
@@ -118,3 +123,58 @@ def test_strip_headers_footers_skips_few_pages():
     pages = ["Header\nContent.\nFooter", "Header\nMore content.\nFooter"]
     result = processor._strip_headers_footers(pages)
     assert result == pages
+
+
+# --- PDF extraction tests ---
+
+
+def _load_pdf_b64(name: str) -> str:
+    path = FIXTURE_DIR / name
+    if not path.exists():
+        pytest.skip(f"Fixture {name} not available")
+    return base64.b64encode(path.read_bytes()).decode("ascii")
+
+
+def test_process_pdf_extracts_text():
+    """EN budget speech is clean text — basic extraction smoke test."""
+    processor = DocumentProcessor()
+    b64 = _load_pdf_b64("budget_speech_2026_en.pdf")
+    result = processor.process(b64, doc_type="pdf")
+    assert len(result.text) > 1000
+    assert result.estimated_tokens > 100
+    assert "MADANI" in result.text or "budget" in result.text.lower()
+
+
+def test_process_pdf_normalization_applied():
+    """Extracted PDF text should go through the shared normalization pipeline."""
+    processor = DocumentProcessor()
+    b64 = _load_pdf_b64("budget_speech_2026_en.pdf")
+    result = processor.process(b64, doc_type="pdf")
+    assert "\n\n\n" not in result.text
+    assert result.text == result.text.strip()
+
+
+def test_process_pdf_invalid_base64_raises():
+    processor = DocumentProcessor()
+    with pytest.raises(ValueError, match="base64"):
+        processor.process("!!!not-base64!!!", doc_type="pdf")
+
+
+def test_process_pdf_not_a_pdf_raises():
+    processor = DocumentProcessor()
+    b64 = base64.b64encode(b"this is plain text, not a PDF").decode()
+    with pytest.raises(ValueError, match="PDF"):
+        processor.process(b64, doc_type="pdf")
+
+
+def test_process_pdf_empty_pdf_raises():
+    """A valid PDF with zero text content should raise ValueError."""
+    import fitz
+    doc = fitz.open()
+    doc.new_page()
+    pdf_bytes = doc.tobytes()
+    doc.close()
+    b64 = base64.b64encode(pdf_bytes).decode()
+    processor = DocumentProcessor()
+    with pytest.raises(ValueError, match="empty"):
+        processor.process(b64, doc_type="pdf")
