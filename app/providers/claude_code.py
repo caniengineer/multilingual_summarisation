@@ -19,8 +19,10 @@ class ClaudeCodeProvider:
     def max_context_tokens(self) -> int:
         return 200_000
 
-    async def _call_claude(self, prompt: str) -> dict:
+    async def _call_claude(self, prompt: str, system_prompt: str = "") -> dict:
         """Call claude CLI and return parsed JSON response."""
+        if not system_prompt:
+            system_prompt = "You are a JSON-only API. Return ONLY valid JSON, no prose."
         proc = await asyncio.create_subprocess_exec(
             "claude",
             "-p",
@@ -28,6 +30,9 @@ class ClaudeCodeProvider:
             "json",
             "--model",
             self._model,
+            "--system-prompt",
+            system_prompt,
+            "--disable-slash-commands",
             stdin=asyncio.subprocess.PIPE,
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE,
