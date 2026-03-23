@@ -63,5 +63,8 @@ Thumbs.db
 # Evaluation results
 results/
 
+# PDF test fixtures (too large for GitHub)
+tests/fixtures/pdf/*.pdf
+
 # Sensitive files
 ali.md
