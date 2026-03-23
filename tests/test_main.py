@@ -1,10 +1,15 @@
 # tests/test_main.py
+import base64
+from pathlib import Path
+
 import pytest
 from unittest.mock import AsyncMock
 from httpx import AsyncClient, ASGITransport
 from app.main import create_app
 from app.providers.base import SumResult
 from app.models import EvaluationScores
+
+FIXTURE_DIR = Path(__file__).parent / "fixtures" / "pdf"
 
 
 @pytest.fixture
@@ -122,3 +127,48 @@ def test_create_app_with_unknown_provider(monkeypatch):
 
     with pytest.raises(ValueError, match="Unknown provider"):
         create_app()
+
+
+@pytest.mark.asyncio
+async def test_summarize_pdf_document(app, mock_provider):
+    """Full API flow: PDF base64 -> extraction -> provider -> response."""
+    pdf_path = FIXTURE_DIR / "budget_speech_2026_en.pdf"
+    if not pdf_path.exists():
+        pytest.skip("PDF fixture not available")
+    b64 = base64.b64encode(pdf_path.read_bytes()).decode("ascii")
+
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        resp = await client.post("/v1/summarize", json={
+            "document": b64,
+            "document_type": "pdf",
+            "config": {"target_language": "en", "summary_type": "brief"},
+        })
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["summary"] == "Test summary output."
+    # Provider received extracted text, not base64
+    call_args = mock_provider.summarize.call_args
+    text_sent = call_args[0][0]
+    assert len(text_sent) > 100
+    assert "JVBERi0" not in text_sent
+
+
+@pytest.mark.asyncio
+async def test_summarize_pdf_invalid_base64_returns_400(app):
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        resp = await client.post("/v1/summarize", json={
+            "document": "!!!invalid-base64!!!",
+            "document_type": "pdf",
+        })
+    assert resp.status_code == 400
+
+
+@pytest.mark.asyncio
+async def test_summarize_pdf_corrupted_returns_400(app):
+    b64 = base64.b64encode(b"not a real PDF file").decode()
+    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+        resp = await client.post("/v1/summarize", json={
+            "document": b64,
+            "document_type": "pdf",
+        })
+    assert resp.status_code == 400
