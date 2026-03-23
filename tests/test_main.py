@@ -146,6 +146,24 @@ async def test_summarize_default_config(app, mock_provider):
     assert data["metadata"]["evaluation"] is None
 
 
+@pytest.mark.asyncio
+async def test_summarize_returns_chunks_used_field(app, mock_provider):
+    """Response should include chunks_used in metadata."""
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": "Test document.",
+                "config": {"target_language": "en", "summary_type": "brief", "max_length": 100},
+            },
+        )
+    assert resp.status_code == 200
+    data = resp.json()
+    assert "chunks_used" in data["metadata"]
+
+
 def test_create_app_with_claude_code_provider(monkeypatch):
     monkeypatch.setenv("PROVIDER", "claude-code")
     monkeypatch.setenv("CLAUDE_CODE_MODEL", "claude-sonnet-4-20250514")

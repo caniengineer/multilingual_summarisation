@@ -14,6 +14,7 @@ from app.models import (
 from app.processor import DocumentProcessor
 from app.providers.anthropic import AnthropicProvider
 from app.providers.claude_code import ClaudeCodeProvider
+from app.summarizer import summarize_document
 from app.config import Settings
 
 
@@ -63,7 +64,7 @@ def create_app(provider=None) -> FastAPI:
             raise HTTPException(status_code=400, detail=str(e))
 
         try:
-            result = await provider.summarize(doc.text, request.config)
+            result = await summarize_document(doc.text, request.config, provider)
         except ValueError as e:
             raise HTTPException(status_code=502, detail=str(e))
 
@@ -88,6 +89,7 @@ def create_app(provider=None) -> FastAPI:
                 output_tokens=result.output_tokens,
                 latency_ms=latency_ms,
                 evaluation=evaluation,
+                chunks_used=result.chunks_used,
             ),
         )
 
