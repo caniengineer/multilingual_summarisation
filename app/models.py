@@ -33,6 +33,7 @@ class SummaryMetadata(BaseModel):
     output_tokens: int
     latency_ms: int
     evaluation: Optional[EvaluationScores] = None
+    chunks_used: Optional[int] = None
 
 
 class SummarizeResponse(BaseModel):

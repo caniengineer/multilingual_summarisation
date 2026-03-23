@@ -102,6 +102,32 @@ def test_request_accepts_large_pdf_payload():
     assert len(req.document) == 2_000_000
 
 
+def test_summary_metadata_chunks_used_optional():
+    """chunks_used should be optional, defaulting to None."""
+    meta = SummaryMetadata(
+        detected_language="en",
+        code_switching_detected=False,
+        model_used="test",
+        input_tokens=100,
+        output_tokens=50,
+        latency_ms=200,
+    )
+    assert meta.chunks_used is None
+
+
+def test_summary_metadata_chunks_used_set():
+    meta = SummaryMetadata(
+        detected_language="en",
+        code_switching_detected=False,
+        model_used="test",
+        input_tokens=100,
+        output_tokens=50,
+        latency_ms=200,
+        chunks_used=5,
+    )
+    assert meta.chunks_used == 5
+
+
 def test_health_response():
     health = HealthResponse(
         status="healthy",
