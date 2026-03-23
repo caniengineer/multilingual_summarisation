@@ -98,8 +98,8 @@ def test_strip_headers_footers_removes_page_numbers():
     result = processor._strip_headers_footers(pages)
     joined = "\n".join(result)
     assert "Content one" in joined
-    lines = [l.strip() for l in joined.split("\n") if l.strip()]
-    assert all(not l.isdigit() for l in lines)
+    lines = [line.strip() for line in joined.split("\n") if line.strip()]
+    assert all(not line.isdigit() for line in lines)
 
 
 def test_strip_headers_footers_preserves_content():
@@ -170,6 +170,7 @@ def test_process_pdf_not_a_pdf_raises():
 def test_process_pdf_empty_pdf_raises():
     """A valid PDF with zero text content should raise ValueError."""
     import fitz
+
     doc = fitz.open()
     doc.new_page()
     pdf_bytes = doc.tobytes()

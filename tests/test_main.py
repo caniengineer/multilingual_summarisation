@@ -17,19 +17,26 @@ def mock_provider():
     provider = AsyncMock()
     provider.name = "test-model"
     provider.max_context_tokens = 200_000
-    provider.summarize = AsyncMock(return_value=SumResult(
-        summary="Test summary output.",
-        detected_language="en",
-        code_switching_detected=False,
-        model_used="test-model",
-        input_tokens=100,
-        output_tokens=50,
-    ))
-    provider.evaluate = AsyncMock(return_value=EvaluationScores(
-        faithfulness=4.5, coherence=4.0, coverage=3.8,
-        language_quality=4.2, conciseness=4.0,
-        justification="Good summary.",
-    ))
+    provider.summarize = AsyncMock(
+        return_value=SumResult(
+            summary="Test summary output.",
+            detected_language="en",
+            code_switching_detected=False,
+            model_used="test-model",
+            input_tokens=100,
+            output_tokens=50,
+        )
+    )
+    provider.evaluate = AsyncMock(
+        return_value=EvaluationScores(
+            faithfulness=4.5,
+            coherence=4.0,
+            coverage=3.8,
+            language_quality=4.2,
+            conciseness=4.0,
+            justification="Good summary.",
+        )
+    )
     return provider
 
 
@@ -40,7 +47,9 @@ def app(mock_provider):
 
 @pytest.mark.asyncio
 async def test_health_endpoint(app, mock_provider):
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
         resp = await client.get("/v1/health")
     assert resp.status_code == 200
     data = resp.json()
@@ -49,16 +58,21 @@ async def test_health_endpoint(app, mock_provider):
 
 @pytest.mark.asyncio
 async def test_summarize_basic(app, mock_provider):
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        resp = await client.post("/v1/summarize", json={
-            "document": "This is a test document about Malaysian technology.",
-            "document_type": "txt",
-            "config": {
-                "target_language": "en",
-                "summary_type": "brief",
-                "max_length": 100,
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": "This is a test document about Malaysian technology.",
+                "document_type": "txt",
+                "config": {
+                    "target_language": "en",
+                    "summary_type": "brief",
+                    "max_length": 100,
+                },
             },
-        })
+        )
     assert resp.status_code == 200
     data = resp.json()
     assert data["summary"] == "Test summary output."
@@ -68,11 +82,16 @@ async def test_summarize_basic(app, mock_provider):
 
 @pytest.mark.asyncio
 async def test_summarize_with_evaluation(app, mock_provider):
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        resp = await client.post("/v1/summarize", json={
-            "document": "Test document content.",
-            "config": {"evaluate": True},
-        })
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": "Test document content.",
+                "config": {"evaluate": True},
+            },
+        )
     assert resp.status_code == 200
     data = resp.json()
     assert data["metadata"]["evaluation"] is not None
@@ -81,11 +100,16 @@ async def test_summarize_with_evaluation(app, mock_provider):
 
 @pytest.mark.asyncio
 async def test_summarize_without_evaluation(app, mock_provider):
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        resp = await client.post("/v1/summarize", json={
-            "document": "Test document content.",
-            "config": {"evaluate": False},
-        })
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": "Test document content.",
+                "config": {"evaluate": False},
+            },
+        )
     assert resp.status_code == 200
     data = resp.json()
     assert data["metadata"]["evaluation"] is None
@@ -94,19 +118,29 @@ async def test_summarize_without_evaluation(app, mock_provider):
 
 @pytest.mark.asyncio
 async def test_summarize_empty_document(app):
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        resp = await client.post("/v1/summarize", json={
-            "document": "",
-        })
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": "",
+            },
+        )
     assert resp.status_code == 422 or resp.status_code == 400
 
 
 @pytest.mark.asyncio
 async def test_summarize_default_config(app, mock_provider):
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        resp = await client.post("/v1/summarize", json={
-            "document": "Just a document with defaults.",
-        })
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": "Just a document with defaults.",
+            },
+        )
     assert resp.status_code == 200
     data = resp.json()
     assert data["metadata"]["evaluation"] is None
@@ -137,12 +171,17 @@ async def test_summarize_pdf_document(app, mock_provider):
         pytest.skip("PDF fixture not available")
     b64 = base64.b64encode(pdf_path.read_bytes()).decode("ascii")
 
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        resp = await client.post("/v1/summarize", json={
-            "document": b64,
-            "document_type": "pdf",
-            "config": {"target_language": "en", "summary_type": "brief"},
-        })
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": b64,
+                "document_type": "pdf",
+                "config": {"target_language": "en", "summary_type": "brief"},
+            },
+        )
     assert resp.status_code == 200
     data = resp.json()
     assert data["summary"] == "Test summary output."
@@ -155,20 +194,30 @@ async def test_summarize_pdf_document(app, mock_provider):
 
 @pytest.mark.asyncio
 async def test_summarize_pdf_invalid_base64_returns_400(app):
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        resp = await client.post("/v1/summarize", json={
-            "document": "!!!invalid-base64!!!",
-            "document_type": "pdf",
-        })
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": "!!!invalid-base64!!!",
+                "document_type": "pdf",
+            },
+        )
     assert resp.status_code == 400
 
 
 @pytest.mark.asyncio
 async def test_summarize_pdf_corrupted_returns_400(app):
     b64 = base64.b64encode(b"not a real PDF file").decode()
-    async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
-        resp = await client.post("/v1/summarize", json={
-            "document": b64,
-            "document_type": "pdf",
-        })
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        resp = await client.post(
+            "/v1/summarize",
+            json={
+                "document": b64,
+                "document_type": "pdf",
+            },
+        )
     assert resp.status_code == 400

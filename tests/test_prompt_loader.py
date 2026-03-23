@@ -30,12 +30,15 @@ def test_load_evaluate():
 def test_render_template():
     loader = PromptLoader()
     prompt = loader.load("summarize", language="en")
-    rendered = loader.render(prompt["template"], {
-        "max_length": 200,
-        "summary_type": "brief",
-        "preserve_domain_terms": True,
-        "document_text": "Some document text here.",
-    })
+    rendered = loader.render(
+        prompt["template"],
+        {
+            "max_length": 200,
+            "summary_type": "brief",
+            "preserve_domain_terms": True,
+            "document_text": "Some document text here.",
+        },
+    )
     assert "200" in rendered
     assert "brief" in rendered
     assert "Some document text here." in rendered

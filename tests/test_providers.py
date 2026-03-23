@@ -10,7 +10,9 @@ from app.providers.anthropic import AnthropicProvider
 from app.providers.claude_code import ClaudeCodeProvider
 
 
-def _mock_anthropic_response(content_text: str, input_tokens: int = 100, output_tokens: int = 50):
+def _mock_anthropic_response(
+    content_text: str, input_tokens: int = 100, output_tokens: int = 50
+):
     """Create a mock Anthropic API response."""
     mock_resp = MagicMock()
     mock_resp.content = [MagicMock(text=content_text)]
@@ -35,15 +37,23 @@ def test_sum_result_creation():
 
 def test_protocol_is_runtime_checkable():
     """SummarizationProvider should be a runtime-checkable Protocol."""
-    assert hasattr(SummarizationProvider, '__protocol_attrs__') or hasattr(SummarizationProvider, '__abstractmethods__') or callable(getattr(SummarizationProvider, '_is_protocol', None))
+    assert (
+        hasattr(SummarizationProvider, "__protocol_attrs__")
+        or hasattr(SummarizationProvider, "__abstractmethods__")
+        or callable(getattr(SummarizationProvider, "_is_protocol", None))
+    )
+
     # The key test is that isinstance() works with it
     class FakeProvider:
         async def summarize(self, text, config): ...
         async def evaluate(self, source, summary, target_language): ...
         @property
-        def name(self): return "fake"
+        def name(self):
+            return "fake"
+
         @property
-        def max_context_tokens(self): return 1000
+        def max_context_tokens(self):
+            return 1000
 
     assert isinstance(FakeProvider(), SummarizationProvider)
 
@@ -51,17 +61,26 @@ def test_protocol_is_runtime_checkable():
 @pytest.mark.asyncio
 async def test_anthropic_summarize():
     mock_response = _mock_anthropic_response(
-        json.dumps({
-            "summary": "This is a test summary.",
-            "detected_language": "en",
-            "code_switching_detected": False,
-        })
+        json.dumps(
+            {
+                "summary": "This is a test summary.",
+                "detected_language": "en",
+                "code_switching_detected": False,
+            }
+        )
     )
 
     provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
 
-    with patch.object(provider._client.messages, "create", new_callable=AsyncMock, return_value=mock_response):
-        config = SummarizeConfig(target_language="en", summary_type="brief", max_length=100)
+    with patch.object(
+        provider._client.messages,
+        "create",
+        new_callable=AsyncMock,
+        return_value=mock_response,
+    ):
+        config = SummarizeConfig(
+            target_language="en", summary_type="brief", max_length=100
+        )
         result = await provider.summarize("Test document text.", config)
 
     assert result.summary == "This is a test summary."
@@ -75,17 +94,26 @@ async def test_anthropic_summarize():
 @pytest.mark.asyncio
 async def test_anthropic_summarize_auto_language():
     mock_response = _mock_anthropic_response(
-        json.dumps({
-            "summary": "Ringkasan dokumen ini.",
-            "detected_language": "ms",
-            "code_switching_detected": True,
-        })
+        json.dumps(
+            {
+                "summary": "Ringkasan dokumen ini.",
+                "detected_language": "ms",
+                "code_switching_detected": True,
+            }
+        )
     )
 
     provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
 
-    with patch.object(provider._client.messages, "create", new_callable=AsyncMock, return_value=mock_response):
-        config = SummarizeConfig(target_language="auto", summary_type="brief", max_length=100)
+    with patch.object(
+        provider._client.messages,
+        "create",
+        new_callable=AsyncMock,
+        return_value=mock_response,
+    ):
+        config = SummarizeConfig(
+            target_language="auto", summary_type="brief", max_length=100
+        )
         result = await provider.summarize("Dokumen campuran with English.", config)
 
     assert result.detected_language == "ms"
@@ -95,19 +123,26 @@ async def test_anthropic_summarize_auto_language():
 @pytest.mark.asyncio
 async def test_anthropic_evaluate():
     mock_response = _mock_anthropic_response(
-        json.dumps({
-            "faithfulness": 4.5,
-            "coherence": 4.0,
-            "coverage": 3.8,
-            "language_quality": 4.2,
-            "conciseness": 4.0,
-            "justification": "Good summary with minor gaps.",
-        })
+        json.dumps(
+            {
+                "faithfulness": 4.5,
+                "coherence": 4.0,
+                "coverage": 3.8,
+                "language_quality": 4.2,
+                "conciseness": 4.0,
+                "justification": "Good summary with minor gaps.",
+            }
+        )
     )
 
     provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
 
-    with patch.object(provider._client.messages, "create", new_callable=AsyncMock, return_value=mock_response):
+    with patch.object(
+        provider._client.messages,
+        "create",
+        new_callable=AsyncMock,
+        return_value=mock_response,
+    ):
         result = await provider.evaluate(
             source="Original document text here.",
             summary="A brief summary.",
@@ -156,21 +191,27 @@ def _mock_claude_process(stdout_data: dict, returncode: int = 0, stderr: str = "
 @pytest.mark.asyncio
 async def test_claude_code_summarize():
     claude_response = {
-        "result": json.dumps({
-            "summary": "This is a test summary.",
-            "detected_language": "en",
-            "code_switching_detected": False,
-        }),
+        "result": json.dumps(
+            {
+                "summary": "This is a test summary.",
+                "detected_language": "en",
+                "code_switching_detected": False,
+            }
+        ),
         "is_error": False,
         "usage": {"input_tokens": 150, "output_tokens": 30},
     }
 
     provider = ClaudeCodeProvider(model="claude-sonnet-4-20250514")
 
-    with patch("app.providers.claude_code.asyncio.create_subprocess_exec",
-               new_callable=AsyncMock,
-               return_value=_mock_claude_process(claude_response)):
-        config = SummarizeConfig(target_language="en", summary_type="brief", max_length=100)
+    with patch(
+        "app.providers.claude_code.asyncio.create_subprocess_exec",
+        new_callable=AsyncMock,
+        return_value=_mock_claude_process(claude_response),
+    ):
+        config = SummarizeConfig(
+            target_language="en", summary_type="brief", max_length=100
+        )
         result = await provider.summarize("Test document text.", config)
 
     assert result.summary == "This is a test summary."
@@ -184,23 +225,27 @@ async def test_claude_code_summarize():
 @pytest.mark.asyncio
 async def test_claude_code_evaluate():
     claude_response = {
-        "result": json.dumps({
-            "faithfulness": 4.5,
-            "coherence": 4.0,
-            "coverage": 3.8,
-            "language_quality": 4.2,
-            "conciseness": 4.0,
-            "justification": "Good summary.",
-        }),
+        "result": json.dumps(
+            {
+                "faithfulness": 4.5,
+                "coherence": 4.0,
+                "coverage": 3.8,
+                "language_quality": 4.2,
+                "conciseness": 4.0,
+                "justification": "Good summary.",
+            }
+        ),
         "is_error": False,
         "usage": {"input_tokens": 200, "output_tokens": 40},
     }
 
     provider = ClaudeCodeProvider(model="claude-sonnet-4-20250514")
 
-    with patch("app.providers.claude_code.asyncio.create_subprocess_exec",
-               new_callable=AsyncMock,
-               return_value=_mock_claude_process(claude_response)):
+    with patch(
+        "app.providers.claude_code.asyncio.create_subprocess_exec",
+        new_callable=AsyncMock,
+        return_value=_mock_claude_process(claude_response),
+    ):
         result = await provider.evaluate(
             source="Original text.",
             summary="A summary.",
@@ -218,9 +263,14 @@ async def test_claude_code_nonzero_exit():
     mock_proc = _mock_claude_process({}, returncode=1, stderr="command not found")
     mock_proc.returncode = 1
 
-    with patch("app.providers.claude_code.asyncio.create_subprocess_exec",
-               new_callable=AsyncMock, return_value=mock_proc):
-        config = SummarizeConfig(target_language="en", summary_type="brief", max_length=100)
+    with patch(
+        "app.providers.claude_code.asyncio.create_subprocess_exec",
+        new_callable=AsyncMock,
+        return_value=mock_proc,
+    ):
+        config = SummarizeConfig(
+            target_language="en", summary_type="brief", max_length=100
+        )
         with pytest.raises(RuntimeError, match="claude exited with code 1"):
             await provider.summarize("Test.", config)
 
@@ -235,10 +285,14 @@ async def test_claude_code_is_error_flag():
 
     provider = ClaudeCodeProvider(model="claude-sonnet-4-20250514")
 
-    with patch("app.providers.claude_code.asyncio.create_subprocess_exec",
-               new_callable=AsyncMock,
-               return_value=_mock_claude_process(claude_response)):
-        config = SummarizeConfig(target_language="en", summary_type="brief", max_length=100)
+    with patch(
+        "app.providers.claude_code.asyncio.create_subprocess_exec",
+        new_callable=AsyncMock,
+        return_value=_mock_claude_process(claude_response),
+    ):
+        config = SummarizeConfig(
+            target_language="en", summary_type="brief", max_length=100
+        )
         with pytest.raises(RuntimeError, match="claude returned an error"):
             await provider.summarize("Test.", config)
 

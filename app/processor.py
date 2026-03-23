@@ -117,9 +117,9 @@ class DocumentProcessor:
         for page in pages:
             lines = page.split("\n")
             filtered = [
-                line for line in lines
-                if line.strip() not in to_remove
-                and not page_num_re.match(line.strip())
+                line
+                for line in lines
+                if line.strip() not in to_remove and not page_num_re.match(line.strip())
             ]
             cleaned.append("\n".join(filtered))
         return cleaned

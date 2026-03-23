@@ -20,13 +20,18 @@ class AnthropicProvider:
         return 200_000
 
     async def summarize(self, text: str, config: SummarizeConfig) -> SumResult:
-        prompt_data = self._prompt_loader.load("summarize", language=config.target_language)
-        rendered = self._prompt_loader.render(prompt_data["template"], {
-            "max_length": config.max_length,
-            "summary_type": config.summary_type,
-            "preserve_domain_terms": config.preserve_domain_terms,
-            "document_text": text,
-        })
+        prompt_data = self._prompt_loader.load(
+            "summarize", language=config.target_language
+        )
+        rendered = self._prompt_loader.render(
+            prompt_data["template"],
+            {
+                "max_length": config.max_length,
+                "summary_type": config.summary_type,
+                "preserve_domain_terms": config.preserve_domain_terms,
+                "document_text": text,
+            },
+        )
 
         response = await self._client.messages.create(
             model=self._model,
@@ -45,13 +50,18 @@ class AnthropicProvider:
             output_tokens=response.usage.output_tokens,
         )
 
-    async def evaluate(self, source: str, summary: str, target_language: str) -> EvaluationScores:
+    async def evaluate(
+        self, source: str, summary: str, target_language: str
+    ) -> EvaluationScores:
         prompt_data = self._prompt_loader.load("evaluate")
-        rendered = self._prompt_loader.render(prompt_data["template"], {
-            "source_excerpt": source,
-            "summary": summary,
-            "target_language": target_language,
-        })
+        rendered = self._prompt_loader.render(
+            prompt_data["template"],
+            {
+                "source_excerpt": source,
+                "summary": summary,
+                "target_language": target_language,
+            },
+        )
 
         response = await self._client.messages.create(
             model=self._model,

@@ -38,10 +38,16 @@ async def test_evaluate_summary():
 @pytest.mark.asyncio
 async def test_evaluate_summary_truncates_source():
     mock_provider = AsyncMock()
-    mock_provider.evaluate = AsyncMock(return_value=EvaluationScores(
-        faithfulness=4.0, coherence=4.0, coverage=4.0,
-        language_quality=4.0, conciseness=4.0, justification="OK",
-    ))
+    mock_provider.evaluate = AsyncMock(
+        return_value=EvaluationScores(
+            faithfulness=4.0,
+            coherence=4.0,
+            coverage=4.0,
+            language_quality=4.0,
+            conciseness=4.0,
+            justification="OK",
+        )
+    )
 
     long_source = "x" * 5000
     await evaluate_summary(

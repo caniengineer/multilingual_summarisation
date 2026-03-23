@@ -31,7 +31,9 @@ def create_app(provider=None) -> FastAPI:
         settings = Settings()
         if settings.PROVIDER == "anthropic":
             if not settings.ANTHROPIC_API_KEY:
-                raise ValueError("ANTHROPIC_API_KEY is required when PROVIDER=anthropic")
+                raise ValueError(
+                    "ANTHROPIC_API_KEY is required when PROVIDER=anthropic"
+                )
             provider = AnthropicProvider(
                 api_key=settings.ANTHROPIC_API_KEY,
                 model=settings.DEFAULT_MODEL,

@@ -22,9 +22,12 @@ class ClaudeCodeProvider:
     async def _call_claude(self, prompt: str) -> dict:
         """Call claude CLI and return parsed JSON response."""
         proc = await asyncio.create_subprocess_exec(
-            "claude", "-p",
-            "--output-format", "json",
-            "--model", self._model,
+            "claude",
+            "-p",
+            "--output-format",
+            "json",
+            "--model",
+            self._model,
             stdin=asyncio.subprocess.PIPE,
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE,
@@ -51,13 +54,18 @@ class ClaudeCodeProvider:
         return response
 
     async def summarize(self, text: str, config: SummarizeConfig) -> SumResult:
-        prompt_data = self._prompt_loader.load("summarize", language=config.target_language)
-        rendered = self._prompt_loader.render(prompt_data["template"], {
-            "max_length": config.max_length,
-            "summary_type": config.summary_type,
-            "preserve_domain_terms": config.preserve_domain_terms,
-            "document_text": text,
-        })
+        prompt_data = self._prompt_loader.load(
+            "summarize", language=config.target_language
+        )
+        rendered = self._prompt_loader.render(
+            prompt_data["template"],
+            {
+                "max_length": config.max_length,
+                "summary_type": config.summary_type,
+                "preserve_domain_terms": config.preserve_domain_terms,
+                "document_text": text,
+            },
+        )
 
         response = await self._call_claude(rendered)
         result = parse_llm_json(response["result"])
@@ -71,13 +79,18 @@ class ClaudeCodeProvider:
             output_tokens=response.get("usage", {}).get("output_tokens", 0),
         )
 
-    async def evaluate(self, source: str, summary: str, target_language: str) -> EvaluationScores:
+    async def evaluate(
+        self, source: str, summary: str, target_language: str
+    ) -> EvaluationScores:
         prompt_data = self._prompt_loader.load("evaluate")
-        rendered = self._prompt_loader.render(prompt_data["template"], {
-            "source_excerpt": source,
-            "summary": summary,
-            "target_language": target_language,
-        })
+        rendered = self._prompt_loader.render(
+            prompt_data["template"],
+            {
+                "source_excerpt": source,
+                "summary": summary,
+                "target_language": target_language,
+            },
+        )
 
         response = await self._call_claude(rendered)
         result = parse_llm_json(response["result"])

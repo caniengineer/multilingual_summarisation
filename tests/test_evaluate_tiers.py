@@ -1,7 +1,4 @@
 import json
-import pytest
-from pathlib import Path
-from unittest.mock import patch
 
 
 def test_load_tiered_samples(tmp_path):
@@ -22,7 +19,11 @@ def test_load_tiered_samples(tmp_path):
             "ref_quality": "human",
             "text": f"Sample text {i}",
             "reference_summary": f"Summary {i}",
-            "config": {"target_language": "ms", "summary_type": "brief", "max_length": 150},
+            "config": {
+                "target_language": "ms",
+                "summary_type": "brief",
+                "max_length": 150,
+            },
         }
         with open(smoke_ms / f"{i:03d}.json", "w") as f:
             json.dump(sample, f)
@@ -32,11 +33,9 @@ def test_load_tiered_samples(tmp_path):
         "tiers": {
             "smoke": {
                 "description": "test",
-                "categories": {
-                    "ms": {"path": "smoke/ms", "count": 2}
-                }
+                "categories": {"ms": {"path": "smoke/ms", "count": 2}},
             }
-        }
+        },
     }
     with open(tmp_path / "manifest.json", "w") as f:
         json.dump(manifest, f)
@@ -58,9 +57,9 @@ def test_load_tiered_samples_all_categories(tmp_path):
                 "categories": {
                     "ms_human": {"path": "regression/ms_human", "count": 1},
                     "en": {"path": "regression/en", "count": 1},
-                }
+                },
             }
-        }
+        },
     }
 
     for cat_path in ["regression/ms_human", "regression/en"]:
@@ -75,7 +74,11 @@ def test_load_tiered_samples_all_categories(tmp_path):
             "ref_quality": "human",
             "text": "Text",
             "reference_summary": "Summary",
-            "config": {"target_language": "auto", "summary_type": "brief", "max_length": 150},
+            "config": {
+                "target_language": "auto",
+                "summary_type": "brief",
+                "max_length": 150,
+            },
         }
         with open(cat_dir / "001.json", "w") as f:
             json.dump(sample, f)
@@ -93,14 +96,26 @@ def test_aggregate_results_splits_by_ref_quality():
 
     results = [
         {
-            "id": "a", "category": "monolingual", "ref_quality": "human",
-            "chrf": 45.0, "latency_ms": 100, "compression_ratio": 0.1,
-            "language_match": True, "input_tokens": 100, "output_tokens": 50,
+            "id": "a",
+            "category": "monolingual",
+            "ref_quality": "human",
+            "chrf": 45.0,
+            "latency_ms": 100,
+            "compression_ratio": 0.1,
+            "language_match": True,
+            "input_tokens": 100,
+            "output_tokens": 50,
         },
         {
-            "id": "b", "category": "monolingual", "ref_quality": "machine",
-            "chrf": 35.0, "latency_ms": 200, "compression_ratio": 0.15,
-            "language_match": True, "input_tokens": 150, "output_tokens": 60,
+            "id": "b",
+            "category": "monolingual",
+            "ref_quality": "machine",
+            "chrf": 35.0,
+            "latency_ms": 200,
+            "compression_ratio": 0.15,
+            "language_match": True,
+            "input_tokens": 150,
+            "output_tokens": 60,
         },
     ]
 
@@ -141,7 +156,9 @@ def test_save_and_compare_baseline(tmp_path):
             "latency_avg_ms": 480,
         }
     }
-    diffs = compare_baseline(new_aggregated, tier="regression", baseline_dir=baseline_dir)
+    diffs = compare_baseline(
+        new_aggregated, tier="regression", baseline_dir=baseline_dir
+    )
     assert len(diffs) == 0  # no regressions
 
     # Compare: regression detected (>10% drop)

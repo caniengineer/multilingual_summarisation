@@ -6,6 +6,7 @@ Fixture files (tests/fixtures/pdf/):
   bnm_annual_report_2021_en.pdf (8.8 MB) — Use Case 1: large EN, two-column
   budget_speech_2026_bm.pdf    (33 MB)   — Use Case 2: BM, graphically heavy
 """
+
 import base64
 from pathlib import Path
 
@@ -32,20 +33,30 @@ class TestBudgetSpeechEN:
     """Use Case 3: Clean EN text — baseline."""
 
     def test_extracts_substantial_text(self, processor):
-        result = processor.process(_load_b64("budget_speech_2026_en.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("budget_speech_2026_en.pdf"), doc_type="pdf"
+        )
         assert len(result.text) > 5_000
 
     def test_contains_key_content(self, processor):
-        result = processor.process(_load_b64("budget_speech_2026_en.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("budget_speech_2026_en.pdf"), doc_type="pdf"
+        )
         assert "MADANI" in result.text
 
     def test_preserves_cultural_terms(self, processor):
-        result = processor.process(_load_b64("budget_speech_2026_en.pdf"), doc_type="pdf")
-        has_cultural = any(t in result.text for t in ["Assalamualaikum", "Bismillah", "Dewan", "Dato"])
+        result = processor.process(
+            _load_b64("budget_speech_2026_en.pdf"), doc_type="pdf"
+        )
+        has_cultural = any(
+            t in result.text for t in ["Assalamualaikum", "Bismillah", "Dewan", "Dato"]
+        )
         assert has_cultural, "Expected Malaysian cultural terms preserved"
 
     def test_normalization_clean(self, processor):
-        result = processor.process(_load_b64("budget_speech_2026_en.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("budget_speech_2026_en.pdf"), doc_type="pdf"
+        )
         assert "\n\n\n" not in result.text
 
 
@@ -59,7 +70,9 @@ class TestDOSMStatistics:
     def test_contains_economic_content(self, processor):
         result = processor.process(_load_b64("dosm_mesr_2024_en.pdf"), doc_type="pdf")
         text_lower = result.text.lower()
-        has_econ = any(t in text_lower for t in ["gdp", "growth", "economy", "statistics"])
+        has_econ = any(
+            t in text_lower for t in ["gdp", "growth", "economy", "statistics"]
+        )
         assert has_econ, "Expected economic terminology"
 
 
@@ -67,38 +80,57 @@ class TestBNMAnnualReport:
     """Use Case 1: Large EN financial report, two-column."""
 
     def test_extracts_substantial_text(self, processor):
-        result = processor.process(_load_b64("bnm_annual_report_2021_en.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("bnm_annual_report_2021_en.pdf"), doc_type="pdf"
+        )
         assert len(result.text) > 10_000
 
     def test_contains_financial_content(self, processor):
-        result = processor.process(_load_b64("bnm_annual_report_2021_en.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("bnm_annual_report_2021_en.pdf"), doc_type="pdf"
+        )
         text_lower = result.text.lower()
         assert "bank negara" in text_lower or "monetary" in text_lower
 
     def test_headers_not_excessively_repeated(self, processor):
-        result = processor.process(_load_b64("bnm_annual_report_2021_en.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("bnm_annual_report_2021_en.pdf"), doc_type="pdf"
+        )
         from collections import Counter
+
         line_counts = Counter(
-            l.strip() for l in result.text.split("\n") if l.strip() and len(l.strip()) > 5
+            line.strip()
+            for line in result.text.split("\n")
+            if line.strip() and len(line.strip()) > 5
         )
         if line_counts:
             _, top_count = line_counts.most_common(1)[0]
-            assert top_count < 60, f"Line repeated {top_count}x — header stripping issue"
+            assert top_count < 60, (
+                f"Line repeated {top_count}x — header stripping issue"
+            )
 
 
 class TestBudgetSpeechBM:
     """Use Case 2: BM with code-switching, graphically heavy (33 MB)."""
 
     def test_extracts_some_text(self, processor):
-        result = processor.process(_load_b64("budget_speech_2026_bm.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("budget_speech_2026_bm.pdf"), doc_type="pdf"
+        )
         assert len(result.text) > 500
 
     def test_contains_malay_content(self, processor):
-        result = processor.process(_load_b64("budget_speech_2026_bm.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("budget_speech_2026_bm.pdf"), doc_type="pdf"
+        )
         text_lower = result.text.lower()
-        has_bm = any(t in text_lower for t in ["tekad", "belanjawan", "rakyat", "madani"])
+        has_bm = any(
+            t in text_lower for t in ["tekad", "belanjawan", "rakyat", "madani"]
+        )
         assert has_bm, "Expected BM terms in budget speech"
 
     def test_completes_without_memory_issues(self, processor):
-        result = processor.process(_load_b64("budget_speech_2026_bm.pdf"), doc_type="pdf")
+        result = processor.process(
+            _load_b64("budget_speech_2026_bm.pdf"), doc_type="pdf"
+        )
         assert result.estimated_tokens > 0
