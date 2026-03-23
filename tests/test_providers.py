@@ -47,6 +47,7 @@ def test_protocol_is_runtime_checkable():
     class FakeProvider:
         async def summarize(self, text, config): ...
         async def evaluate(self, source, summary, target_language): ...
+        async def reduce(self, section_summaries, config): ...
         @property
         def name(self):
             return "fake"
@@ -311,3 +312,86 @@ def test_settings_claude_code_model_default(monkeypatch):
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
     settings = Settings()
     assert settings.CLAUDE_CODE_MODEL == "claude-sonnet-4-20250514"
+
+
+def test_protocol_includes_reduce():
+    """FakeProvider without reduce() should not satisfy Protocol."""
+
+    class IncompleteProvider:
+        async def summarize(self, text, config): ...
+        async def evaluate(self, source, summary, target_language): ...
+
+        @property
+        def name(self):
+            return "fake"
+
+        @property
+        def max_context_tokens(self):
+            return 1000
+
+    assert not isinstance(IncompleteProvider(), SummarizationProvider)
+
+
+@pytest.mark.asyncio
+async def test_anthropic_reduce():
+    mock_response = _mock_anthropic_response(
+        json.dumps(
+            {
+                "summary": "Unified summary of all sections.",
+                "detected_language": "en",
+                "code_switching_detected": False,
+            }
+        )
+    )
+
+    provider = AnthropicProvider(api_key="sk-test", model="claude-sonnet-4-20250514")
+
+    with patch.object(
+        provider._client.messages,
+        "create",
+        new_callable=AsyncMock,
+        return_value=mock_response,
+    ):
+        config = SummarizeConfig(
+            target_language="en", summary_type="brief", max_length=500
+        )
+        result = await provider.reduce(
+            section_summaries=["Summary of part 1.", "Summary of part 2."],
+            config=config,
+        )
+
+    assert result.summary == "Unified summary of all sections."
+    assert result.detected_language == "en"
+
+
+@pytest.mark.asyncio
+async def test_claude_code_reduce():
+    claude_response = {
+        "result": json.dumps(
+            {
+                "summary": "Combined summary.",
+                "detected_language": "en",
+                "code_switching_detected": False,
+            }
+        ),
+        "is_error": False,
+        "usage": {"input_tokens": 200, "output_tokens": 60},
+    }
+
+    provider = ClaudeCodeProvider(model="claude-sonnet-4-20250514")
+
+    with patch(
+        "app.providers.claude_code.asyncio.create_subprocess_exec",
+        new_callable=AsyncMock,
+        return_value=_mock_claude_process(claude_response),
+    ):
+        config = SummarizeConfig(
+            target_language="en", summary_type="brief", max_length=500
+        )
+        result = await provider.reduce(
+            section_summaries=["Part 1 summary.", "Part 2 summary."],
+            config=config,
+        )
+
+    assert result.summary == "Combined summary."
+    assert result.input_tokens == 200

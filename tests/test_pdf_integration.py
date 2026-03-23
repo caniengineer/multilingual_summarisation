@@ -134,3 +134,23 @@ class TestBudgetSpeechBM:
             _load_b64("budget_speech_2026_bm.pdf"), doc_type="pdf"
         )
         assert result.estimated_tokens > 0
+
+
+def test_chunker_on_real_pdf(processor):
+    """Verify chunker produces valid chunks from a real extracted PDF."""
+    from app.chunker import DocumentChunker
+
+    b64 = _load_b64("budget_speech_2026_en.pdf")
+    doc = processor.process(b64, doc_type="pdf")
+
+    chunker = DocumentChunker(max_tokens_per_chunk=5000)
+    chunks = chunker.chunk(doc.text)
+
+    assert len(chunks) >= 1
+    assert all(c.estimated_tokens <= 5000 for c in chunks)
+    assert all(c.text.strip() for c in chunks)
+    # Indices are sequential
+    assert [c.index for c in chunks] == list(range(len(chunks)))
+    # No content lost — all chunk text combined should cover the original
+    combined = "\n\n".join(c.text for c in chunks)
+    assert len(combined) >= len(doc.text) * 0.9
