@@ -85,6 +85,23 @@ def test_summarize_response_with_evaluation():
     assert resp.metadata.evaluation.faithfulness == 4.5
 
 
+def test_request_accepts_pdf_type():
+    req = SummarizeRequest(document="JVBERi0xLjQK", document_type="pdf")
+    assert req.document_type == "pdf"
+
+
+def test_request_rejects_docx_type():
+    with pytest.raises(Exception):
+        SummarizeRequest(document="data", document_type="docx")
+
+
+def test_request_accepts_large_pdf_payload():
+    """Base64-encoded PDFs can be very large — 33MB PDF = ~44MB base64."""
+    large = "A" * 2_000_000
+    req = SummarizeRequest(document=large, document_type="pdf")
+    assert len(req.document) == 2_000_000
+
+
 def test_health_response():
     health = HealthResponse(
         status="healthy",

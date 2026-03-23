@@ -11,8 +11,8 @@ class SummarizeConfig(BaseModel):
 
 
 class SummarizeRequest(BaseModel):
-    document: str = Field(max_length=500_000)
-    document_type: Literal["txt"] = "txt"
+    document: str = Field(max_length=50_000_000)  # ~37.5MB raw after base64 decode
+    document_type: Literal["txt", "pdf"] = "txt"
     config: SummarizeConfig = SummarizeConfig()
 
 
