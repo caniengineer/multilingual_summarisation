@@ -1,4 +1,4 @@
-from app.chunker import DocumentChunker
+from app.chunker import DocumentChunker, Chunk
 
 
 class TestSplitSections:
@@ -59,3 +59,60 @@ class TestSplitSections:
         sections = chunker._split_sections(text)
         assert len(sections) == 1
         assert sections[0] == text
+
+
+class TestChunk:
+    """Test the main chunk() method — token-aware splitting and merging."""
+
+    def test_short_text_returns_single_chunk(self):
+        chunker = DocumentChunker(max_tokens_per_chunk=5000)
+        chunks = chunker.chunk("Short text that fits easily.")
+        assert len(chunks) == 1
+        assert chunks[0].index == 0
+        assert chunks[0].text == "Short text that fits easily."
+
+    def test_sections_within_budget_merged(self):
+        """Adjacent small sections should be merged into one chunk."""
+        sections = "# A\nSmall.\n\n# B\nAlso small.\n\n# C\nTiny."
+        chunker = DocumentChunker(max_tokens_per_chunk=5000)
+        chunks = chunker.chunk(sections)
+        assert len(chunks) == 1  # All fit in one chunk
+
+    def test_large_sections_split_into_multiple_chunks(self):
+        """Sections exceeding budget should produce multiple chunks."""
+        # ~100 tokens per section, budget of 120 tokens — forces splitting
+        section_a = "# Section A\n" + ("Word " * 100)
+        section_b = "# Section B\n" + ("Word " * 100)
+        chunker = DocumentChunker(max_tokens_per_chunk=120)
+        chunks = chunker.chunk(section_a + "\n\n" + section_b)
+        assert len(chunks) >= 2
+        assert all(c.estimated_tokens <= 120 for c in chunks)
+
+    def test_oversized_paragraph_split_on_sentences(self):
+        """A single paragraph too large for budget gets sentence-split."""
+        long_para = ". ".join(["This is sentence number " + str(i) for i in range(200)])
+        chunker = DocumentChunker(max_tokens_per_chunk=200)
+        chunks = chunker.chunk(long_para)
+        assert len(chunks) >= 2
+        assert all(c.estimated_tokens <= 200 for c in chunks)
+
+    def test_chunk_indices_sequential(self):
+        section_a = "# A\n" + ("Word " * 100)
+        section_b = "# B\n" + ("Word " * 100)
+        chunker = DocumentChunker(max_tokens_per_chunk=120)
+        chunks = chunker.chunk(section_a + "\n\n" + section_b)
+        for i, chunk in enumerate(chunks):
+            assert chunk.index == i
+
+    def test_chunk_token_estimates_populated(self):
+        chunker = DocumentChunker(max_tokens_per_chunk=5000)
+        chunks = chunker.chunk("Some text content here.")
+        assert chunks[0].estimated_tokens > 0
+
+    def test_oversized_sentence_split_on_words(self):
+        """A single long sentence with no periods triggers word-level split."""
+        long_sentence = " ".join(["word"] * 2000)
+        chunker = DocumentChunker(max_tokens_per_chunk=200)
+        chunks = chunker.chunk(long_sentence)
+        assert len(chunks) >= 2
+        assert all(c.estimated_tokens <= 200 for c in chunks)
