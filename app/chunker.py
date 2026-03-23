@@ -29,7 +29,7 @@ class DocumentChunker:
     def __init__(self, max_tokens_per_chunk: int = 50_000):
         self.max_tokens_per_chunk = max_tokens_per_chunk
 
-    def _estimate_tokens(self, text: str) -> int:
+    def estimate_tokens(self, text: str) -> int:
         """Rough token estimate: ~4 characters per token."""
         return max(1, len(text) // 4)
 
@@ -57,15 +57,15 @@ class DocumentChunker:
 
     def chunk(self, text: str) -> list[Chunk]:
         """Split text into token-aware chunks respecting structural boundaries."""
-        if self._estimate_tokens(text) <= self.max_tokens_per_chunk:
-            return [Chunk(text=text, index=0, estimated_tokens=self._estimate_tokens(text))]
+        if self.estimate_tokens(text) <= self.max_tokens_per_chunk:
+            return [Chunk(text=text, index=0, estimated_tokens=self.estimate_tokens(text))]
 
         sections = self._split_sections(text)
         pieces = self._split_oversized(sections)
         merged = self._greedy_merge(pieces)
 
         return [
-            Chunk(text=t, index=i, estimated_tokens=self._estimate_tokens(t))
+            Chunk(text=t, index=i, estimated_tokens=self.estimate_tokens(t))
             for i, t in enumerate(merged)
         ]
 
@@ -73,19 +73,19 @@ class DocumentChunker:
         """Sub-split any section that exceeds the token budget."""
         result = []
         for section in sections:
-            if self._estimate_tokens(section) <= self.max_tokens_per_chunk:
+            if self.estimate_tokens(section) <= self.max_tokens_per_chunk:
                 result.append(section)
             else:
                 # Try paragraph split first
                 paragraphs = [p.strip() for p in re.split(r"\n\n+", section) if p.strip()]
                 for para in paragraphs:
-                    if self._estimate_tokens(para) <= self.max_tokens_per_chunk:
+                    if self.estimate_tokens(para) <= self.max_tokens_per_chunk:
                         result.append(para)
                     else:
                         # Try sentence split, then word split as last resort
                         sentence_pieces = self._split_sentences(para)
                         for sp in sentence_pieces:
-                            if self._estimate_tokens(sp) <= self.max_tokens_per_chunk:
+                            if self.estimate_tokens(sp) <= self.max_tokens_per_chunk:
                                 result.append(sp)
                             else:
                                 result.extend(self._split_words(sp))
@@ -99,7 +99,7 @@ class DocumentChunker:
 
         for sentence in sentences:
             candidate = " ".join(current + [sentence])
-            if self._estimate_tokens(candidate) > self.max_tokens_per_chunk and current:
+            if self.estimate_tokens(candidate) > self.max_tokens_per_chunk and current:
                 chunks.append(" ".join(current))
                 current = [sentence]
             else:
@@ -117,7 +117,7 @@ class DocumentChunker:
 
         for word in words:
             candidate = " ".join(current + [word])
-            if self._estimate_tokens(candidate) > self.max_tokens_per_chunk and current:
+            if self.estimate_tokens(candidate) > self.max_tokens_per_chunk and current:
                 chunks.append(" ".join(current))
                 current = [word]
             else:
@@ -134,11 +134,11 @@ class DocumentChunker:
 
         merged = []
         current = pieces[0]
-        current_tokens = self._estimate_tokens(current)
+        current_tokens = self.estimate_tokens(current)
 
         for piece in pieces[1:]:
-            piece_tokens = self._estimate_tokens(piece)
-            separator_tokens = self._estimate_tokens("\n\n")
+            piece_tokens = self.estimate_tokens(piece)
+            separator_tokens = self.estimate_tokens("\n\n")
             if current_tokens + separator_tokens + piece_tokens <= self.max_tokens_per_chunk:
                 current = current + "\n\n" + piece
                 current_tokens += separator_tokens + piece_tokens
