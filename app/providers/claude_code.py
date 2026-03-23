@@ -84,6 +84,29 @@ class ClaudeCodeProvider:
             output_tokens=response.get("usage", {}).get("output_tokens", 0),
         )
 
+    async def reduce(self, section_summaries: list[str], config: SummarizeConfig) -> SumResult:
+        prompt_data = self._prompt_loader.load("reduce")
+        numbered = "\n\n".join(
+            f"[Section {i+1}]\n{s}" for i, s in enumerate(section_summaries)
+        )
+        rendered = self._prompt_loader.render(prompt_data["template"], {
+            "max_length": config.max_length,
+            "summary_type": config.summary_type,
+            "section_summaries": numbered,
+        })
+
+        response = await self._call_claude(rendered)
+        result = parse_llm_json(response["result"])
+
+        return SumResult(
+            summary=result["summary"],
+            detected_language=result["detected_language"],
+            code_switching_detected=result["code_switching_detected"],
+            model_used=self._model,
+            input_tokens=response.get("usage", {}).get("input_tokens", 0),
+            output_tokens=response.get("usage", {}).get("output_tokens", 0),
+        )
+
     async def evaluate(
         self, source: str, summary: str, target_language: str
     ) -> EvaluationScores:
