@@ -2,8 +2,11 @@ from dataclasses import dataclass
 from typing import Optional
 
 from app.chunker import DocumentChunker
+from app.logging_config import get_logger
 from app.models import SummarizeConfig
 from app.providers.base import SummarizationProvider, SumResult
+
+logger = get_logger(__name__)
 
 
 # Reserve tokens for system prompt, instructions, and output buffer
@@ -30,6 +33,7 @@ async def summarize_document(
     token_budget = provider.max_context_tokens - _RESERVED_TOKENS
     chunker = DocumentChunker(max_tokens_per_chunk=token_budget)
     estimated_tokens = chunker.estimate_tokens(text)
+    logger.info("summarize_started", estimated_tokens=estimated_tokens, chunking_needed=estimated_tokens > token_budget)
 
     if estimated_tokens <= token_budget:
         # Fits in one call — no chunking needed
@@ -51,7 +55,7 @@ async def summarize_document(
     total_output_tokens = 0
     context_bridge = None
 
-    for chunk in chunks:
+    for i, chunk in enumerate(chunks):
         chunk_text = chunk.text
         if context_bridge:
             chunk_text = f"[Context: {context_bridge}]\n\n{chunk_text}"
@@ -60,11 +64,13 @@ async def summarize_document(
         section_summaries.append(result.summary)
         total_input_tokens += result.input_tokens
         total_output_tokens += result.output_tokens
+        logger.info("chunk_summarized", chunk=i + 1, total_chunks=len(chunks))
 
         # Use this summary as bridge for the next chunk
         context_bridge = result.summary[:400]  # Truncate to ~100 tokens
 
     # Reduce: merge section summaries
+    logger.info("reduce_started", section_count=len(section_summaries))
     reduce_result = await provider.reduce(section_summaries, config)
     total_input_tokens += reduce_result.input_tokens
     total_output_tokens += reduce_result.output_tokens
