@@ -7,6 +7,10 @@ from dataclasses import dataclass
 import fitz  # PyMuPDF
 import ftfy
 
+from app.logging_config import get_logger
+
+logger = get_logger(__name__)
+
 
 @dataclass
 class ProcessedDocument:
@@ -21,6 +25,8 @@ class DocumentProcessor:
         if doc_type not in self.SUPPORTED_TYPES:
             raise ValueError(f"Unsupported document type: {doc_type}")
 
+        logger.info("document_processing_started", doc_type=doc_type)
+
         if doc_type == "pdf":
             text = self._extract_pdf(raw)
         else:
@@ -30,6 +36,8 @@ class DocumentProcessor:
 
         if not text:
             raise ValueError("Document is empty after processing")
+
+        logger.info("document_processing_completed", doc_type=doc_type, estimated_tokens=self._estimate_tokens(text))
 
         return ProcessedDocument(
             text=text,
@@ -60,6 +68,7 @@ class DocumentProcessor:
         if not pages:
             raise ValueError("Document is empty after processing")
 
+        logger.info("pdf_extraction_completed", page_count=len(pages))
         pages = self._strip_headers_footers(pages)
         return "\n\n".join(pages)
 
