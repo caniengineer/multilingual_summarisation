@@ -7,7 +7,7 @@ from prometheus_client import generate_latest, CONTENT_TYPE_LATEST
 
 from app.config import Settings
 from app.evaluation import evaluate_summary
-from app.logging_config import setup_logging, get_logger
+from app.logging_config import setup_logging
 from app.metrics import TOKENS_USED
 from app.middleware import RequestIDMiddleware, RequestDeadlineMiddleware
 from app.models import (
@@ -29,8 +29,6 @@ def create_app(provider=None) -> FastAPI:
         setup_logging(settings.LOG_LEVEL)
     else:
         setup_logging("info")
-
-    logger = get_logger(__name__)
 
     app = FastAPI(
         title="Multilingual Document Summarization API",

@@ -4,14 +4,11 @@ import time
 import anthropic
 
 from app.config import Settings
-from app.logging_config import get_logger
 from app.metrics import LLM_CALL_COUNT, LLM_CALL_LATENCY
 from app.models import SummarizeConfig, EvaluationScores
 from app.prompt_loader import PromptLoader
 from app.providers.base import SumResult, parse_llm_json
 from app.resilience import retry_with_backoff
-
-logger = get_logger(__name__)
 
 
 class AnthropicProvider:

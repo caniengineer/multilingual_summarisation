@@ -19,8 +19,9 @@ Long documents that exceed the LLM provider's context window currently fail sile
 ### Structure Detection Heuristics (priority order)
 
 1. **Markdown-style headings** — `#`, `##`, `###` lines
-2. **Numbered section headers** — `1.0`, `1.1`, `BAHAGIAN II` (Malaysian government docs)
-3. **Double-newline paragraph breaks** — universal fallback
+2. **ALL-CAPS section headers** — standalone lines that are entirely uppercase (≥3 words), e.g. `PREAMBLE`, `TEKAD SATU: MELUHUR TATAKELOLA TERBAIK`, `PERUNTUKAN BELANJAWAN 2026`. Common in Malaysian government PDFs where PyMuPDF extracts bold/large headings as plain uppercase text.
+3. **Numbered section headers** — `1.0`, `1.1`, `BAHAGIAN II` (Malaysian government docs)
+4. **Double-newline paragraph breaks** — universal fallback
 
 ### Chunking Algorithm
 

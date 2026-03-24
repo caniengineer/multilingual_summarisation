@@ -37,6 +37,15 @@ class TestSplitSections:
         assert "Introduction" in sections[0]
         assert "Methods" in sections[1]
 
+    def test_split_on_allcaps_headers(self):
+        """PDF-extracted text with ALL-CAPS section titles (e.g. Malaysian budget speech)."""
+        text = "PREAMBLE\nOpening remarks.\n\nFISCAL POLICY AND PUBLIC FINANCE\nBudget details.\n\nDEVELOPMENT EXPENDITURE\nCapital spending."
+        chunker = DocumentChunker(max_tokens_per_chunk=5000)
+        sections = chunker._split_sections(text)
+        assert len(sections) == 3
+        assert "PREAMBLE" in sections[0]
+        assert "FISCAL POLICY" in sections[1]
+
     def test_split_on_numbered_sections(self):
         text = "1.0 Pengenalan\nKandungan pertama.\n\n2.0 Kaedah\nKandungan kedua."
         chunker = DocumentChunker(max_tokens_per_chunk=5000)
@@ -91,6 +100,7 @@ class DocumentChunker:
     # Heading patterns ordered by priority
     _HEADING_PATTERNS = [
         re.compile(r"^#{1,6}\s+.+", re.MULTILINE),                          # Markdown headings
+        re.compile(r"^[A-Z][A-Z\s:&]{5,}$", re.MULTILINE),                  # ALL-CAPS section headers (PDF-extracted)
         re.compile(r"^\d+\.\d*\s+\S.+", re.MULTILINE),                      # Numbered sections (1.0, 1.1)
         re.compile(r"^BAHAGIAN\s+[IVXLCDM]+\b.*", re.MULTILINE | re.IGNORECASE),  # Malaysian government
     ]
