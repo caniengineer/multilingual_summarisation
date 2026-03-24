@@ -99,3 +99,22 @@ async def retry_with_backoff(
                 )
                 await asyncio.sleep(delay)
     raise last_exception
+
+
+class ConcurrencyExceededError(Exception):
+    """Raised when the concurrency semaphore is full."""
+    pass
+
+
+class ConcurrencyLimiter:
+    def __init__(self, max_concurrent: int = 10):
+        self._semaphore = asyncio.Semaphore(max_concurrent)
+        self._max = max_concurrent
+
+    async def call(self, func, *args, **kwargs):
+        if self._semaphore.locked():
+            raise ConcurrencyExceededError(
+                f"Max concurrency ({self._max}) reached"
+            )
+        async with self._semaphore:
+            return await func(*args, **kwargs)

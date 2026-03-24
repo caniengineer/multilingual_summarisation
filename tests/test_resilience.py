@@ -138,3 +138,39 @@ class TestRetryWithBackoff:
         with pytest.raises(anthropic.APIStatusError):
             await retry_with_backoff(func, max_attempts=3, base_delay=0.01)
         assert func.call_count == 3
+
+
+from app.resilience import ConcurrencyLimiter, ConcurrencyExceededError
+
+
+class TestConcurrencyLimiter:
+    """Test concurrency limiter with asyncio semaphore."""
+
+    @pytest.mark.asyncio
+    async def test_allows_within_limit(self):
+        limiter = ConcurrencyLimiter(max_concurrent=2)
+        func = AsyncMock(return_value="ok")
+        result = await limiter.call(func)
+        assert result == "ok"
+
+    @pytest.mark.asyncio
+    async def test_rejects_when_full(self):
+        limiter = ConcurrencyLimiter(max_concurrent=1)
+        started = asyncio.Event()
+        blocked = asyncio.Event()
+
+        async def slow():
+            started.set()
+            await blocked.wait()
+            return "done"
+
+        # Fill the semaphore
+        task = asyncio.create_task(limiter.call(slow))
+        await started.wait()
+
+        # Next call should be rejected
+        with pytest.raises(ConcurrencyExceededError):
+            await limiter.call(AsyncMock(return_value="nope"))
+
+        blocked.set()
+        await task
