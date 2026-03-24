@@ -1,5 +1,10 @@
 import time
 import asyncio
+import random
+import anthropic
+from app.logging_config import get_logger
+
+logger = get_logger(__name__)
 
 
 class CircuitOpenError(Exception):
@@ -62,3 +67,35 @@ class CircuitBreaker:
         self._state = "closed"
         self._failures = []
         self._opened_at = None
+
+
+_RETRYABLE_STATUS_CODES = {429, 500, 529}
+
+
+async def retry_with_backoff(
+    func,
+    *args,
+    max_attempts: int = 3,
+    base_delay: float = 1.0,
+    max_delay: float = 30.0,
+    **kwargs,
+):
+    last_exception = None
+    for attempt in range(max_attempts):
+        try:
+            return await func(*args, **kwargs)
+        except anthropic.APIStatusError as e:
+            if e.response.status_code not in _RETRYABLE_STATUS_CODES:
+                raise
+            last_exception = e
+            if attempt < max_attempts - 1:
+                delay = min(base_delay * (2 ** attempt) + random.uniform(0, 1), max_delay)
+                logger.warning(
+                    "llm_call_retrying",
+                    attempt=attempt + 1,
+                    max_attempts=max_attempts,
+                    status_code=e.response.status_code,
+                    delay=round(delay, 2),
+                )
+                await asyncio.sleep(delay)
+    raise last_exception
